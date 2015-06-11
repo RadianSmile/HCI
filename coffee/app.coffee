@@ -1,0 +1,3 @@
+$ ->
+
+  SMC = new ScrollMagic.Controller();

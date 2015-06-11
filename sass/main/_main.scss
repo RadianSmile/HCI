@@ -1,0 +1,93 @@
+// common
+
+$main-color : rgba(79,72,56,1);
+$lightGray : rgba(220,220,220,1);
+
+$lightFontColor : rgb(203,203,203);
+$darkFontColor : rgb(100,91,71);
+$darkGray : rgba(89,89,89,1);
+
+$lato :  'Lato', sans-serif;
+
+.center-img {
+  display: block;
+  margin: auto;
+}
+.img {
+  width: 100%;
+}
+.section {
+  padding: 120px  0 ;
+  h2 , .sub-title {
+    font-family: $lato;
+  }
+}
+
+.lightFont {
+  color : $lightFontColor ;
+  * {
+    color : $lightFontColor ;
+  }
+}
+.darkFont {
+  color : $darkFontColor ;
+}
+
+
+
+.navbar-nav a {
+  font-family:$lato;
+}
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  .navbar-default {
+    background: none ;
+    border: 0;
+  }
+
+  .navbar-nav{
+    background-color: rgba(255,255,255,.9);
+  }
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+
+  .divider-vertical {
+    height: $line-height-computed ;
+    margin: $navbar-padding-vertical 0 ;
+    width: 1px;
+    background: rgb(218,217,213);
+  }
+}
+
+#banner {
+  background-image: image-url("banner.png");
+  background-size: cover;
+
+  &::before {
+    content: "";
+    display: block;
+    padding-top: 56%;
+  }
+
+}
+
+
+#haunting{
+  background:$darkGray;
+}
+
+footer.section{
+  background: image-url("TAIL.jpg");
+  background-position: center;
+  background-size: contain;
+  &::before {
+    content: "";
+    display: block;
+    padding-top: 56%;
+  }
+}
