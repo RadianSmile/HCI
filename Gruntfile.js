@@ -101,7 +101,7 @@ module.exports = function(grunt) {
 			},
 			compass: {
 				files: ['**/*.scss'],
-				tasks: ['compass']
+				tasks: ['compass:dist']
 			}
 
     },
