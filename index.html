@@ -27,12 +27,16 @@
   <!-- <link rel="stylesheet" href="css/animate.css"> -->
   <link rel="stylesheet" href="css/app.css">
   <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-  <script src="js/vendor/jquery-1.11.3.min.js"></script>
-  <script src="js/vendor/bootstrap.min.js"></script>
-  <script src="js/vendor/ScrollMagic/scrollmagic/minified/ScrollMagic.min.js"></script>
-  <script src="js/vendor/ScrollMagic/scrollmagic/minified/plugins/debug.addIndicators.min.js"></script>
-  <script src="js/vendor/ScrollMagic/scrollmagic/minified/plugins/jquery.ScrollMagic.min.js"></script>
-  <script src="js/vendor/ScrollMagic/scrollmagic/minified/plugins/animation.gsap.min.js"></script>
+  <script type="text/javascript" src="js/vendor/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/TweenMax.min.js"></script>
+  <script type="text/javascript"  src="js/vendor/ScrollMagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
+
+  <script type="text/javascript"  src="js/vendor/ScrollMagic/scrollmagic/minified/plugins/jquery.ScrollMagic.min.js"></script>
+  <script type="text/javascript"  src="js/vendor/ScrollMagic/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+  <script type="text/javascript"  src="js/vendor/ScrollMagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+
+
   <script src="js/app.js"></script>
 </head>
 
@@ -104,11 +108,13 @@
     <section id="haunting" class="section lightFont">
       <div class="container">
         <div class="row">
-          <div  class="col-md-4 col-md-offset-2 leftBlock">
-            <h2 class="title">OPEN HCI 2015</h2>
-            <p class="sub-title">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPTER INTERACTION</p>
+          <div  class="col-md-4 col-md-offset-2 ">
+            <div id="SM_haunting-leftBlock">
+              <h2 class="title">OPEN HCI 2015</h2>
+              <p class="sub-title">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPTER INTERACTION</p>
+            </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" id="SM_haunting-rightBlock">
             <h3 class="block-title">喚體 Haunting Artifact</h3>
             <p class="des">
 
@@ -135,20 +141,28 @@
     </section>
     <section id="goals" class="section">
       <div class="container">
-        <div class="row">
-          <div class="feather col-md-6 bg">
+        <div  id="SM_goals-feather"  class="row bg" style="">
+          <div>
+            <div  class="feather col-md-6 ">
+            </div>
           </div>
-          <div class="clearfix"></div>
+        </div>
+        <div class="row">
+
           <div class="col-md-3 col-md-offset-2">
-            <h2>INTRO & GOALS</h2>
+            <div id="SM_goals-leftBlock">
+              <h2>INTRO & GOALS</h2>
+            </div>
             <!-- <img src="img/PAGE 3 WORD 01.png" alt="" class="img"> -->
           </div>
           <div class="col-md-offset-1 col-md-4">
             <!-- <img src="img/PAGE 3 WORD 02.png" alt="喚體文字" class="img"> -->
-            <h3 class="block-title">What is HCI</h3>
-            <p class="des">HCI —人機互動— 是近年相當活躍的資訊學門之一。HCI 的中心思想是以人為本，透過科技開創人與人之間的互動，可能是解決與提供新的使用經驗，亦可能是探索與創造新的意義，研究的著眼點不但訴求技術創新，更需要擁有跳脫舊框架的創意，以及對使用者行為的瞭解。因此，HCI 整合了資訊、設計、心理、以及其他領域專業知識，透過跨領域合作與溝通創造嶄新的研究成果。</p>
-            <h3 class="block-title">History of OpenHCI</h3>
-            <p class="des">為了推廣 HCI 學門、培養新生人才、以及發掘潛在研究議題，臺大資訊學群、臺科大設計學群、以及政大數位內容學位學程的十餘位碩博士生，共同舉辦了 OpenHCI 工作坊。OpenHCI 的活動理念為「學以致用、從做中學」。在將近一週的營期中，我們邀請到各界知名講師，針對 HCI 的兩大核心概念： User Experience Engineering (UXE) 以及 User-Centered Design (UCD) ，從不同面向與主題傳授經驗，培養學員基礎知識；課後更有一系列相對應的分組思考與實作活動，引導學員經歷完整的 HCI 設計流程，針對當屆主題完成互動原型作品，並培養跨領域合作與溝通能力。各組的構想與互動原型將於工作坊最後一天以互動展覽方式展出，藉此促成學員與各界人士間的意見交流。作品記錄會在活動後收錄進成果書 (Proceedings of OpenHCI ’15) 中，於活動網站公開下載。 OpenHCI 也將作為橋梁，提供管道協助參與者將作品進一步發展為學術論文或是競賽作品，讓創意繼續延伸發展。</p>
+            <div id="SM_goals-rightBlock">
+              <h3 class="block-title">What is HCI</h3>
+              <p class="des">HCI —人機互動— 是近年相當活躍的資訊學門之一。HCI 的中心思想是以人為本，透過科技開創人與人之間的互動，可能是解決與提供新的使用經驗，亦可能是探索與創造新的意義，研究的著眼點不但訴求技術創新，更需要擁有跳脫舊框架的創意，以及對使用者行為的瞭解。因此，HCI 整合了資訊、設計、心理、以及其他領域專業知識，透過跨領域合作與溝通創造嶄新的研究成果。</p>
+              <h3 class="block-title">History of OpenHCI</h3>
+              <p class="des">為了推廣 HCI 學門、培養新生人才、以及發掘潛在研究議題，臺大資訊學群、臺科大設計學群、以及政大數位內容學位學程的十餘位碩博士生，共同舉辦了 OpenHCI 工作坊。OpenHCI 的活動理念為「學以致用、從做中學」。在將近一週的營期中，我們邀請到各界知名講師，針對 HCI 的兩大核心概念： User Experience Engineering (UXE) 以及 User-Centered Design (UCD) ，從不同面向與主題傳授經驗，培養學員基礎知識；課後更有一系列相對應的分組思考與實作活動，引導學員經歷完整的 HCI 設計流程，針對當屆主題完成互動原型作品，並培養跨領域合作與溝通能力。各組的構想與互動原型將於工作坊最後一天以互動展覽方式展出，藉此促成學員與各界人士間的意見交流。作品記錄會在活動後收錄進成果書 (Proceedings of OpenHCI ’15) 中，於活動網站公開下載。 OpenHCI 也將作為橋梁，提供管道協助參與者將作品進一步發展為學術論文或是競賽作品，讓創意繼續延伸發展。</p>
+            </div>
           </div>
         </div>
       </div>
@@ -156,11 +170,11 @@
     <footer class="section">
       <div class="container">
         <div class="row">
-          <!-- <div class="col-md-12">
+          <div class="col-md-12">
             <p>Facebook Page : Open HCI 人機互動工作坊<br>
             OpenHCI : 2014 | 2013 | 2012 | 2011 | 2009</p>
             <p>© Copyright 2015 OpenHCI</p>
-          </div> -->
+          </div>
         </div>
       </div>
     </footer>

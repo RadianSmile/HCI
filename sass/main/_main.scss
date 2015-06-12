@@ -19,6 +19,8 @@ $lato :  'Lato', sans-serif;
 .section {
   padding: 120px  0 ;
   h2 , .sub-title {
+    margin-top:  0 ;
+    padding-top: $line-height-computed ;
     font-family: $lato;
     letter-spacing:2px;
     font-weight: bolder;
@@ -27,6 +29,7 @@ $lato :  'Lato', sans-serif;
   .sub-title {
     font-size: 10px;
     letter-spacing:2px;
+    padding-bottom: 10px;
   }
   .des {
     letter-spacing:2px;
@@ -34,6 +37,8 @@ $lato :  'Lato', sans-serif;
     font-weight: 200 ;
   }
   h3 , .block-title {
+    margin-top:  0 ;
+    padding-top: $line-height-computed ;
     font-size: 20px;
     font-weight: bolder;
     letter-spacing:2px;
@@ -105,16 +110,14 @@ $lato :  'Lato', sans-serif;
     content: "";
     display: block;
     padding-top: 58.6%;
-
   }
 }
 b {
   font-weight: 600 ;
 }
 .bg{
+  width: 100%;
   position: absolute;
-
-
   z-index: -1 ;
 }
 

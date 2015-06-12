@@ -17,6 +17,7 @@ module.exports = function(grunt) {
 			dist: {
 				options: {
 					//config: 'config/config.rb',  // css_dir = 'dev/css'
+					sourcemap : true ,
 					cssDir: 'css',
 					sassDir: 'sass',
 					imagesDir : 'img',

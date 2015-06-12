@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-	<meta charset="utf-8"> 
+	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=500" />
 	<meta name="keywords" content="ScrollMagic, example, scrolling, attaching, scrollbar, tween, tweenmax" />
@@ -18,8 +18,9 @@
 	<script type="text/javascript" src="../../js/lib/highlight.pack.js"></script>
 	<script type="text/javascript" src="../../js/lib/modernizr.custom.min.js"></script>
 	<script type="text/javascript" src="../../js/examples.js"></script>
-	
+
 	<script type="text/javascript" src="../../js/lib/greensock/TweenMax.min.js"></script>
+	<script>console.log(TweenMax)</script>
 	<script type="text/javascript" src="../../scrollmagic/uncompressed/ScrollMagic.js"></script>
 	<script type="text/javascript" src="../../scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
 	<script type="text/javascript" src="../../scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
@@ -59,9 +60,10 @@
 					<script>
 							// build scene
 							var scene = new ScrollMagic.Scene({
-												triggerElement: "#trigger1"
+												triggerElement: "#trigger1" ,
+												duration : 100
 											})
-											.setTween("#animate1", 0.5, {backgroundColor: "green", scale: 2.5}) // trigger a TweenMax.to tween
+											.setTween("#animate1", 0.5, {backgroundColor: "green", scale: 2.5 , yoyo : true }) // trigger a TweenMax.to tween
 											.addIndicators({name: "1 (duration: 0)"}) // add indicators (requires plugin)
 											.addTo(controller);
 					</script>
@@ -88,6 +90,6 @@
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="../../js/tracking.js"></script>
+
 </body>
 </html>
