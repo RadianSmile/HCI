@@ -9,100 +9,102 @@ head	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^<head>$/;"	function	lin
 meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta charset="utf-8">$/;"	function	line:5
 meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta http-equiv="X-UA-Compatible" content="IE=edge">$/;"	function	line:6
 meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="viewport" content="width=device-width, initial-scale=1">$/;"	function	line:7
-meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="author" content="OpenHCI 人機互動工作坊 (www.openhci.com)">$/;"	function	line:11
-meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta property="og:image" content="http:\/\/radiansmile.github.io\/img\/spread.jpg" \/>$/;"	function	line:12
-meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta property="og:image:type" content="image\/jpeg" \/>$/;"	function	line:13
-meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta property="og:image:width" content="1200" \/>$/;"	function	line:14
-meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta property="og:image:height" content="675" \/>$/;"	function	line:15
-meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="viewport" content="width=device-width, initial-scale=1">$/;"	function	line:16
-title	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <title>喚體 | OpenHCI 2015<\/title>$/;"	function	line:18
-link	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <link rel="stylesheet" href="css\/app.css">$/;"	function	line:28
-link	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <link href='http:\/\/fonts.googleapis.com\/css?family=Lato' rel='stylesheet' type='text\/css'>$/;"	function	line:29
-script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript" src="js\/vendor\/jquery-1.11.3.min.js"><\/script>$/;"	function	line:30
-script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript" src="js\/vendor\/bootstrap.min.js"><\/script>$/;"	function	line:31
-script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript" src="js\/TweenMax.min.js"><\/script>$/;"	function	line:32
-script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript"  src="js\/vendor\/ScrollMagic\/scrollmagic\/uncompressed\/ScrollMagic.js"><\/script>$/;"	function	line:33
-script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript"  src="js\/vendor\/ScrollMagic\/scrollmagic\/minified\/plugins\/jquery.ScrollMagic.min.js"><\/script>$/;"	function	line:35
-script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript"  src="js\/vendor\/ScrollMagic\/scrollmagic\/uncompressed\/plugins\/animation.gsap.js"><\/script>$/;"	function	line:36
-script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript"  src="js\/vendor\/ScrollMagic\/scrollmagic\/uncompressed\/plugins\/debug.addIndicators.js"><\/script>$/;"	function	line:37
-script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script src="js\/app.js"><\/script>$/;"	function	line:40
-body	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^<body role="document">$/;"	function	line:43
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <div class="container">$/;"	function	line:45
-header	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <header class="row">$/;"	function	line:46
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="col-md-12">$/;"	function	line:47
-nav	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <nav class="navbar navbar-default navbar-fixed-top">$/;"	function	line:48
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="container">$/;"	function	line:49
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div class="navbar-header">$/;"	function	line:50
-button	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">$/;"	function	line:51
-span	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <span class="sr-only">Toggle navigation<\/span>$/;"	function	line:52
-span	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <span class="icon-bar"><\/span>$/;"	function	line:53
-span	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <span class="icon-bar"><\/span>$/;"	function	line:54
-span	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <span class="icon-bar"><\/span>$/;"	function	line:55
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div id="navbar" class="navbar-collapse collapse">$/;"	function	line:60
-ul	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <ul class="nav navbar-nav">$/;"	function	line:61
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <li class="dropdown">$/;"	function	line:62
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#body" data-toggle="collapse" data-target="#navbar.in">HOME<\/a><\/li>$/;"	function	line:64
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:65
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#haunting" data-toggle="collapse" data-target="#navbar.in">OPEN HCI 2015<\/a><\/li>$/;"	function	line:68
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:69
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#intro" data-toggle="collapse" data-target="#navbar.in">INTRO & GOALS<\/a><\/li>$/;"	function	line:70
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:71
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#" data-toggle="collapse" data-target="#navbar.in">PROGRAM<\/a><\/li>$/;"	function	line:72
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:73
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#" data-toggle="collapse" data-target="#navbar.in">REGISTRATION<\/a><\/li>$/;"	function	line:74
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:75
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#about" data-toggle="collapse" data-target="#navbar.in">ABOUT US<\/a><\/li>$/;"	function	line:76
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:77
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#" data-toggle="collapse" data-target="#navbar.in">CONTACT<\/a><\/li>$/;"	function	line:78
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <div id="banner">$/;"	function	line:88
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:89
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:90
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:95
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:96
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-4 col-md-offset-2">$/;"	function	line:97
-img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="img\/PAGE 2 WORD.png" alt="" class="img" >$/;"	function	line:98
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-4">$/;"	function	line:100
-img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="img\/PAGE 2 WORD 02.png" alt="喚體文字" class="img">$/;"	function	line:102
-section	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <section id="haunting" class="section lightFont">$/;"	function	line:108
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:109
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:110
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div  class="col-md-4 col-md-offset-2 ">$/;"	function	line:111
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div id="SM_haunting-leftBlock">$/;"	function	line:112
-h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h2 class="title">OPEN HCI 2015<\/h2>$/;"	function	line:113
-p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="sub-title">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPTER INTERACTION<\/p>$/;"	function	line:114
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-4" id="SM_haunting-rightBlock">$/;"	function	line:117
-h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3 class="block-title">喚體 Haunting Artifact<\/h3>$/;"	function	line:118
-p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p class="des">$/;"	function	line:119
-br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:122
-br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:124
-br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:126
-br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:131
-br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:133
-b	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <b>OpenHCI 2015 總召集人 <br>$/;"	function	line:134
-section	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <section id="intro" class="section">$/;"	function	line:142
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:143
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div>$/;"	function	line:145
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div  class="feather col-md-6 " >$/;"	function	line:146
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:150
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-4 col-md-offset-2">$/;"	function	line:152
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div id="SM_goals-leftBlock">$/;"	function	line:153
-h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h2 class="darkFont">INTRO & GOALS<\/h2>$/;"	function	line:154
-p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="sub-title">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPTER INTERACTION<\/p>$/;"	function	line:155
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class=" col-md-4">$/;"	function	line:159
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div id="SM_goals-rightBlock">$/;"	function	line:161
-h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h3 class="block-title">What is HCI<\/h3>$/;"	function	line:162
-p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="des">HCI —人機互動— 是近年相當活躍的資訊學門之一。HCI 的中心思想是以人為本，透過科技開創人與人之間的互動，可能是解決與提供新的使用經驗，亦可能是探索與創造新的意義，研究的著眼點不但訴求技術創新，更需要擁有跳脫舊框架的創意，以及對使用者行為的瞭解。因此，HCI 整合了資訊、設計、心理、以及其他領域專業知識，透過跨領域合作與溝通創造嶄新的研究成果。<\/p>$/;"	function	line:163
-h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h3 class="block-title">History of OpenHCI<\/h3>$/;"	function	line:164
-p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="des">為了推廣 HCI 學門、培養新生人才、以及發掘潛在研究議題，臺大資訊學群、臺科大設計學群、以及政大數位內容學位學程的十餘位碩博士生，共同舉辦了 OpenHCI 工作坊。OpenHCI 的活動理念為「學以致用、從做中學」。在將近一週的營期中，我們邀請到各界知名講師，針對 HCI 的兩大核心概念： User Experience Engineering (UXE) 以及 User-Centered Design (UCD) ，從不同面向與主題傳授經驗，培養學員基礎知識；課後更有一系列相對應的分組思考與實作活動，引導學員經歷完整的 HCI 設計流程，針對當屆主題完成互動原型作品，並培養跨領域合作與溝通能力。各組的構想與互動原型將於工作坊最後一天以互動展覽方式展出，藉此促成學員與各界人士間的意見交流。作品記錄會在活動後收錄進成果書 (Proceedings of OpenHCI ’15) 中，於活動網站公開下載。 OpenHCI 也將作為橋梁，提供管道協助參與者將作品進一步發展為學術論文或是競賽作品，讓創意繼續延伸發展。<\/p>$/;"	function	line:165
-footer	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <footer class="section">$/;"	function	line:171
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:172
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:173
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-12 text-center" >$/;"	function	line:174
-img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="img\/tailLogo.png"><br><br><br>$/;"	function	line:175
-p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>Facebook Page : <a href="https:\/\/www.facebook.com\/2013OpenHCI" target="_blank">Open HCI <span class="chinese">人機互動工作坊<\/span><br><\/a>$/;"	function	line:177
-a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2014">2014<\/a> |$/;"	function	line:179
-a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2013">2013<\/a> |$/;"	function	line:180
-a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2012">2012<\/a> |$/;"	function	line:181
-a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2011">2011<\/a> |$/;"	function	line:182
-a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2009">2009<\/a>$/;"	function	line:183
-p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p class="copyright">© Copyright 2015 OpenHCI<\/p>$/;"	function	line:185
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta property="og:title" content="喚體 | OpenHCI 2015" \/>$/;"	function	line:9
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta property="og:author" content="OpenHCI 人機互動工作坊 (www.openhci.com)">$/;"	function	line:13
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta property="og:image" content="http:\/\/radiansmile.github.io\/HCI\/img\/spread.jpg" \/>$/;"	function	line:14
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta property="og:image:type" content="image\/jpeg" \/>$/;"	function	line:15
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta property="og:image:width" content="1200" \/>$/;"	function	line:16
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta property="og:image:height" content="675" \/>$/;"	function	line:17
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta property="og:url" content="http:\/\/radiansmile.github.io\/HCI\/" \/>$/;"	function	line:18
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="viewport" content="width=device-width, initial-scale=1">$/;"	function	line:19
+title	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <title>喚體 | OpenHCI 2015<\/title>$/;"	function	line:21
+link	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <link rel="stylesheet" href="css\/app.css">$/;"	function	line:31
+link	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <link href='http:\/\/fonts.googleapis.com\/css?family=Lato' rel='stylesheet' type='text\/css'>$/;"	function	line:32
+script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript" src="js\/vendor\/jquery-1.11.3.min.js"><\/script>$/;"	function	line:33
+script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript" src="js\/vendor\/bootstrap.min.js"><\/script>$/;"	function	line:34
+script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript" src="js\/TweenMax.min.js"><\/script>$/;"	function	line:35
+script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript"  src="js\/vendor\/ScrollMagic\/scrollmagic\/uncompressed\/ScrollMagic.js"><\/script>$/;"	function	line:36
+script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript"  src="js\/vendor\/ScrollMagic\/scrollmagic\/minified\/plugins\/jquery.ScrollMagic.min.js"><\/script>$/;"	function	line:38
+script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript"  src="js\/vendor\/ScrollMagic\/scrollmagic\/uncompressed\/plugins\/animation.gsap.js"><\/script>$/;"	function	line:39
+script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript"  src="js\/vendor\/ScrollMagic\/scrollmagic\/uncompressed\/plugins\/debug.addIndicators.js"><\/script>$/;"	function	line:40
+script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script src="js\/app.js"><\/script>$/;"	function	line:43
+body	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^<body role="document">$/;"	function	line:46
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <div class="container">$/;"	function	line:48
+header	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <header class="row">$/;"	function	line:49
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="col-md-12">$/;"	function	line:50
+nav	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <nav class="navbar navbar-default navbar-fixed-top">$/;"	function	line:51
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="container">$/;"	function	line:52
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div class="navbar-header">$/;"	function	line:53
+button	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">$/;"	function	line:54
+span	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <span class="sr-only">Toggle navigation<\/span>$/;"	function	line:55
+span	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <span class="icon-bar"><\/span>$/;"	function	line:56
+span	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <span class="icon-bar"><\/span>$/;"	function	line:57
+span	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <span class="icon-bar"><\/span>$/;"	function	line:58
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div id="navbar" class="navbar-collapse collapse">$/;"	function	line:63
+ul	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <ul class="nav navbar-nav">$/;"	function	line:64
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <li class="dropdown">$/;"	function	line:65
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#body" data-toggle="collapse" data-target="#navbar.in">HOME<\/a><\/li>$/;"	function	line:67
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:68
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#haunting" data-toggle="collapse" data-target="#navbar.in">OPEN HCI 2015<\/a><\/li>$/;"	function	line:71
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:72
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#intro" data-toggle="collapse" data-target="#navbar.in">INTRO & GOALS<\/a><\/li>$/;"	function	line:73
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:74
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#" data-toggle="collapse" data-target="#navbar.in">PROGRAM<\/a><\/li>$/;"	function	line:75
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:76
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#" data-toggle="collapse" data-target="#navbar.in">REGISTRATION<\/a><\/li>$/;"	function	line:77
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:78
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#about" data-toggle="collapse" data-target="#navbar.in">ABOUT US<\/a><\/li>$/;"	function	line:79
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:80
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#" data-toggle="collapse" data-target="#navbar.in">CONTACT<\/a><\/li>$/;"	function	line:81
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <div id="banner">$/;"	function	line:91
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:92
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:93
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:98
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:99
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-4 col-md-offset-2">$/;"	function	line:100
+img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="img\/PAGE 2 WORD.png" alt="" class="img" >$/;"	function	line:101
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-4">$/;"	function	line:103
+img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="img\/PAGE 2 WORD 02.png" alt="喚體文字" class="img">$/;"	function	line:105
+section	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <section id="haunting" class="section lightFont">$/;"	function	line:111
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:112
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:113
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div  class="col-md-4 col-md-offset-2 ">$/;"	function	line:114
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div id="SM_haunting-leftBlock">$/;"	function	line:115
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h2 class="title">OPEN HCI 2015<\/h2>$/;"	function	line:116
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="sub-title">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPTER INTERACTION<\/p>$/;"	function	line:117
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-4" id="SM_haunting-rightBlock">$/;"	function	line:120
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3 class="block-title">喚體 Haunting Artifact<\/h3>$/;"	function	line:121
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p class="des">$/;"	function	line:122
+br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:125
+br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:127
+br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:129
+br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:134
+br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:136
+b	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <b>OpenHCI 2015 總召集人 <br>$/;"	function	line:137
+section	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <section id="intro" class="section">$/;"	function	line:145
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:146
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div>$/;"	function	line:148
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div  class="feather col-md-6 " >$/;"	function	line:149
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:153
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-4 col-md-offset-2">$/;"	function	line:155
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div id="SM_goals-leftBlock">$/;"	function	line:156
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h2 class="darkFont">INTRO & GOALS<\/h2>$/;"	function	line:157
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="sub-title">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPTER INTERACTION<\/p>$/;"	function	line:158
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class=" col-md-4">$/;"	function	line:162
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div id="SM_goals-rightBlock">$/;"	function	line:164
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h3 class="block-title">What is HCI<\/h3>$/;"	function	line:165
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="des">HCI —人機互動— 是近年相當活躍的資訊學門之一。HCI 的中心思想是以人為本，透過科技開創人與人之間的互動，可能是解決與提供新的使用經驗，亦可能是探索與創造新的意義，研究的著眼點不但訴求技術創新，更需要擁有跳脫舊框架的創意，以及對使用者行為的瞭解。因此，HCI 整合了資訊、設計、心理、以及其他領域專業知識，透過跨領域合作與溝通創造嶄新的研究成果。<\/p>$/;"	function	line:166
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h3 class="block-title">History of OpenHCI<\/h3>$/;"	function	line:167
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="des">為了推廣 HCI 學門、培養新生人才、以及發掘潛在研究議題，臺大資訊學群、臺科大設計學群、以及政大數位內容學位學程的十餘位碩博士生，共同舉辦了 OpenHCI 工作坊。OpenHCI 的活動理念為「學以致用、從做中學」。在將近一週的營期中，我們邀請到各界知名講師，針對 HCI 的兩大核心概念： User Experience Engineering (UXE) 以及 User-Centered Design (UCD) ，從不同面向與主題傳授經驗，培養學員基礎知識；課後更有一系列相對應的分組思考與實作活動，引導學員經歷完整的 HCI 設計流程，針對當屆主題完成互動原型作品，並培養跨領域合作與溝通能力。各組的構想與互動原型將於工作坊最後一天以互動展覽方式展出，藉此促成學員與各界人士間的意見交流。作品記錄會在活動後收錄進成果書 (Proceedings of OpenHCI ’15) 中，於活動網站公開下載。 OpenHCI 也將作為橋梁，提供管道協助參與者將作品進一步發展為學術論文或是競賽作品，讓創意繼續延伸發展。<\/p>$/;"	function	line:168
+footer	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <footer class="section">$/;"	function	line:174
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:175
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:176
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-12 text-center" >$/;"	function	line:177
+img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="img\/tailLogo.png"><br><br><br>$/;"	function	line:178
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>Facebook Page : <a href="https:\/\/www.facebook.com\/2013OpenHCI" target="_blank">Open HCI <span class="chinese">人機互動工作坊<\/span><br><\/a>$/;"	function	line:180
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2014">2014<\/a> |$/;"	function	line:182
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2013">2013<\/a> |$/;"	function	line:183
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2012">2012<\/a> |$/;"	function	line:184
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2011">2011<\/a> |$/;"	function	line:185
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2009">2009<\/a>$/;"	function	line:186
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p class="copyright">© Copyright 2015 OpenHCI<\/p>$/;"	function	line:188
