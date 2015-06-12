@@ -1,6 +1,6 @@
 (function() {
   $(function() {
-    var SMC, page1, page2, page2_feather, page3_leftBlock;
+    var SMC, page1, page1_author, page1_slogan, page2, page2_feather, page3_leftBlock;
     window.mobilecheck = function() {
       var check;
       check = false;
@@ -25,14 +25,34 @@
     }).addIndicators({
       name: 'parallax1'
     }).addTo(SMC);
+    page1_slogan = new ScrollMagic.Scene({
+      triggerElement: "#banner",
+      duration: $("#banner").height(),
+      offset: $(window).height() / 2 - 1
+    }).setTween("#slogan", {
+      x: 200,
+      ease: Linear.easeNone
+    }).addIndicators({
+      name: 'parallax1'
+    }).addTo(SMC);
+    page1_author = new ScrollMagic.Scene({
+      triggerElement: "#banner",
+      duration: $("#banner").height(),
+      offset: $(window).height() / 2 - 1
+    }).setTween("#author", {
+      y: 200,
+      ease: Linear.easeNone
+    }).addIndicators({
+      name: 'parallax1'
+    }).addTo(SMC);
     page2_feather = new ScrollMagic.Scene({
       triggerElement: "#haunting",
       duration: $("#haunting").height() + $(window).height(),
       offset: -$(window).height() / 2 + 1
     }).setTween(TweenMax.fromTo('#haunting', 1, {
-      backgroundPosition: "0px 0px"
+      backgroundPosition: "0px 100px"
     }, {
-      backgroundPosition: "-200px 0",
+      backgroundPosition: "-200px 100px",
       ease: Linear.easeNone
     })).addIndicators({
       name: 'parallax-haunting'

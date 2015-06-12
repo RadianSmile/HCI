@@ -82,27 +82,60 @@
 }
 
 #banner {
-  background-image: url("../img/banner_.png");
+  background-image: url("../img/banner.png");
   background-size: cover;
+  padding-top: 12% ;
+  padding-bottom: 18% ;
+  // &::before {
+  //   content: "";
+  //   display: block;
+  //   padding-top: 56%;
+  // }
 
-  &::before {
-    content: "";
-    display: block;
-    padding-top: 56%;
+  .img {
+    width: 80%;
   }
+  .slogan {
+    color : $primary-color  ;
+    margin-top:30px;
+    font-size: 18px;
+    color :$primary-color  ;
+    letter-spacing: 1px;
+  }
+  .time {
+    color : $primary-color  ;
+    font-size: 38px;
+    font-family: $lato;
+    margin: 40px 0 ;
+    line-height: 110%;
+    .date {
+      line-height: 150%;
+    }
+  }
+
+  .author{
+    color : $primary-color  ;
+    margin-top:  0 ;
+    padding-top: $line-height-computed ;
+    font-family: $lato;
+    letter-spacing:2px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+  }
+
 }
 
-.feather {
-  background-image: url("../img/PAGE 3 BG.png") ;
-  background-size: contain;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  &::before {
-    content: "";
-    display: block;
-    padding-top: 58.6%;
-  }
-}
+// .feather {
+//   background-image: url("../img/PAGE 3 BG.png") ;
+//   background-size: contain;
+//   background-position: bottom;
+//   background-repeat: no-repeat;
+//   &::before {
+//     content: "";
+//     display: block;
+//     padding-top: 58.6%;
+//   }
+// }
 b {
   font-weight: 600 ;
 }
@@ -121,13 +154,12 @@ b {
   background:$darkGray;
   background-image: url("../img/WEB 02 drop 02.png");
   background-size: 70%;
-  background-position: 0 -100px ;
+  // background-position: 0 100px ; controlled by SM
   background-repeat: no-repeat;
-  padding-top: 300px;
+  padding-top: 400px;
 }
 
 #intro {
-
   background-color: $lightGray ;
   background-image: url("../img/WEB 03 BG_BIG.png");
   background-size: cover ;

@@ -7146,58 +7146,71 @@ button.close {
     background: #dad9d5; } }
 /* line 84, ../sass/main/_main.scss */
 #banner {
-  background-image: url("../img/banner_.png");
-  background-size: cover; }
-  /* line 88, ../sass/main/_main.scss */
-  #banner::before {
-    content: "";
-    display: block;
-    padding-top: 56%; }
+  background-image: url("../img/banner.png");
+  background-size: cover;
+  padding-top: 12%;
+  padding-bottom: 18%; }
+  /* line 95, ../sass/main/_main.scss */
+  #banner .img {
+    width: 80%; }
+  /* line 98, ../sass/main/_main.scss */
+  #banner .slogan {
+    color: #5a503c;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #5a503c;
+    letter-spacing: 1px; }
+  /* line 105, ../sass/main/_main.scss */
+  #banner .time {
+    color: #5a503c;
+    font-size: 38px;
+    font-family: "Lato", sans-serif, "新細明體";
+    margin: 40px 0;
+    line-height: 110%; }
+    /* line 111, ../sass/main/_main.scss */
+    #banner .time .date {
+      line-height: 150%; }
+  /* line 116, ../sass/main/_main.scss */
+  #banner .author {
+    color: #5a503c;
+    margin-top: 0;
+    padding-top: 20px;
+    font-family: "Lato", sans-serif, "新細明體";
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin-bottom: 30px; }
 
-/* line 95, ../sass/main/_main.scss */
-.feather {
-  background-image: url("../img/PAGE 3 BG.png");
-  background-size: contain;
-  background-position: bottom;
-  background-repeat: no-repeat; }
-  /* line 100, ../sass/main/_main.scss */
-  .feather::before {
-    content: "";
-    display: block;
-    padding-top: 58.6%; }
-
-/* line 106, ../sass/main/_main.scss */
+/* line 139, ../sass/main/_main.scss */
 b {
   font-weight: 600; }
 
-/* line 109, ../sass/main/_main.scss */
+/* line 142, ../sass/main/_main.scss */
 .bg {
   width: 100%;
   position: absolute;
   _z-index: -1; }
 
 @media (min-width: 768px) {
-  /* line 114, ../sass/main/_main.scss */
+  /* line 147, ../sass/main/_main.scss */
   .copyright {
     padding-top: 150px; } }
 
-/* line 120, ../sass/main/_main.scss */
+/* line 153, ../sass/main/_main.scss */
 #haunting {
   background: #595959;
   background-image: url("../img/WEB 02 drop 02.png");
   background-size: 70%;
-  background-position: 0 -100px;
   background-repeat: no-repeat;
-  padding-top: 300px; }
+  padding-top: 400px; }
 
-/* line 129, ../sass/main/_main.scss */
+/* line 162, ../sass/main/_main.scss */
 #intro {
   background-color: gainsboro;
   background-image: url("../img/WEB 03 BG_BIG.png");
   background-size: cover;
   background-position: center; }
 
-/* line 139, ../sass/main/_main.scss */
+/* line 171, ../sass/main/_main.scss */
 footer.section {
   _background: url("../img/TAIL.jpg");
   letter-spacing: 1px;
@@ -7208,12 +7221,12 @@ footer.section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
-  /* line 140, ../sass/main/_main.scss */
+  /* line 172, ../sass/main/_main.scss */
   footer.section .chinese {
     font-family: "PMingLiU", "新細明體" !important;
     letter-spacing: 1px; }
   @media (min-width: 768px) {
-    /* line 139, ../sass/main/_main.scss */
+    /* line 171, ../sass/main/_main.scss */
     footer.section {
       padding-top: 200px; } }
 

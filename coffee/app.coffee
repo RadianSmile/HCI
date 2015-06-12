@@ -23,7 +23,23 @@ $ ->
   .addIndicators(name: 'parallax1')
   .addTo(SMC)
 
+  page1_slogan = new ScrollMagic.Scene(
+    triggerElement : "#banner"
+    duration: $("#banner").height()
+    offset : $(window).height() / 2 -1
+    )
+  .setTween("#slogan"  ,x : 200, ease : Linear.easeNone)
+  .addIndicators(name: 'parallax1')
+  .addTo(SMC)
 
+  page1_author = new ScrollMagic.Scene(
+    triggerElement : "#banner"
+    duration: $("#banner").height()
+    offset : $(window).height() / 2 -1
+    )
+  .setTween("#author" , y : 200 ,ease : Linear.easeNone )
+  .addIndicators(name: 'parallax1')
+  .addTo(SMC)
 
   # page3 = new ScrollMagic.Scene(
   #   triggerElement : "#intro"
@@ -49,12 +65,13 @@ $ ->
     offset : -$(window).height() / 2 +1
     )
   .setTween(TweenMax.fromTo('#haunting', 1 ,
-    {backgroundPosition: "0px 0px"},
-    backgroundPosition: "-200px 0",#'20 '++'px' ,
+    {backgroundPosition: "0px 100px"},
+    backgroundPosition: "-200px 100px",#'20 '++'px' ,
     ease : Linear.easeNone
   ))
   .addIndicators(name: 'parallax-haunting')
   .addTo(SMC)
+
 
 
 
