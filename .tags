@@ -29,7 +29,6 @@ footer.section	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^foo
 .chinese	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .chinese {$/;"	function	line:140
 @media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (min-width: 768px) {$/;"	function	line:149
 // &::before	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  \/\/ &::before {$/;"	function	line:158
-window.mobilecheck	/Volumes/HDD/Users/Radian/Websites/HCI/coffee/app.coffee	/^  window.mobilecheck = ->$/;"	function	line:3
 html	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^<html xmlns="http:\/\/www.w3.org\/1999\/xhtml" xmlns:fb="http:\/\/ogp.me\/ns\/fb#">$/;"	function	line:2
 head	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^<head>$/;"	function	line:4
 meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta charset="utf-8">$/;"	function	line:5
@@ -132,3 +131,4 @@ a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a href="http:
 a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a href="http:\/\/www.openhci.com\/2011">2011<\/a> |$/;"	function	line:181
 a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a href="http:\/\/www.openhci.com\/2009">2009<\/a>$/;"	function	line:182
 p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p class="copyright">© Copyright 2015 OpenHCI<\/p>$/;"	function	line:184
+window.mobilecheck	/Volumes/HDD/Users/Radian/Websites/HCI/coffee/app.coffee	/^  window.mobilecheck = ->$/;"	function	line:3

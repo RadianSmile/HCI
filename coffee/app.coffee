@@ -111,7 +111,7 @@ $ ->
   .addTo(SMC)
 
 
-  # $(".indicator").hide();
+  $(".indicator").hide();
 
   ## parallax .
   # tween = (new TimelineMax).add([

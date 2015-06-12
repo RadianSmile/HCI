@@ -44,13 +44,14 @@
     }).setPin('#SM_haunting-leftBlock').addIndicators({
       name: '1 (duration: 900)'
     }).addTo(SMC);
-    return page3_leftBlock = new ScrollMagic.Scene({
+    page3_leftBlock = new ScrollMagic.Scene({
       triggerElement: '#SM_goals-leftBlock',
       duration: $("#SM_goals-rightBlock").height() - $("#SM_goals-leftBlock").height(),
       offset: 40
     }).setPin('#SM_goals-leftBlock').addIndicators({
       name: '1 (duration: 900)'
     }).addTo(SMC);
+    return $(".indicator").hide();
   });
 
 }).call(this);
