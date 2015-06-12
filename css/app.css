@@ -7179,7 +7179,7 @@ b {
 @media (min-width: 768px) {
   /* line 114, ../sass/main/_main.scss */
   .copyright {
-    padding-top: 300px; } }
+    padding-top: 150px; } }
 
 /* line 120, ../sass/main/_main.scss */
 #haunting {
@@ -7215,6 +7215,6 @@ footer.section {
   @media (min-width: 768px) {
     /* line 139, ../sass/main/_main.scss */
     footer.section {
-      padding-top: 300px; } }
+      padding-top: 200px; } }
 
 /*# sourceMappingURL=app.css.map */

@@ -4,4 +4,34 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-window.mobilecheck	/Volumes/HDD/Users/Radian/Websites/HCI/coffee/app.coffee	/^  window.mobilecheck = ->$/;"	function	line:3
+.center-img	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.center-img {$/;"	function	line:3
+.img	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.img {$/;"	function	line:7
+.section	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.section {$/;"	function	line:10
+h2 , .sub-title	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  h2 , .sub-title {$/;"	function	line:12
+.sub-title	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .sub-title {$/;"	function	line:20
+.des	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .des {$/;"	function	line:25
+h3 , .block-title	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  h3 , .block-title {$/;"	function	line:30
+.lightFont	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.lightFont {$/;"	function	line:43
+*	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  * {$/;"	function	line:45
+.darkFont	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.darkFont {$/;"	function	line:49
+.navbar-nav a	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.navbar-nav a {$/;"	function	line:55
+@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^@media (min-width: 768px) {$/;"	function	line:58
+.navbar .navbar-nav	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar .navbar-nav {$/;"	function	line:59
+.navbar-default	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar-default {$/;"	function	line:64
+.navbar-nav	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar-nav{$/;"	function	line:69
+.navbar .navbar-collapse	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar .navbar-collapse {$/;"	function	line:72
+.divider-vertical	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .divider-vertical {$/;"	function	line:76
+#banner	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#banner {$/;"	function	line:84
+&::before	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  &::before {$/;"	function	line:88
+.feather	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.feather {$/;"	function	line:95
+&::before	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  &::before {$/;"	function	line:100
+b	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^b {$/;"	function	line:106
+.bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.bg{$/;"	function	line:109
+.copyright	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.copyright {$/;"	function	line:114
+@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (min-width: 768px) {$/;"	function	line:115
+#haunting	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#haunting{$/;"	function	line:120
+#intro	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#intro {$/;"	function	line:129
+footer.section	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^footer.section{$/;"	function	line:139
+.chinese	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .chinese {$/;"	function	line:140
+@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (min-width: 768px) {$/;"	function	line:149
+// &::before	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  \/\/ &::before {$/;"	function	line:158

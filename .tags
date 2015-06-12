@@ -1,46 +1,15 @@
-.center-img	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.center-img {$/;"	function	line:3
-.img	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.img {$/;"	function	line:7
-.section	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.section {$/;"	function	line:10
-h2 , .sub-title	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  h2 , .sub-title {$/;"	function	line:12
-.sub-title	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .sub-title {$/;"	function	line:20
-.des	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .des {$/;"	function	line:25
-h3 , .block-title	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  h3 , .block-title {$/;"	function	line:30
-.lightFont	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.lightFont {$/;"	function	line:43
-*	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  * {$/;"	function	line:45
-.darkFont	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.darkFont {$/;"	function	line:49
-.navbar-nav a	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.navbar-nav a {$/;"	function	line:55
-@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^@media (min-width: 768px) {$/;"	function	line:58
-.navbar .navbar-nav	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar .navbar-nav {$/;"	function	line:59
-.navbar-default	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar-default {$/;"	function	line:64
-.navbar-nav	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar-nav{$/;"	function	line:69
-.navbar .navbar-collapse	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar .navbar-collapse {$/;"	function	line:72
-.divider-vertical	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .divider-vertical {$/;"	function	line:76
-#banner	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#banner {$/;"	function	line:84
-&::before	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  &::before {$/;"	function	line:88
-.feather	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.feather {$/;"	function	line:95
-&::before	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  &::before {$/;"	function	line:100
-b	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^b {$/;"	function	line:106
-.bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.bg{$/;"	function	line:109
-.copyright	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.copyright {$/;"	function	line:114
-@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (min-width: 768px) {$/;"	function	line:115
-#haunting	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#haunting{$/;"	function	line:120
-#intro	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#intro {$/;"	function	line:129
-footer.section	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^footer.section{$/;"	function	line:139
-.chinese	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .chinese {$/;"	function	line:140
-@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (min-width: 768px) {$/;"	function	line:149
-// &::before	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  \/\/ &::before {$/;"	function	line:158
+window.mobilecheck	/Volumes/HDD/Users/Radian/Websites/HCI/coffee/app.coffee	/^  window.mobilecheck = ->$/;"	function	line:3
 html	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^<html xmlns="http:\/\/www.w3.org\/1999\/xhtml" xmlns:fb="http:\/\/ogp.me\/ns\/fb#">$/;"	function	line:2
 head	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^<head>$/;"	function	line:4
 meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta charset="utf-8">$/;"	function	line:5
 meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta http-equiv="X-UA-Compatible" content="IE=edge">$/;"	function	line:6
 meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="viewport" content="width=device-width, initial-scale=1">$/;"	function	line:7
 meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="author" content="OpenHCI 人機互動工作坊 (www.openhci.com)">$/;"	function	line:11
-meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta property="og:image" content="http:\/\/coconstruction.github.io\/img\/common\/preview.jpg" \/>$/;"	function	line:12
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta property="og:image" content="http:\/\/radiansmile.github.io\/img\/spread.jpg" \/>$/;"	function	line:12
 meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta property="og:image:type" content="image\/jpeg" \/>$/;"	function	line:13
-meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta property="og:image:width" content="2048" \/>$/;"	function	line:14
-meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta property="og:image:height" content="1448" \/>$/;"	function	line:15
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta property="og:image:width" content="1200" \/>$/;"	function	line:14
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta property="og:image:height" content="675" \/>$/;"	function	line:15
 meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="viewport" content="width=device-width, initial-scale=1">$/;"	function	line:16
-link	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <link rel="icon" href="img\/icon.jpg" type="image\/jpeg" sizes="16x16">$/;"	function	line:17
 title	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <title>喚體 | OpenHCI 2015<\/title>$/;"	function	line:18
 link	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <link rel="stylesheet" href="css\/app.css">$/;"	function	line:28
 link	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <link href='http:\/\/fonts.googleapis.com\/css?family=Lato' rel='stylesheet' type='text\/css'>$/;"	function	line:29
@@ -124,11 +93,42 @@ footer	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <footer class="se
 div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:172
 div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:173
 div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-12 text-center" >$/;"	function	line:174
-p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>Facebook Page : Open HCI <span class="chinese">人機互動工作坊<\/span><br>$/;"	function	line:176
-a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a href="http:\/\/www.openhci.com\/2014">2014<\/a> |$/;"	function	line:178
-a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a href="http:\/\/www.openhci.com\/2013">2013<\/a> |$/;"	function	line:179
-a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a href="http:\/\/www.openhci.com\/2012">2012<\/a> |$/;"	function	line:180
-a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a href="http:\/\/www.openhci.com\/2011">2011<\/a> |$/;"	function	line:181
-a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a href="http:\/\/www.openhci.com\/2009">2009<\/a>$/;"	function	line:182
-p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p class="copyright">© Copyright 2015 OpenHCI<\/p>$/;"	function	line:184
-window.mobilecheck	/Volumes/HDD/Users/Radian/Websites/HCI/coffee/app.coffee	/^  window.mobilecheck = ->$/;"	function	line:3
+img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="img\/tailLogo.png"><br><br><br>$/;"	function	line:175
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>Facebook Page : Open HCI <span class="chinese">人機互動工作坊<\/span><br>$/;"	function	line:177
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a href="http:\/\/www.openhci.com\/2014">2014<\/a> |$/;"	function	line:179
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a href="http:\/\/www.openhci.com\/2013">2013<\/a> |$/;"	function	line:180
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a href="http:\/\/www.openhci.com\/2012">2012<\/a> |$/;"	function	line:181
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a href="http:\/\/www.openhci.com\/2011">2011<\/a> |$/;"	function	line:182
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a href="http:\/\/www.openhci.com\/2009">2009<\/a>$/;"	function	line:183
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p class="copyright">© Copyright 2015 OpenHCI<\/p>$/;"	function	line:185
+.center-img	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.center-img {$/;"	function	line:3
+.img	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.img {$/;"	function	line:7
+.section	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.section {$/;"	function	line:10
+h2 , .sub-title	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  h2 , .sub-title {$/;"	function	line:12
+.sub-title	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .sub-title {$/;"	function	line:20
+.des	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .des {$/;"	function	line:25
+h3 , .block-title	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  h3 , .block-title {$/;"	function	line:30
+.lightFont	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.lightFont {$/;"	function	line:43
+*	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  * {$/;"	function	line:45
+.darkFont	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.darkFont {$/;"	function	line:49
+.navbar-nav a	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.navbar-nav a {$/;"	function	line:55
+@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^@media (min-width: 768px) {$/;"	function	line:58
+.navbar .navbar-nav	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar .navbar-nav {$/;"	function	line:59
+.navbar-default	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar-default {$/;"	function	line:64
+.navbar-nav	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar-nav{$/;"	function	line:69
+.navbar .navbar-collapse	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar .navbar-collapse {$/;"	function	line:72
+.divider-vertical	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .divider-vertical {$/;"	function	line:76
+#banner	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#banner {$/;"	function	line:84
+&::before	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  &::before {$/;"	function	line:88
+.feather	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.feather {$/;"	function	line:95
+&::before	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  &::before {$/;"	function	line:100
+b	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^b {$/;"	function	line:106
+.bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.bg{$/;"	function	line:109
+.copyright	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.copyright {$/;"	function	line:114
+@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (min-width: 768px) {$/;"	function	line:115
+#haunting	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#haunting{$/;"	function	line:120
+#intro	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#intro {$/;"	function	line:129
+footer.section	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^footer.section{$/;"	function	line:139
+.chinese	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .chinese {$/;"	function	line:140
+@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (min-width: 768px) {$/;"	function	line:149
+// &::before	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  \/\/ &::before {$/;"	function	line:158
