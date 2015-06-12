@@ -1,14 +1,5 @@
 // common
 
-$main-color : rgba(79,72,56,1);
-$lightGray : rgba(220,220,220,1);
-
-$lightFontColor : rgb(203,203,203);
-$darkFontColor : rgb(100,91,71);
-$darkGray : rgba(89,89,89,1);
-
-$lato :  'Lato', sans-serif;
-
 .center-img {
   display: block;
   margin: auto;
@@ -56,7 +47,7 @@ $lato :  'Lato', sans-serif;
   }
 }
 .darkFont {
-  color : $darkFontColor ;
+  color : $darkGray;//$darkFontColor ;
 }
 
 
@@ -91,7 +82,7 @@ $lato :  'Lato', sans-serif;
 }
 
 #banner {
-  background-image: url("../img/banner.png");
+  background-image: url("../img/banner_.png");
   background-size: cover;
 
   &::before {
@@ -118,22 +109,55 @@ b {
 .bg{
   width: 100%;
   position: absolute;
-  z-index: -1 ;
+  _z-index: -1 ;
+}
+.copyright {
+  @media (min-width: 768px) {
+    padding-top: 300px;
+  }
 }
 
 #haunting{
   background:$darkGray;
-
+  background-image: url("../img/WEB 02 drop 02.png");
+  background-size: 70%;
+  background-position: 0 -100px ;
+  background-repeat: no-repeat;
+  padding-top: 300px;
 }
 
+#intro {
+
+  background-color: $lightGray ;
+  background-image: url("../img/WEB 03 BG_BIG.png");
+  background-size: cover ;
+  background-position: center;
+}
+
+
+
 footer.section{
-  background: url("../img/TAIL.jpg");
+  .chinese {
+    font-family: $font-family-sans-serif  !important;
+    letter-spacing: 1px;
+  }
+  _background: url("../img/TAIL.jpg");
+  letter-spacing: 1px;
+  background-color: $darkGray ;
+  color : $lightFontColor ;
+  font-family: $lato ;
+  @media (min-width: 768px) {
+    padding-top: 300px;
+
+
+  }
+  padding-bottom: 30px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  &::before {
-    content: "";
-    display: block;
-    padding-top: 56%;
-  }
+  // &::before {
+  //   content: "";
+  //   display: block;
+  //   padding-top: 56%;
+  // }
 }

@@ -14,14 +14,14 @@ module.exports = function(grunt) {
 					environment: 'production'
 				}
 			},
-			dist: {
+			dev: {
 				options: {
 					//config: 'config/config.rb',  // css_dir = 'dev/css'
 					sourcemap : true ,
 					cssDir: 'css',
 					sassDir: 'sass',
 					imagesDir : 'img',
-					outputStyle: 'compressed',
+					outputStyle: 'nested',
 					environment: 'development'//'production'
 				}
 			}
@@ -102,7 +102,7 @@ module.exports = function(grunt) {
 			},
 			compass: {
 				files: ['**/*.scss'],
-				tasks: ['compass:dist']
+				tasks: ['compass:dev']
 			}
 
     },
