@@ -9,7 +9,7 @@ $ ->
     ) navigator.userAgent or navigator.vendor or window.opera
     check
 
-  return "" if mobilecheck()
+  return "" if mobilecheck() or $(window).width() < 768
 
   SMC = new ScrollMagic.Controller()
 
@@ -126,6 +126,7 @@ $ ->
   .setPin('#SM_goals-leftBlock')
   .addIndicators(name: '1 (duration: 900)')
   .addTo(SMC)
+
 
 
   $(".indicator").hide();

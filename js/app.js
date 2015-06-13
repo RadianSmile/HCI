@@ -11,7 +11,7 @@
       })(navigator.userAgent || navigator.vendor || window.opera);
       return check;
     };
-    if (mobilecheck()) {
+    if (mobilecheck() || $(window).width() < 768) {
       return "";
     }
     SMC = new ScrollMagic.Controller();

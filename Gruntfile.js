@@ -67,6 +67,16 @@ module.exports = function(grunt) {
 						'js/app.js']
 				}
 			},
+			app:{
+				options: {
+					compress: {
+						drop_console: true
+					}
+				},
+				files:{
+					'js/app.min.js':'js/app.js'
+				}
+			},
 			min_test:{
 				options : {
 					sourceMap : true
@@ -124,6 +134,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-watch');
 
 	grunt.registerTask('default',['concurrent:task1']);
-	grunt.registerTask('production',['coffee:app','compass:min','compass:min',]);
+	grunt.registerTask('production',['coffee:app','compass:min','uglify:app',]);
 
 }

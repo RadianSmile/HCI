@@ -1,5 +1,7 @@
 // common
-
+.temp{
+  font-size: 10px;
+}
 .center-img {
   display: block;
   margin: auto;
@@ -81,6 +83,13 @@
   }
 }
 
+.pageBanner {
+  background-image: url("../img/WEB 08 02.jpg") ;
+  background-size: auto 100% ;
+  background-position: left;
+  height: 300px;
+}
+
 #banner {
   background-image: url("../img/banner.png");
   background-size: cover;
@@ -96,10 +105,10 @@
     width: 80%;
   }
   .slogan {
-    color : $primary-color  ;
+    color : $primary-color ;
     margin-top:30px;
     font-size: 18px;
-    color :$primary-color  ;
+    color :$primary-color ;
     letter-spacing: 1px;
   }
   .time {
@@ -167,12 +176,13 @@ b {
 }
 
 #about{
-  background-color: $darkGray ;
+  background-color:$lightGray ;
   * {
-    color : $lightFontColor ;
+    color : $darkFontColor ;
   }
   .group {
     @extend .col-md-4 ;
+    @extend .col-sm-6 ;
     &:first-child{
       @extend .col-md-offset-2 ;
     }
@@ -191,11 +201,16 @@ b {
       display: inline-block;
       line-height: 150%;
       min-height: 2em ;
+      max-width: 17em ;
       margin-bottom: 1.1em ;
       &:after {
       content:"\a";
       white-space: pre;
       }
+
+      // br {
+      //   display: none;
+      // }
     }
 
     dt {
@@ -206,6 +221,38 @@ b {
     }
   }
 
+}
+
+#program {
+  .comming_head {
+    width: 100px;
+  }
+}
+#registration {
+  @media (min-width: 768px) {
+    padding: 100px 0 ;
+  }
+  background-color: $darkGray  ;
+  * {
+    color : $lightFontColor ;
+    letter-spacing: 1px;
+  }
+  .sub-title{
+    font-family: $lato;
+  }
+
+  h2 {
+    margin-top: 3em ;
+    font-size: $font-size-large;
+    font-weight: bolder;
+  }
+  p {
+    line-height: 1.7em;
+    margin-bottom: 1.8em;
+  }
+  li {
+    line-height: 1.7em;
+  }
 }
 
 footer.section{

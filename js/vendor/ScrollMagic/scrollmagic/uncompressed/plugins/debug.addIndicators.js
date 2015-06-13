@@ -663,7 +663,6 @@
 			// wrapper
 			var e = document.createElement('div');
 			e.classList.add("indicator")
-			console.log(e);
 			_util.css(e, {
 				position: "fixed",
 				overflow: "visible",
