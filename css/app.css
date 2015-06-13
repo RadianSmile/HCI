@@ -1971,7 +1971,7 @@ pre {
     clear: both; }
 
 /* line 11, ../sass/vendor/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, #about .group, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -2395,7 +2395,7 @@ pre {
     margin-left: 100%; } }
 @media (min-width: 992px) {
   /* line 27, ../sass/vendor/bootstrap/mixins/_grid-framework.scss */
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, #about .group, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left; }
 
   /* line 35, ../sass/vendor/bootstrap/mixins/_grid-framework.scss */
@@ -2411,7 +2411,7 @@ pre {
     width: 25%; }
 
   /* line 35, ../sass/vendor/bootstrap/mixins/_grid-framework.scss */
-  .col-md-4 {
+  .col-md-4, #about .group {
     width: 33.33333%; }
 
   /* line 35, ../sass/vendor/bootstrap/mixins/_grid-framework.scss */
@@ -2559,7 +2559,7 @@ pre {
     margin-left: 8.33333%; }
 
   /* line 60, ../sass/vendor/bootstrap/mixins/_grid-framework.scss */
-  .col-md-offset-2 {
+  .col-md-offset-2, #about .group:first-child {
     margin-left: 16.66667%; }
 
   /* line 60, ../sass/vendor/bootstrap/mixins/_grid-framework.scss */
@@ -7148,7 +7148,7 @@ button.close {
 #banner {
   background-image: url("../img/banner.png");
   background-size: cover;
-  padding-top: 12%;
+  padding-top: 9%;
   padding-bottom: 18%; }
   /* line 95, ../sass/main/_main.scss */
   #banner .img {
@@ -7210,7 +7210,39 @@ b {
   background-size: cover;
   background-position: center; }
 
-/* line 171, ../sass/main/_main.scss */
+/* line 169, ../sass/main/_main.scss */
+#about {
+  background-color: #595959; }
+  /* line 171, ../sass/main/_main.scss */
+  #about * {
+    color: #cbcbcb; }
+  /* line 180, ../sass/main/_main.scss */
+  #about .group h3 {
+    margin-top: 0;
+    padding-top: 20px;
+    font-family: "Lato", sans-serif, "新細明體";
+    _letter-spacing: 2px;
+    font-weight: bold;
+    _margin-bottom: 30px; }
+  /* line 189, ../sass/main/_main.scss */
+  #about .group dd {
+    vertical-align: text-top;
+    display: inline-block;
+    line-height: 150%;
+    min-height: 2em;
+    margin-bottom: 1.1em; }
+    /* line 195, ../sass/main/_main.scss */
+    #about .group dd:after {
+      content: "\a";
+      white-space: pre; }
+  /* line 201, ../sass/main/_main.scss */
+  #about .group dt {
+    min-width: 3em;
+    margin-right: 1em;
+    vertical-align: text-top;
+    display: inline-block; }
+
+/* line 211, ../sass/main/_main.scss */
 footer.section {
   _background: url("../img/TAIL.jpg");
   letter-spacing: 1px;
@@ -7221,12 +7253,12 @@ footer.section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
-  /* line 172, ../sass/main/_main.scss */
+  /* line 212, ../sass/main/_main.scss */
   footer.section .chinese {
     font-family: "PMingLiU", "新細明體" !important;
     letter-spacing: 1px; }
   @media (min-width: 768px) {
-    /* line 171, ../sass/main/_main.scss */
+    /* line 211, ../sass/main/_main.scss */
     footer.section {
       padding-top: 200px; } }
 

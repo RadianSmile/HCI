@@ -84,7 +84,7 @@
 #banner {
   background-image: url("../img/banner.png");
   background-size: cover;
-  padding-top: 12% ;
+  padding-top: 9% ;
   padding-bottom: 18% ;
   // &::before {
   //   content: "";
@@ -166,7 +166,47 @@ b {
   background-position: center;
 }
 
+#about{
+  background-color: $darkGray ;
+  * {
+    color : $lightFontColor ;
+  }
+  .group {
+    @extend .col-md-4 ;
+    &:first-child{
+      @extend .col-md-offset-2 ;
+    }
 
+    h3 {
+      margin-top:  0 ;
+      padding-top: $line-height-computed ;
+      font-family: $lato;
+      _letter-spacing:2px;
+      font-weight: bold;
+      _margin-bottom: 30px;
+    }
+
+    dd {
+      vertical-align: text-top;
+      display: inline-block;
+      line-height: 150%;
+      min-height: 2em ;
+      margin-bottom: 1.1em ;
+      &:after {
+      content:"\a";
+      white-space: pre;
+      }
+    }
+
+    dt {
+      min-width: 3em ;
+      margin-right : 1em ;
+      vertical-align: text-top;
+      display: inline-block;
+    }
+  }
+
+}
 
 footer.section{
   .chinese {
@@ -180,16 +220,9 @@ footer.section{
   font-family: $lato ;
   @media (min-width: 768px) {
     padding-top: 200px;
-
-
   }
   padding-bottom: 30px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  // &::before {
-  //   content: "";
-  //   display: block;
-  //   padding-top: 56%;
-  // }
 }
