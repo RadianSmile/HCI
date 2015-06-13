@@ -20,6 +20,9 @@
     margin-bottom: 30px;
   }
   .sub-title {
+    padding-top: 0;
+  }
+  .sub-title {
     font-size: 10px;
     letter-spacing:2px;
     padding-bottom: 10px;
@@ -176,9 +179,10 @@ b {
 }
 
 #about{
-  background-color:$lightGray ;
+  background-color: $darkGray  ;
   * {
-    color : $darkFontColor ;
+    color : $lightFontColor ;
+
   }
   .group {
     @extend .col-md-4 ;
@@ -224,24 +228,56 @@ b {
 }
 
 #program {
-  .comming_head {
-    width: 100px;
+  background-color: $darkGray  ;
+  * {
+    color : $lightFontColor ;
   }
+  .comming_head {
+    width: 90px;
+  }
+  h3 {
+    // font-size: 1.7em;
+  }
+  // font-size: 1.3em;
+  .table {
+    td {
+      vertical-align: middle;
+      padding-left: 20px;
+    }
+
+    & * {
+      border: none ;
+    }
+    td:first-child{
+      span::after {
+        content: "";
+        width: 100%;
+        display: inline;
+      }
+      text-align: justify;
+
+      width: 115px;
+      font-family: $lato;
+    }
+    td:nth-child(2){
+      letter-spacing:1px;
+    }
+
+  }
+
+
 }
 #registration {
   @media (min-width: 768px) {
     padding: 100px 0 ;
   }
-  background-color: $darkGray  ;
+  background-color:$lightGray ;
   * {
-    color : $lightFontColor ;
+    color : $darkFontColor ;
     letter-spacing: 1px;
   }
-  .sub-title{
-    font-family: $lato;
-  }
 
-  h2 {
+  h3 {
     margin-top: 3em ;
     font-size: $font-size-large;
     font-weight: bolder;
@@ -255,15 +291,25 @@ b {
   }
 }
 
+#sponsor{
+  background-color:$lightGray ;
+  * {
+    color : $darkFontColor ;
+  }
+}
+
 footer.section{
+  background-color: $darkGray  ;
+  * {
+    color : $lightFontColor ;
+  }
   .chinese {
     font-family: $font-family-sans-serif  !important;
     letter-spacing: 1px;
   }
   _background: url("../img/TAIL.jpg");
   letter-spacing: 1px;
-  background-color: $darkGray ;
-  color : $lightFontColor ;
+
   font-family: $lato ;
   @media (min-width: 768px) {
     padding-top: 200px;
