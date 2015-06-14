@@ -1,6 +1,12 @@
 (function() {
   $(function() {
     var SMC, page1, page1_author, page1_slogan, page2, page2_feather, page3_leftBlock;
+    $(document).on('click', '.eleNav', function(e) {
+      e.preventDefault();
+      return $('html, body').animate({
+        scrollTop: ($($(this).attr("href")).offset().top) + 2
+      }, 600);
+    });
     window.mobilecheck = function() {
       var check;
       check = false;
@@ -11,40 +17,42 @@
       })(navigator.userAgent || navigator.vendor || window.opera);
       return check;
     };
-    if (mobilecheck() || $(window).width() < 768) {
+    if (mobilecheck() || $(document).width() < 768) {
       return "";
     }
     SMC = new ScrollMagic.Controller();
-    page1 = new ScrollMagic.Scene({
-      triggerElement: "#banner",
-      duration: $("#banner").height(),
-      offset: $(window).height() / 2 - 1
-    }).setTween("#banner", {
-      backgroundPosition: '0 ' + ($("#banner").height() - 110) + 'px',
-      ease: Linear.easeNone
-    }).addIndicators({
-      name: 'parallax1'
-    }).addTo(SMC);
-    page1_slogan = new ScrollMagic.Scene({
-      triggerElement: "#banner",
-      duration: $("#banner").height(),
-      offset: $(window).height() / 2 - 1
-    }).setTween("#slogan", {
-      x: 200,
-      ease: Linear.easeNone
-    }).addIndicators({
-      name: 'parallax1'
-    }).addTo(SMC);
-    page1_author = new ScrollMagic.Scene({
-      triggerElement: "#banner",
-      duration: $("#banner").height(),
-      offset: $(window).height() / 2 - 1
-    }).setTween("#author", {
-      y: 200,
-      ease: Linear.easeNone
-    }).addIndicators({
-      name: 'parallax1'
-    }).addTo(SMC);
+    if ($(document).width() > 940) {
+      page1 = new ScrollMagic.Scene({
+        triggerElement: "#banner",
+        duration: $("#banner").height(),
+        offset: $(window).height() / 2 - 1
+      }).setTween("#banner", {
+        backgroundPosition: '0 ' + ($("#banner").height() - 110) + 'px',
+        ease: Linear.easeNone
+      }).addIndicators({
+        name: 'parallax1'
+      }).addTo(SMC);
+      page1_slogan = new ScrollMagic.Scene({
+        triggerElement: "#banner",
+        duration: $("#banner").height(),
+        offset: $(window).height() / 2 - 1
+      }).setTween("#slogan", {
+        x: 200,
+        ease: Linear.easeNone
+      }).addIndicators({
+        name: 'parallax1'
+      }).addTo(SMC);
+      page1_author = new ScrollMagic.Scene({
+        triggerElement: "#banner",
+        duration: $("#banner").height(),
+        offset: $(window).height() / 2 - 1
+      }).setTween("#author", {
+        y: 200,
+        ease: Linear.easeNone
+      }).addIndicators({
+        name: 'parallax1'
+      }).addTo(SMC);
+    }
     page2_feather = new ScrollMagic.Scene({
       triggerElement: "#haunting",
       duration: $("#haunting").height() + $(window).height(),
@@ -71,7 +79,21 @@
     }).setPin('#SM_goals-leftBlock').addIndicators({
       name: '1 (duration: 900)'
     }).addTo(SMC);
-    return $(".indicator").hide();
+    $(".indicator").hide();
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments);
+      };
+      i[r].l = 1 * new Date;
+      a = s.createElement(o);
+      m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-64092310-1', 'auto');
+    return ga('send', 'pageview');
   });
 
 }).call(this);

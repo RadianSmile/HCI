@@ -7,6 +7,7 @@ module.exports = function(grunt) {
 		compass: {
 			min : {
 				options: {
+					sourcemap : false ,
 					cssDir: 'css',
 					sassDir: 'sass',
 					imagesDir : 'img',
@@ -33,7 +34,7 @@ module.exports = function(grunt) {
 		  },
 		  target: {
 		    files: {
-		      'output.css': ['foo.css', 'bar.css']
+		      'css/app.min.css': 'css/app.css'
 		    }
 		  }
 		},
@@ -74,7 +75,16 @@ module.exports = function(grunt) {
 					}
 				},
 				files:{
-					'js/app.min.js':'js/app.js'
+					'js/app.min.js':[
+						"js/vendor/jquery-1.11.3.min.js",
+						"js/vendor/bootstrap.min.js",
+						"js/TweenMax.min.js",
+						"js/vendor/ScrollMagic/scrollmagic/uncompressed/ScrollMagic.js",
+						"js/vendor/ScrollMagic/scrollmagic/minified/plugins/jquery.ScrollMagic.min.js",
+						"js/vendor/ScrollMagic/scrollmagic/uncompressed/plugins/animation.gsap.js",
+						"js/vendor/ScrollMagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js",
+						"js/app.js"
+					]
 				}
 			},
 			min_test:{
@@ -89,12 +99,6 @@ module.exports = function(grunt) {
 						'js/vendor/wow.min.js',
 						'js/vendor/bootstrap.min.js',
 						'js/app.js']
-				}
-			},
-
-			app:{
-				files:{
-					'js/app.min.js':['**/app.js']
 				}
 			}
 		},
@@ -134,6 +138,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-watch');
 
 	grunt.registerTask('default',['concurrent:task1']);
-	grunt.registerTask('production',['coffee:app','compass:min','uglify:app',]);
+	grunt.registerTask('production',['coffee:app','cssmin','uglify:app',]);
 
 }

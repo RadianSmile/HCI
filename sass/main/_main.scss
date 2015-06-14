@@ -10,7 +10,15 @@
   width: 100%;
 }
 .section {
-  padding: 120px  0 ;
+  @media (min-width: 768px) {
+    padding: 120px  0 ;
+  }
+  @media (max-width: 768px) {
+    padding: 60px 0 ;
+  }
+
+  overflow: hidden;
+
   h2 , .sub-title {
     margin-top:  0 ;
     padding-top: $line-height-computed ;
@@ -60,7 +68,8 @@
 .navbar-nav a {
   font-family:$lato;
 }
-@media (min-width: 768px) {
+
+@media (min-width: $screen-md-min) {
   .navbar .navbar-nav {
     display: inline-block;
     float: none;
@@ -86,13 +95,6 @@
   }
 }
 
-.pageBanner {
-  background-image: url("../img/WEB 08 02.jpg") ;
-  background-size: auto 100% ;
-  background-position: left;
-  height: 300px;
-}
-
 #banner {
   background-image: url("../img/banner.png");
   background-size: cover;
@@ -103,6 +105,8 @@
   //   display: block;
   //   padding-top: 56%;
   // }
+
+  padding-top: 90px ;
 
   .img {
     width: 80%;
@@ -164,18 +168,29 @@ b {
 
 #haunting{
   background:$darkGray;
-  background-image: url("../img/WEB 02 drop 02.png");
+  background-image: url("../img/feathers.png");
   background-size: 70%;
   // background-position: 0 100px ; controlled by SM
   background-repeat: no-repeat;
-  padding-top: 400px;
+  @media (min-width: 768px) {
+    padding-top: 400px;
+  }
+  @media (max-width: 768px) {
+    background-image:none ;
+    background-position:left top;
+  }
 }
 
 #intro {
   background-color: $lightGray ;
-  background-image: url("../img/WEB 03 BG_BIG.png");
+  background-image: url("../img/bigFeather.png");
   background-size: cover ;
   background-position: center;
+  @media (max-width: 768px) {
+
+    background-image: url("../img/phone/phone_page3.png");
+    background-position:center;
+  }
 }
 
 #about{
@@ -307,7 +322,6 @@ footer.section{
     font-family: $font-family-sans-serif  !important;
     letter-spacing: 1px;
   }
-  _background: url("../img/TAIL.jpg");
   letter-spacing: 1px;
 
   font-family: $lato ;
