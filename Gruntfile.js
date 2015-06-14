@@ -138,6 +138,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-watch');
 
 	grunt.registerTask('default',['concurrent:task1']);
-	grunt.registerTask('production',['coffee:app','cssmin','uglify:app',]);
+	grunt.registerTask('production',['coffee:app','compass:dev','cssmin','uglify:app']);
 
 }

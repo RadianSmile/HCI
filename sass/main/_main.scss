@@ -9,6 +9,10 @@
 .img {
   width: 100%;
 }
+.eleNav , .navbar-nav>li>a , .navbar-nav>li {
+  white-space: nowrap;
+}
+
 .section {
   @media (min-width: 768px) {
     padding: 120px  0 ;
@@ -221,6 +225,10 @@ b {
       line-height: 150%;
       min-height: 2em ;
       max-width: 17em ;
+      @media (max-width: $screen-xs-min) {
+        max-width: 14em ;
+      }
+
       margin-bottom: 1.1em ;
       &:after {
       content:"\a";
@@ -269,13 +277,13 @@ b {
         width: 100%;
         display: inline;
       }
-      text-align: justify;
 
-      width: 115px;
+      width: 130px;
       font-family: $lato;
     }
     td:nth-child(2){
       letter-spacing:1px;
+      padding-left: 10px;
     }
 
   }

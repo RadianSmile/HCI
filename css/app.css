@@ -7078,17 +7078,21 @@ button.close {
   width: 100%; }
 
 /* line 12, ../sass/main/_main.scss */
+.eleNav, .navbar-nav > li > a, .navbar-nav > li {
+  white-space: nowrap; }
+
+/* line 16, ../sass/main/_main.scss */
 .section {
   overflow: hidden; }
   @media (min-width: 768px) {
-    /* line 12, ../sass/main/_main.scss */
+    /* line 16, ../sass/main/_main.scss */
     .section {
       padding: 120px 0; } }
   @media (max-width: 768px) {
-    /* line 12, ../sass/main/_main.scss */
+    /* line 16, ../sass/main/_main.scss */
     .section {
       padding: 60px 0; } }
-  /* line 22, ../sass/main/_main.scss */
+  /* line 26, ../sass/main/_main.scss */
   .section h2, .section .sub-title {
     margin-top: 0;
     padding-top: 20px;
@@ -7096,20 +7100,20 @@ button.close {
     letter-spacing: 2px;
     font-weight: bolder;
     margin-bottom: 30px; }
-  /* line 30, ../sass/main/_main.scss */
+  /* line 34, ../sass/main/_main.scss */
   .section .sub-title {
     padding-top: 0; }
-  /* line 33, ../sass/main/_main.scss */
+  /* line 37, ../sass/main/_main.scss */
   .section .sub-title {
     font-size: 10px;
     letter-spacing: 2px;
     padding-bottom: 10px; }
-  /* line 38, ../sass/main/_main.scss */
+  /* line 42, ../sass/main/_main.scss */
   .section .des {
     letter-spacing: 2px;
     line-height: 180%;
     font-weight: 200; }
-  /* line 43, ../sass/main/_main.scss */
+  /* line 47, ../sass/main/_main.scss */
   .section h3, .section .block-title {
     margin-top: 0;
     padding-top: 20px;
@@ -7118,75 +7122,75 @@ button.close {
     letter-spacing: 2px;
     margin-bottom: 30px; }
 
-/* line 56, ../sass/main/_main.scss */
+/* line 60, ../sass/main/_main.scss */
 .lightFont {
   color: #cbcbcb; }
-  /* line 58, ../sass/main/_main.scss */
+  /* line 62, ../sass/main/_main.scss */
   .lightFont * {
     color: #cbcbcb; }
 
-/* line 62, ../sass/main/_main.scss */
+/* line 66, ../sass/main/_main.scss */
 .darkFont {
   color: #595959; }
 
-/* line 68, ../sass/main/_main.scss */
+/* line 72, ../sass/main/_main.scss */
 .navbar-nav a {
   font-family: "Lato", sans-serif, "新細明體"; }
 
 @media (min-width: 992px) {
-  /* line 73, ../sass/main/_main.scss */
+  /* line 77, ../sass/main/_main.scss */
   .navbar .navbar-nav {
     display: inline-block;
     float: none;
     vertical-align: top; }
 
-  /* line 78, ../sass/main/_main.scss */
+  /* line 82, ../sass/main/_main.scss */
   .navbar-default {
     background: none;
     border: 0; }
 
-  /* line 83, ../sass/main/_main.scss */
+  /* line 87, ../sass/main/_main.scss */
   .navbar-nav {
     background-color: rgba(255, 255, 255, 0.9); }
 
-  /* line 86, ../sass/main/_main.scss */
+  /* line 90, ../sass/main/_main.scss */
   .navbar .navbar-collapse {
     text-align: center; }
 
-  /* line 90, ../sass/main/_main.scss */
+  /* line 94, ../sass/main/_main.scss */
   .divider-vertical {
     height: 20px;
     margin: 15px 0;
     width: 1px;
     background: #dad9d5; } }
-/* line 98, ../sass/main/_main.scss */
+/* line 102, ../sass/main/_main.scss */
 #banner {
   background-image: url("../img/banner.png");
   background-size: cover;
   padding-top: 9%;
   padding-bottom: 18%;
   padding-top: 90px; }
-  /* line 111, ../sass/main/_main.scss */
+  /* line 115, ../sass/main/_main.scss */
   #banner .img {
     width: 80%; }
-  /* line 114, ../sass/main/_main.scss */
+  /* line 118, ../sass/main/_main.scss */
   #banner .slogan {
     color: #5a503c;
     margin-top: 30px;
     font-size: 18px;
     color: #5a503c;
     letter-spacing: 1px; }
-  /* line 121, ../sass/main/_main.scss */
+  /* line 125, ../sass/main/_main.scss */
   #banner .time {
     color: #5a503c;
     font-size: 38px;
     font-family: "Lato", sans-serif, "新細明體";
     margin: 40px 0;
     line-height: 110%; }
-    /* line 127, ../sass/main/_main.scss */
+    /* line 131, ../sass/main/_main.scss */
     #banner .time .date {
       line-height: 150%; }
-  /* line 132, ../sass/main/_main.scss */
+  /* line 136, ../sass/main/_main.scss */
   #banner .author {
     color: #5a503c;
     margin-top: 0;
@@ -7196,56 +7200,56 @@ button.close {
     font-weight: bolder;
     margin-bottom: 30px; }
 
-/* line 155, ../sass/main/_main.scss */
+/* line 159, ../sass/main/_main.scss */
 b {
   font-weight: 600; }
 
-/* line 158, ../sass/main/_main.scss */
+/* line 162, ../sass/main/_main.scss */
 .bg {
   width: 100%;
   position: absolute;
   _z-index: -1; }
 
 @media (min-width: 768px) {
-  /* line 163, ../sass/main/_main.scss */
+  /* line 167, ../sass/main/_main.scss */
   .copyright {
     padding-top: 150px; } }
 
-/* line 169, ../sass/main/_main.scss */
+/* line 173, ../sass/main/_main.scss */
 #haunting {
   background: #595959;
   background-image: url("../img/feathers.png");
   background-size: 70%;
   background-repeat: no-repeat; }
   @media (min-width: 768px) {
-    /* line 169, ../sass/main/_main.scss */
+    /* line 173, ../sass/main/_main.scss */
     #haunting {
       padding-top: 400px; } }
   @media (max-width: 768px) {
-    /* line 169, ../sass/main/_main.scss */
+    /* line 173, ../sass/main/_main.scss */
     #haunting {
       background-image: none;
       background-position: left top; } }
 
-/* line 184, ../sass/main/_main.scss */
+/* line 188, ../sass/main/_main.scss */
 #intro {
   background-color: gainsboro;
   background-image: url("../img/bigFeather.png");
   background-size: cover;
   background-position: center; }
   @media (max-width: 768px) {
-    /* line 184, ../sass/main/_main.scss */
+    /* line 188, ../sass/main/_main.scss */
     #intro {
       background-image: url("../img/phone/phone_page3.png");
       background-position: center; } }
 
-/* line 196, ../sass/main/_main.scss */
+/* line 200, ../sass/main/_main.scss */
 #about {
   background-color: #595959; }
-  /* line 198, ../sass/main/_main.scss */
+  /* line 202, ../sass/main/_main.scss */
   #about * {
     color: #cbcbcb; }
-  /* line 209, ../sass/main/_main.scss */
+  /* line 213, ../sass/main/_main.scss */
   #about .group h3 {
     margin-top: 0;
     padding-top: 20px;
@@ -7253,7 +7257,7 @@ b {
     _letter-spacing: 2px;
     font-weight: bold;
     _margin-bottom: 30px; }
-  /* line 218, ../sass/main/_main.scss */
+  /* line 222, ../sass/main/_main.scss */
   #about .group dd {
     vertical-align: text-top;
     display: inline-block;
@@ -7261,79 +7265,83 @@ b {
     min-height: 2em;
     max-width: 17em;
     margin-bottom: 1.1em; }
-    /* line 225, ../sass/main/_main.scss */
+    @media (max-width: 480px) {
+      /* line 222, ../sass/main/_main.scss */
+      #about .group dd {
+        max-width: 14em; } }
+    /* line 233, ../sass/main/_main.scss */
     #about .group dd:after {
       content: "\a";
       white-space: pre; }
-  /* line 235, ../sass/main/_main.scss */
+  /* line 243, ../sass/main/_main.scss */
   #about .group dt {
     min-width: 3em;
     margin-right: 1em;
     vertical-align: text-top;
     display: inline-block; }
 
-/* line 245, ../sass/main/_main.scss */
+/* line 253, ../sass/main/_main.scss */
 #program {
   background-color: #595959; }
-  /* line 247, ../sass/main/_main.scss */
+  /* line 255, ../sass/main/_main.scss */
   #program * {
     color: #cbcbcb; }
-  /* line 250, ../sass/main/_main.scss */
+  /* line 258, ../sass/main/_main.scss */
   #program .comming_head {
     width: 90px; }
-  /* line 258, ../sass/main/_main.scss */
+  /* line 266, ../sass/main/_main.scss */
   #program .table td {
     vertical-align: middle;
     padding-left: 20px; }
-  /* line 263, ../sass/main/_main.scss */
+  /* line 271, ../sass/main/_main.scss */
   #program .table * {
     border: none; }
-  /* line 266, ../sass/main/_main.scss */
+  /* line 274, ../sass/main/_main.scss */
   #program .table td:first-child {
-    text-align: justify;
-    width: 115px;
+    width: 130px;
     font-family: "Lato", sans-serif, "新細明體"; }
-    /* line 267, ../sass/main/_main.scss */
+    /* line 275, ../sass/main/_main.scss */
     #program .table td:first-child span::after {
       content: "";
       width: 100%;
       display: inline; }
-  /* line 277, ../sass/main/_main.scss */
+  /* line 284, ../sass/main/_main.scss */
   #program .table td:nth-child(2) {
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    padding-left: 10px; }
 
-/* line 285, ../sass/main/_main.scss */
+/* line 293, ../sass/main/_main.scss */
 #registration {
   background-color: gainsboro; }
   @media (min-width: 768px) {
-    /* line 285, ../sass/main/_main.scss */
+    /* line 293, ../sass/main/_main.scss */
     #registration {
       padding: 100px 0; } }
-  /* line 290, ../sass/main/_main.scss */
+  /* line 298, ../sass/main/_main.scss */
   #registration * {
     color: #645b47;
     letter-spacing: 1px; }
-  /* line 295, ../sass/main/_main.scss */
+  /* line 303, ../sass/main/_main.scss */
   #registration h3 {
     margin-top: 3em;
     font-size: 18px;
     font-weight: bolder; }
-  /* line 300, ../sass/main/_main.scss */
+  /* line 308, ../sass/main/_main.scss */
   #registration p {
     line-height: 1.7em;
     margin-bottom: 1.8em; }
-  /* line 304, ../sass/main/_main.scss */
+  /* line 312, ../sass/main/_main.scss */
   #registration li {
     line-height: 1.7em; }
 
-/* line 309, ../sass/main/_main.scss */
+/* line 317, ../sass/main/_main.scss */
 #sponsor {
   background-color: gainsboro; }
-  /* line 311, ../sass/main/_main.scss */
+  /* line 319, ../sass/main/_main.scss */
   #sponsor * {
     color: #645b47; }
 
-/* line 316, ../sass/main/_main.scss */
+/* line 324, ../sass/main/_main.scss */
 footer.section {
   background-color: #595959;
   letter-spacing: 1px;
@@ -7342,15 +7350,15 @@ footer.section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
-  /* line 318, ../sass/main/_main.scss */
+  /* line 326, ../sass/main/_main.scss */
   footer.section * {
     color: #cbcbcb; }
-  /* line 321, ../sass/main/_main.scss */
+  /* line 329, ../sass/main/_main.scss */
   footer.section .chinese {
     font-family: "PMingLiU", "新細明體" !important;
     letter-spacing: 1px; }
   @media (min-width: 768px) {
-    /* line 316, ../sass/main/_main.scss */
+    /* line 324, ../sass/main/_main.scss */
     footer.section {
       padding-top: 200px; } }
 
