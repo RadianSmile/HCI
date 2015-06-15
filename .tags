@@ -1,155 +1,861 @@
+window.mobilecheck	/Volumes/HDD/Users/Radian/Websites/HCI/coffee/app.coffee	/^  window.mobilecheck = ->$/;"	function	line:3
 main-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_variable.scss	/^$main-color : rgba(79,72,56,1);$/;"	function	line:1
-primary-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_variable.scss	/^$primary-color : rgb(90,80,60) ; $/;"	function	line:3
+primary-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_variable.scss	/^$primary-color : rgb(90,80,60) ;$/;"	function	line:3
 lightGray	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_variable.scss	/^$lightGray : rgba(220,220,220,1);$/;"	function	line:5
-lightFontColor	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_variable.scss	/^$lightFontColor : rgb(203,203,203);$/;"	function	line:7
-darkFontColor	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_variable.scss	/^$darkFontColor : rgb(100,91,71);$/;"	function	line:8
-darkGray	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_variable.scss	/^$darkGray : rgba(89,89,89,1);$/;"	function	line:9
-lato	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_variable.scss	/^$lato :  'Lato', sans-serif , "新細明體";$/;"	function	line:11
+lightFontColor	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_variable.scss	/^$lightFontColor : rgb(203,203,203);$/;"	function	line:8
+darkFontColor	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_variable.scss	/^$darkFontColor : rgb(100,91,71);$/;"	function	line:9
+darkGray	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_variable.scss	/^$darkGray : rgba(89,89,89,1);$/;"	function	line:10
+lato	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_variable.scss	/^$lato :  'Lato', sans-serif , "新細明體";$/;"	function	line:12
+.btn	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^.btn {$/;"	function	line:9
+&	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &,$/;"	function	line:23
+&:active	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &:active,$/;"	function	line:24
+&.active	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &.active {$/;"	function	line:25
+&:focus	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^    &:focus,$/;"	function	line:26
+&.focus	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^    &.focus {$/;"	function	line:27
+&:hover	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &:hover,$/;"	function	line:32
+&:focus	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &:focus,$/;"	function	line:33
+&.focus	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &.focus {$/;"	function	line:34
+&:active	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &:active,$/;"	function	line:39
+&.active	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &.active {$/;"	function	line:40
+&.disabled	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &.disabled,$/;"	function	line:46
+&[disabled]	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &[disabled],$/;"	function	line:47
+fieldset[disabled] &	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  fieldset[disabled] & {$/;"	function	line:48
+.btn-default	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^.btn-default {$/;"	function	line:60
+.btn-primary	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^.btn-primary {$/;"	function	line:63
+.btn-success	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^.btn-success {$/;"	function	line:67
+.btn-info	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^.btn-info {$/;"	function	line:71
+.btn-warning	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^.btn-warning {$/;"	function	line:75
+.btn-danger	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^.btn-danger {$/;"	function	line:79
+.btn-dark	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^.btn-dark {$/;"	function	line:82
+.btn-link	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^.btn-link {$/;"	function	line:91
+&	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &,$/;"	function	line:96
+&:active	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &:active,$/;"	function	line:97
+&.active	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &.active,$/;"	function	line:98
+&[disabled]	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &[disabled],$/;"	function	line:99
+fieldset[disabled] &	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  fieldset[disabled] & {$/;"	function	line:100
+&	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &,$/;"	function	line:104
+&:hover	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &:hover,$/;"	function	line:105
+&:focus	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &:focus,$/;"	function	line:106
+&:active	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &:active {$/;"	function	line:107
+&:hover	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &:hover,$/;"	function	line:110
+&:focus	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &:focus {$/;"	function	line:111
+&[disabled]	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &[disabled],$/;"	function	line:116
+fieldset[disabled] &	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  fieldset[disabled] & {$/;"	function	line:117
+&:hover	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^    &:hover,$/;"	function	line:118
+&:focus	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^    &:focus {$/;"	function	line:119
+.btn-lg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^.btn-lg {$/;"	function	line:130
+.btn-sm	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^.btn-sm {$/;"	function	line:134
+.btn-xs	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^.btn-xs {$/;"	function	line:138
+.btn-block	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^.btn-block {$/;"	function	line:146
+.btn-block + .btn-block	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^.btn-block + .btn-block {$/;"	function	line:152
+input[type="submit"]	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^input[type="submit"],$/;"	function	line:157
+input[type="reset"]	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^input[type="reset"],$/;"	function	line:158
+input[type="button"]	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^input[type="button"] {$/;"	function	line:159
+&.btn-block	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_buttons.scss	/^  &.btn-block {$/;"	function	line:160
 html	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^<html xmlns="http:\/\/www.w3.org\/1999\/xhtml" xmlns:fb="http:\/\/ogp.me\/ns\/fb#">$/;"	function	line:2
 head	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^<head>$/;"	function	line:4
 meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta charset="utf-8" \/>$/;"	function	line:5
 meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta http-equiv="X-UA-Compatible" content="IE=edge" \/>$/;"	function	line:6
-meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="viewport" content="width=device-width, initial-scale=1" \/>$/;"	function	line:7
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">$/;"	function	line:7
 meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta property="og:site_name" content="喚體 | OpenHCI 2015"\/>$/;"	function	line:9
 meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="og:title" property="og:title" content="喚體 | OpenHCI 2015" \/>$/;"	function	line:10
 meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="og:description" property="og:description" content="「世間萬物，都將藉由科技產生具有智能的靈魂。」 今年，我們將藉由科技，喚醒物件的靈魂，透過科技的使用與行為，形成新的脈絡，重組人與機器之間的互動。在六天的營期間，來自不同領域的學員會經歷一系列講座與課後實作演練，深入完整 HCI 設計流程，透過合作溝通以實踐構想，將無盡的創意展現給世界！(OpenHCI 是由學生自治籌備的人機互動工作坊，旨在推廣人機互動學門與跨領域合作。)" \/>$/;"	function	line:11
-meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="og:image" property="og:image" content="http:\/\/radiansmile.github.io\/HCI\/img\/spread.jpg" \/>$/;"	function	line:12
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="og:image" property="og:image" content="http:\/\/www.openhci.com\/2015\/img\/spread.jpg" \/>$/;"	function	line:12
 meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="og:image:type" property="og:image:type" content="image\/jpeg" \/>$/;"	function	line:13
 meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="og:image:width" property="og:image:width" content="1200" \/>$/;"	function	line:14
 meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="og:image:height" property="og:image:height" content="675" \/>$/;"	function	line:15
-meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="og:url" property="og:url" content="http:\/\/radiansmile.github.io\/HCI\/" \/>$/;"	function	line:16
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="og:url" property="og:url" content="http:\/\/www.openhci.com\/" \/>$/;"	function	line:16
+link	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <link rel="icon" href="img\/logo.png" type="image\/jpeg" sizes="16x16">$/;"	function	line:17
 title	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <title>喚體 | OpenHCI 2015<\/title>$/;"	function	line:18
-link	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <link rel="stylesheet" href="css\/app.css" \/>$/;"	function	line:28
-link	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <link href='http:\/\/fonts.googleapis.com\/css?family=Lato' rel='stylesheet' type='text\/css' \/>$/;"	function	line:29
-script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript" src="js\/vendor\/jquery-1.11.3.min.js"><\/script>$/;"	function	line:30
-script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript" src="js\/vendor\/bootstrap.min.js"><\/script>$/;"	function	line:31
-script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript" src="js\/TweenMax.min.js"><\/script>$/;"	function	line:32
-script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript"  src="js\/vendor\/ScrollMagic\/scrollmagic\/uncompressed\/ScrollMagic.js"><\/script>$/;"	function	line:33
-script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript"  src="js\/vendor\/ScrollMagic\/scrollmagic\/minified\/plugins\/jquery.ScrollMagic.min.js"><\/script>$/;"	function	line:36
-script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript"  src="js\/vendor\/ScrollMagic\/scrollmagic\/uncompressed\/plugins\/animation.gsap.js"><\/script>$/;"	function	line:37
-script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script type="text\/javascript"  src="js\/vendor\/ScrollMagic\/scrollmagic\/uncompressed\/plugins\/debug.addIndicators.js"><\/script>$/;"	function	line:38
-script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script src="js\/app.js"><\/script>$/;"	function	line:41
-body	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^<body role="document">$/;"	function	line:44
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <div class="container">$/;"	function	line:46
-header	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <header class="row">$/;"	function	line:47
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="col-md-12">$/;"	function	line:48
-nav	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <nav class="navbar navbar-default navbar-fixed-top">$/;"	function	line:49
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="container">$/;"	function	line:50
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div class="navbar-header">$/;"	function	line:51
-button	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">$/;"	function	line:52
-span	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <span class="sr-only">Toggle navigation<\/span>$/;"	function	line:53
-span	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <span class="icon-bar"><\/span>$/;"	function	line:54
-span	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <span class="icon-bar"><\/span>$/;"	function	line:55
-span	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <span class="icon-bar"><\/span>$/;"	function	line:56
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div id="navbar" class="navbar-collapse collapse">$/;"	function	line:61
-ul	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <ul class="nav navbar-nav">$/;"	function	line:62
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <li class="dropdown">$/;"	function	line:63
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#body" data-toggle="collapse" data-target="#navbar.in">HOME<\/a><\/li>$/;"	function	line:65
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:66
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#haunting" data-toggle="collapse" data-target="#navbar.in">OPEN HCI 2015<\/a><\/li>$/;"	function	line:69
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:70
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#intro" data-toggle="collapse" data-target="#navbar.in">INTRO & GOALS<\/a><\/li>$/;"	function	line:71
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:72
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#" data-toggle="collapse" data-target="#navbar.in">PROGRAM<\/a><\/li>$/;"	function	line:73
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:74
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#" data-toggle="collapse" data-target="#navbar.in">REGISTRATION<\/a><\/li>$/;"	function	line:75
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:76
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#about" data-toggle="collapse" data-target="#navbar.in">ABOUT US<\/a><\/li>$/;"	function	line:77
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:78
-li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#" data-toggle="collapse" data-target="#navbar.in">CONTACT<\/a><\/li>$/;"	function	line:79
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <div id="banner">$/;"	function	line:89
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:90
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:91
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-4 col-md-offset-2">$/;"	function	line:92
-img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img id="spiring" src="img\/haunting_motion.png" alt="喚體" class="img">$/;"	function	line:93
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-6 col-md-offset-2">$/;"	function	line:95
-h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3 id="slogan" class="slogan">「世間萬物，都將藉由科技產生具有智能的靈魂。」<\/h3>$/;"	function	line:96
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-4 col-md-offset-2">$/;"	function	line:98
-p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p id="time" class="time">OPEN HCI<br>2015<br><sapn class="date">7\/14-7\/20<\/span>$/;"	function	line:99
-p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p id="author" class="author">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPTER INTERACTION<\/p>$/;"	function	line:100
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:108
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:109
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-4 col-md-offset-2">$/;"	function	line:110
-img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="img\/PAGE 2 WORD.png" alt="" class="img" >$/;"	function	line:111
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-4">$/;"	function	line:113
-img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="img\/PAGE 2 WORD 02.png" alt="喚體文字" class="img">$/;"	function	line:115
-section	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <section id="haunting" class="section lightFont">$/;"	function	line:121
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:122
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:123
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div  class="col-md-4 col-md-offset-2 ">$/;"	function	line:124
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div id="SM_haunting-leftBlock">$/;"	function	line:125
-h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h2 class="title">OPEN HCI 2015<\/h2>$/;"	function	line:126
-p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="sub-title">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPTER INTERACTION<\/p>$/;"	function	line:127
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-4" id="SM_haunting-rightBlock">$/;"	function	line:130
-h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3 class="block-title">喚體 Haunting Artifact<\/h3>$/;"	function	line:131
-p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p class="des">$/;"	function	line:132
-br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:135
-br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:137
-br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:139
-br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:144
-br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:146
-b	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <b>OpenHCI 2015 總召集人 <br>$/;"	function	line:147
-section	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <section id="intro" class="section">$/;"	function	line:155
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:156
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div>$/;"	function	line:158
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div  class="feather col-md-6 " >$/;"	function	line:159
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:163
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-4 col-md-offset-2">$/;"	function	line:165
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div id="SM_goals-leftBlock">$/;"	function	line:166
-h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h2 class="darkFont">INTRO & GOALS<\/h2>$/;"	function	line:167
-p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="sub-title">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPTER INTERACTION<\/p>$/;"	function	line:168
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class=" col-md-4">$/;"	function	line:172
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div id="SM_goals-rightBlock">$/;"	function	line:174
-h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h3 class="block-title">What is HCI<\/h3>$/;"	function	line:175
-p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="des">HCI —人機互動— 是近年相當活躍的資訊學門之一。HCI 的中心思想是以人為本，透過科技開創人與人之間的互動，可能是解決與提供新的使用經驗，亦可能是探索與創造新的意義，研究的著眼點不但訴求技術創新，更需要擁有跳脫舊框架的創意，以及對使用者行為的瞭解。因此，HCI 整合了資訊、設計、心理、以及其他領域專業知識，透過跨領域合作與溝通創造嶄新的研究成果。<\/p>$/;"	function	line:176
-h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h3 class="block-title">History of OpenHCI<\/h3>$/;"	function	line:177
-p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="des">為了推廣 HCI 學門、培養新生人才、以及發掘潛在研究議題，臺大資訊學群、臺科大設計學群、以及政大數位內容學位學程的十餘位碩博士生，共同舉辦了 OpenHCI 工作坊。OpenHCI 的活動理念為「學以致用、從做中學」。在將近一週的營期中，我們邀請到各界知名講師，針對 HCI 的兩大核心概念： User Experience Engineering (UXE) 以及 User-Centered Design (UCD) ，從不同面向與主題傳授經驗，培養學員基礎知識；課後更有一系列相對應的分組思考與實作活動，引導學員經歷完整的 HCI 設計流程，針對當屆主題完成互動原型作品，並培養跨領域合作與溝通能力。各組的構想與互動原型將於工作坊最後一天以互動展覽方式展出，藉此促成學員與各界人士間的意見交流。作品記錄會在活動後收錄進成果書 (Proceedings of OpenHCI ’15) 中，於活動網站公開下載。 OpenHCI 也將作為橋梁，提供管道協助參與者將作品進一步發展為學術論文或是競賽作品，讓創意繼續延伸發展。<\/p>$/;"	function	line:178
-footer	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <footer class="section">$/;"	function	line:184
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:185
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:186
-div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-12 text-center" >$/;"	function	line:187
-img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="img\/tailLogo.png"><br><br><br>$/;"	function	line:188
-p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>Facebook Page : <a href="https:\/\/www.facebook.com\/2013OpenHCI" target="_blank">Open HCI <span class="chinese">人機互動工作坊<\/span><br><\/a>$/;"	function	line:190
-a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2014">2014<\/a> |$/;"	function	line:192
-a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2013">2013<\/a> |$/;"	function	line:193
-a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2012">2012<\/a> |$/;"	function	line:194
-a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2011">2011<\/a> |$/;"	function	line:195
-a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2009">2009<\/a>$/;"	function	line:196
-p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p class="copyright">© Copyright 2015 OpenHCI<\/p>$/;"	function	line:198
-.center-img	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.center-img {$/;"	function	line:3
-.img	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.img {$/;"	function	line:7
-.section	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.section {$/;"	function	line:10
-h2 , .sub-title	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  h2 , .sub-title {$/;"	function	line:12
-.sub-title	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .sub-title {$/;"	function	line:20
-.des	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .des {$/;"	function	line:25
-h3 , .block-title	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  h3 , .block-title {$/;"	function	line:30
-.lightFont	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.lightFont {$/;"	function	line:43
-*	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  * {$/;"	function	line:45
-.darkFont	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.darkFont {$/;"	function	line:49
-.navbar-nav a	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.navbar-nav a {$/;"	function	line:55
-@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^@media (min-width: 768px) {$/;"	function	line:58
-.navbar .navbar-nav	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar .navbar-nav {$/;"	function	line:59
-.navbar-default	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar-default {$/;"	function	line:64
-.navbar-nav	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar-nav{$/;"	function	line:69
-.navbar .navbar-collapse	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar .navbar-collapse {$/;"	function	line:72
-.divider-vertical	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .divider-vertical {$/;"	function	line:76
-#banner	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#banner {$/;"	function	line:84
-// &::before	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  \/\/ &::before {$/;"	function	line:89
-.img	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .img {$/;"	function	line:95
-.slogan	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .slogan {$/;"	function	line:98
-.time	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .time {$/;"	function	line:105
-.date	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    .date {$/;"	function	line:111
-.author	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .author{$/;"	function	line:116
-// .feather	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^\/\/ .feather {$/;"	function	line:128
-//   &::before	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^\/\/   &::before {$/;"	function	line:133
-b	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^b {$/;"	function	line:139
-.bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.bg{$/;"	function	line:142
-.copyright	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.copyright {$/;"	function	line:147
-@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (min-width: 768px) {$/;"	function	line:148
-#haunting	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#haunting{$/;"	function	line:153
-#intro	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#intro {$/;"	function	line:162
-footer.section	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^footer.section{$/;"	function	line:171
-.chinese	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .chinese {$/;"	function	line:172
-@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (min-width: 768px) {$/;"	function	line:181
-// &::before	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  \/\/ &::before {$/;"	function	line:190
-window.mobilecheck	/Volumes/HDD/Users/Radian/Websites/HCI/coffee/app.coffee	/^  window.mobilecheck = ->$/;"	function	line:3
+link	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <link rel="stylesheet" href="\/css\/app.min.css" \/>$/;"	function	line:20
+link	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <link href='http:\/\/fonts.googleapis.com\/css?family=Lato' rel='stylesheet' type='text\/css' \/>$/;"	function	line:21
+script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script src="\/js\/app.min.js"><\/script>$/;"	function	line:23
+body	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^<body role="document">$/;"	function	line:26
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <div class="container">$/;"	function	line:28
+header	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <header class="row">$/;"	function	line:29
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="col-md-12">$/;"	function	line:30
+nav	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <nav class="navbar navbar-default navbar-fixed-top">$/;"	function	line:31
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="container">$/;"	function	line:32
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div class="navbar-header">$/;"	function	line:33
+button	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">$/;"	function	line:34
+span	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <span class="sr-only">Toggle navigation<\/span>$/;"	function	line:35
+span	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <span class="icon-bar"><\/span>$/;"	function	line:36
+span	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <span class="icon-bar"><\/span>$/;"	function	line:37
+span	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <span class="icon-bar"><\/span>$/;"	function	line:38
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div id="navbar" class="navbar-collapse collapse">$/;"	function	line:43
+ul	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <ul class="nav navbar-nav">$/;"	function	line:44
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <li class="dropdown">$/;"	function	line:45
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#banner" data-toggle="collapse" data-target="#navbar.in">HOME<\/a><\/li>$/;"	function	line:47
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:48
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#haunting" data-toggle="collapse" data-target="#navbar.in">OPEN HCI 2015<\/a><\/li>$/;"	function	line:51
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:52
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#intro" data-toggle="collapse" data-target="#navbar.in">INTRO & GOALS<\/a><\/li>$/;"	function	line:53
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:54
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" data-toggle="collapse" data-target="#navbar.in" href="#program"style="">PROGRAM<\/a><\/li>$/;"	function	line:55
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:56
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#registration" data-toggle="collapse" data-target="#navbar.in">REGISTRATION<\/a><\/li>$/;"	function	line:57
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:58
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#about" data-toggle="collapse" data-target="#navbar.in">CREW<\/a><\/li>$/;"	function	line:59
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:60
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#footer" data-toggle="collapse" data-target="#navbar.in">CONTACT<\/a><\/li>$/;"	function	line:61
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <div id="banner" class="section">$/;"	function	line:68
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:69
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:70
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-4 col-md-offset-2  col-xs-12 col-sm-6 ">$/;"	function	line:71
+img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img id="spiring" src="\/img\/haunting_motion.png" alt="喚體" class="img">$/;"	function	line:72
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:75
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-6 col-md-offset-2">$/;"	function	line:76
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3 id="slogan" class="slogan">「世間萬物，都將藉由科技產生具有智能的靈魂。」<\/h3>$/;"	function	line:77
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="row">$/;"	function	line:80
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-6 col-md-offset-2">$/;"	function	line:81
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p id="time" class="time">OPEN HCI<br>2015<br><sapn class="date">7\/14-7\/19<\/span>$/;"	function	line:82
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p id="author" class="author">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPUTER INTERACTION<\/p>$/;"	function	line:83
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:91
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:92
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-4 col-sm-6 col-md-offset-2">$/;"	function	line:93
+img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="img\/PAGE 2 WORD.png" alt="" class="img" >$/;"	function	line:94
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-4 col-sm-6">$/;"	function	line:96
+img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="img\/PAGE 2 WORD 02.png" alt="喚體文字" class="img">$/;"	function	line:98
+section	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <section id="haunting" class="section lightFont">$/;"	function	line:104
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:105
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:106
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div  class="col-md-4 col-sm-6 col-md-offset-2 ">$/;"	function	line:107
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div id="SM_haunting-leftBlock">$/;"	function	line:108
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h2 class="title">OPEN HCI 2015<\/h2>$/;"	function	line:109
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="sub-title">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPUTER INTERACTION<\/p>$/;"	function	line:110
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-4 col-sm-6" id="SM_haunting-rightBlock">$/;"	function	line:113
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3 class="block-title">喚體 Haunting Artifact<\/h3>$/;"	function	line:114
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p class="des">$/;"	function	line:115
+br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:118
+br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:120
+br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:122
+br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:127
+br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:129
+b	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <b>OpenHCI 2015 總召集人 <br>$/;"	function	line:130
+section	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <section id="intro" class="section">$/;"	function	line:138
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:139
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div>$/;"	function	line:141
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div  class="feather col-md-6 " >$/;"	function	line:142
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:146
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-4 col-sm-6 col-md-offset-2">$/;"	function	line:148
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div id="SM_goals-leftBlock">$/;"	function	line:149
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h2 class="darkFont">INTRO & GOALS<\/h2>$/;"	function	line:150
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="sub-title">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPUTER INTERACTION<\/p>$/;"	function	line:151
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class=" col-md-4 col-sm-6">$/;"	function	line:155
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div id="SM_goals-rightBlock">$/;"	function	line:157
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h3 class="block-title">What is HCI<\/h3>$/;"	function	line:158
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="des">HCI —人機互動— 是近年相當活躍的資訊學門之一。HCI 的中心思想是以人為本，透過科技開創人與人之間的互動，可能是解決與提供新的使用經驗，亦可能是探索與創造新的意義，研究的著眼點不但訴求技術創新，更需要擁有跳脫舊框架的創意，以及對使用者行為的瞭解。因此，HCI 整合了資訊、設計、心理、以及其他領域專業知識，透過跨領域合作與溝通創造嶄新的研究成果。<\/p>$/;"	function	line:159
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h3 class="block-title">History of OpenHCI<\/h3>$/;"	function	line:160
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="des">為了推廣 HCI 學門、培養新生人才、以及發掘潛在研究議題，臺大資訊學群、臺科大設計學群、以及政大數位內容學位學程的十餘位碩博士生，共同舉辦了 OpenHCI 工作坊。OpenHCI 的活動理念為「學以致用、從做中學」。在將近一週的營期中，我們邀請到各界知名講師，針對 HCI 的兩大核心概念： User Experience Engineering (UXE) 以及 User-Centered Design (UCD) ，從不同面向與主題傳授經驗，培養學員基礎知識；課後更有一系列相對應的分組思考與實作活動，引導學員經歷完整的 HCI 設計流程，針對當屆主題完成互動原型作品，並培養跨領域合作與溝通能力。各組的構想與互動原型將於工作坊最後一天以互動展覽方式展出，藉此促成學員與各界人士間的意見交流。作品記錄會在活動後收錄進成果書 (Proceedings of OpenHCI ’15) 中，於活動網站公開下載。 OpenHCI 也將作為橋梁，提供管道協助參與者將作品進一步發展為學術論文或是競賽作品，讓創意繼續延伸發展。<\/p>$/;"	function	line:161
+section	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <section id="program" class="section">$/;"	function	line:168
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:169
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:170
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div  class="col-md-8 col-md-offset-2 ">$/;"	function	line:171
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div>$/;"	function	line:172
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h2 class="title">OPEN HCI 2015 PROGRAM<\/h2>$/;"	function	line:173
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="sub-title">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPUTER INTERACTION<\/p>$/;"	function	line:174
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-8 col-md-offset-2">$/;"	function	line:177
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>2015\/7\/14(Tue) 前置工作坊-實作教材<\/h3>$/;"	function	line:178
+table	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <table class="table table-condensed">$/;"	function	line:179
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>08:30 - 09:00<\/span><\/td>   <td>學員報到<\/td><\/tr>$/;"	function	line:180
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>09:00 - 09:20<\/span><\/td>   <td>OpenHCI 2015 前置工作坊開場與說明<\/td><\/tr>$/;"	function	line:181
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>09:20 - 10:20<\/span><\/td>   <td>實作教程 I<\/td><\/tr>$/;"	function	line:182
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>10:40 - 11:40<\/span><\/td>   <td>實作教程 II<\/td><\/tr>$/;"	function	line:183
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>13:10 - 14:00<\/span><\/td>   <td>實作教程 III<\/td><\/tr>$/;"	function	line:184
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>14:10 - 15:10<\/span><\/td>   <td>實作教程 IV<\/td><\/tr>$/;"	function	line:185
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>15:30 - 16:30<\/span><\/td>   <td>小組實作作業<\/td><\/tr>$/;"	function	line:186
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>16:30 - 18:00<\/span><\/td>   <td>成果分享設計<\/td><\/tr>$/;"	function	line:187
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>2015\/7\/15(Wed) 行為與觀察<\/h3>$/;"	function	line:191
+table	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <table class="table table-condensed">$/;"	function	line:192
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>08:30 - 09:00<\/span><\/td>   <td>學員報到<\/td><\/tr>$/;"	function	line:193
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>09:00 - 09:30<\/span><\/td>   <td>開幕式 & 開幕致詞<\/td><\/tr>$/;"	function	line:194
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>09:30 - 10:30<\/span><\/td>   <td>演講 I Miguel Bruns & Mathias Funk(案例分享)<\/td><\/tr>$/;"	function	line:195
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><img src="\/img\/speech\/001.jpg" class="comming_head" \/><\/td><td>Miguel Bruns<br>$/;"	function	line:197
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><img src="\/img\/speech\/002_1.jpg" class="comming_head" \/><\/td><td>Mathias Funk<br>$/;"	function	line:200
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>10:50 - 11:50<\/span><\/td>   <td>演講 II 蔡志浩 (場域觀察)<\/td><\/tr>$/;"	function	line:203
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><img src="\/img\/speech\/003.jpg" class="comming_head" \/><\/td><td>蔡志浩<br>$/;"	function	line:205
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>12:00 - 13:00<\/span><\/td>   <td>午餐時間<\/td><\/tr>$/;"	function	line:208
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>13:00 - 14:00<\/span><\/td>   <td>Brainstoming - 主題發想<\/td><\/tr>$/;"	function	line:209
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>14:20 - 14:30<\/span><\/td>   <td>實地觀察，自行解散<\/td><\/tr>$/;"	function	line:210
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>2015\/7\/16(Thr) 發想與定義<\/h3>$/;"	function	line:212
+table	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <table class="table table-condensed">$/;"	function	line:213
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>08:30 - 09:00<\/span><\/td>   <td>學員報到<\/td><\/tr>$/;"	function	line:215
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>09:10 - 09:30<\/span><\/td>   <td>故事前情提要<\/td><\/tr>$/;"	function	line:216
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>09:30 - 10:30<\/span><\/td>   <td>演講 III 陳文剛 (UX)<\/td><\/tr>$/;"	function	line:217
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><img src="\/img\/speech\/004.jpg" class="comming_head" \/><\/td><td>陳文剛<br>$/;"	function	line:219
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>10:50 - 11:50<\/span><\/td> <td>演講 VI 陳彥仰 (Mobile HCI)<\/td><\/tr>$/;"	function	line:222
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><img src="\/img\/speech\/005.jpg" class="comming_head" \/><\/td><td>陳彥仰<br>$/;"	function	line:224
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>12:00 - 13:00<\/span><\/td>   <td>午餐時間<\/td><\/tr>$/;"	function	line:227
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>13:00 - 13:30<\/span><\/td>   <td>前情提要:各組2分鐘簡報<\/td><\/tr>$/;"	function	line:228
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>13:30 - 14:00<\/span><\/td>   <td>數位工具之應用教學<\/td><\/tr>$/;"	function	line:229
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>16:10 - 17:40<\/span><\/td>   <td>各組實作時間<\/td><\/tr>$/;"	function	line:230
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>2015\/7\/17(Fri) 實作與媒材<\/h3>$/;"	function	line:235
+table	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <table class="table table-condensed">$/;"	function	line:236
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>08:30 - 09:00<\/span><\/td>   <td>學員報到<\/tr>$/;"	function	line:238
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>09:00 - 09:10<\/span><\/td>   <td>今日流程說明<\/tr>$/;"	function	line:239
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>10:00 - 11:00<\/span><\/td>   <td>演講 V 梁容輝 (設計與虛構)<\/tr>$/;"	function	line:240
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span><img src="\/img\/speech\/006.jpg" class="comming_head" \/><\/td><td>梁容輝<br>$/;"	function	line:242
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>11:10 - 12:10<\/span><\/td>   <td>演講 VI 金啟平 (實體互動裝置設計)<\/tr>$/;"	function	line:245
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><img src="\/img\/speech\/008_1.jpg" class="comming_head" \/><\/td><td>金啟平<br>$/;"	function	line:247
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>13:00 - 14:00<\/td>   <td>各組準備中間提案<\/tr>$/;"	function	line:250
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>14:20 - 17:30<\/td>   <td>各組8分鐘中間提案<\/tr>$/;"	function	line:251
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>17:40 - 18:00<\/td>   <td>評審總評<\/tr>$/;"	function	line:252
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>2015\/7\/18(Sat) 實作與媒材<\/h3>$/;"	function	line:256
+table	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <table class="table table-condensed">$/;"	function	line:257
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>08:30 - 09:00<\/td> <td>學員報到<\/td><\/tr>$/;"	function	line:258
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>09:00 - 09:10<\/td> <td>今日流程說明<\/td><\/tr>$/;"	function	line:259
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>09:30 - 10:30<\/td> <td>演講 VII 陳玲鈴 (Design+Technology)<\/td><\/tr>$/;"	function	line:260
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><img src="\/img\/speech\/007_1.jpg" class="comming_head" \/><\/td><td>陳玲鈴<br>$/;"	function	line:262
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>10:50 - 11:50<\/td> <td>演講 VIII 宋恆 (互動廣告創意)<\/td><\/tr>$/;"	function	line:265
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><img src="\/img\/speech\/009.png" class="comming_head" \/><\/td><td>宋恆<br>$/;"	function	line:267
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>11:50 - 12:00<\/td> <td>故事事件<\/td><\/tr>$/;"	function	line:270
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>12:00 - 13:00<\/td> <td>午餐時間<\/td><\/tr>$/;"	function	line:271
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>13:00 - 17:20<\/td> <td>各組實作時間 \/ 同時開放數位製造器材使用<\/td><\/tr>$/;"	function	line:272
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>17:20 - 17:30<\/td> <td>公告作業、預告隔天行程<\/td><\/tr>$/;"	function	line:273
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>2015\/7\/19(Sun) 發表與展覽<\/h3>$/;"	function	line:275
+table	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <table class="table table-condensed">$/;"	function	line:276
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>08:30 - 09:00<\/td>   <td>學員報到<\/td><\/tr>$/;"	function	line:278
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>09:00 - 09:30<\/td>   <td>各組實作時間<\/td><\/tr>$/;"	function	line:279
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>10:00 - 11:30<\/td>   <td>各組至展覽會場佈置<\/td><\/tr>$/;"	function	line:280
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>12:30 - 12:40<\/td>   <td>成果展示開場<\/td><\/tr>$/;"	function	line:281
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>12:40 - 15:50<\/td>   <td>各組10分鐘成果發表<\/td><\/tr>$/;"	function	line:282
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>15:50 - 17:30<\/td>   <td>互動成果展示<\/td><\/tr>$/;"	function	line:283
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>17:30 - 18:00<\/td>   <td>頒獎典禮&閉幕式<\/td><\/tr>$/;"	function	line:284
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <div id="registration" class="section">$/;"	function	line:291
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:292
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:293
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div  class="col-md-8 col-md-offset-2 ">$/;"	function	line:294
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div>$/;"	function	line:295
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h2 class="title">OPEN HCI 2015 REGISTRATION<\/h2>$/;"	function	line:296
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="sub-title">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPUTER INTERACTION<\/p>$/;"	function	line:297
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-8 col-md-offset-2">$/;"	function	line:300
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^			<a id="registrationLink" class="btn btn-dark btn-lg" href="https:\/\/goo.gl\/r5aq50" target="_blank">按此開始報名！<\/a>$/;"	function	line:304
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>招生時程<\/h3>$/;"	function	line:306
+ul	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <ul>$/;"	function	line:307
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <li>線上報名時間：6\/14(日) 00:00 至 6\/27(六) 23:59 前<\/li>$/;"	function	line:308
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <li>正\/備取名單公佈：6\/29(一) 網路公佈與信件通知，請自行上網查看<\/li>$/;"	function	line:309
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <li>遞補備取通知：7\/01(三) 個別電話通知<\/li>$/;"	function	line:310
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>報名方式<\/h3>$/;"	function	line:312
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>在報名期限內，備妥報名相關資料後，經報名連結線上報名。<\/p>$/;"	function	line:314
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>公佈與通知正\/備取之學員，請於指定時間內繳交1000元保證金，並回覆系統匯款資訊以確認成功匯款，經由查證後完成報名程序。<\/p>$/;"	function	line:315
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>未依照指定報名期限內完成報名程序者，視為放棄報名資格，會依據備取順序遞補，備取名單會於7\/01(三) 個別電話通知，備取者請於7\/03(五) 23:59 前繳交保證金以完成報名程序。<\/p>$/;"	function	line:316
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>（本活動透過報名資料作為錄取參考依據，挑選正\/備取學員並於網站公佈與通知，與報名順序時間無關。）<\/p>$/;"	function	line:317
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>報名準備內容<\/h3>$/;"	function	line:319
+ul	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <ul>$/;"	function	line:322
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^             <li>「線上問卷」為線上填寫作業，包含個人基本資料、教育背景兩部分。<\/li>$/;"	function	line:323
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^             <li>「iDCard」為一份兩頁之投影片，包含“個人簡歷”與“觀察發想”，<br>$/;"	function	line:324
+b	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                 <b>若有其他輔助說明之素材，請將檔案放至上傳空間(ex. dropbox)後將上傳連結附於報名系統內。<\/b><br>$/;"	function	line:328
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>iDCard內容說明<\/h3>$/;"	function	line:333
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>iDCard為線上報名之第二份需預先準備之作業檔案，並於線上報名時上傳。<\/p>$/;"	function	line:335
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>觀察生活周遭並試著想像，如果非生物的物件也具有靈性或是能由人類為其加入靈魂，可能會產生什麼不同的互動體驗？試著回答以下問題，並以圖片或其它素材輔助說明<\/p>$/;"	function	line:336
+ol	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <ol>$/;"	function	line:338
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <li>$/;"	function	line:339
+ol	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <ol>$/;"	function	line:340
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li>如果你能賦予某個物體靈魂，你會選什麼? 說明你的想法<\/li>$/;"	function	line:341
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li>它活過來後跟你說的第一句話是?<\/li>$/;"	function	line:342
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li>你覺得和它之間會產生什麼新的互動?<\/li>$/;"	function	line:343
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <li>如果你的靈魂可以進入某個物體，你會選什麼? 說明你的想法<\/li>$/;"	function	line:347
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>請收集與上述經驗有關之素材，製作成iDCard。<\/p>$/;"	function	line:350
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>第一頁請放個人簡歷，表達格式不限。<br>$/;"	function	line:353
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>iDCard範例一：	<a href="https:\/\/goo.gl\/pmebsD" target="_blank">https:\/\/goo.gl\/pmebsD<\/a><br>$/;"	function	line:356
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>報名保證金須知<\/h3>$/;"	function	line:360
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>正取學員會於6\/29(一) 網路公佈與信件通知，請自行上網查看，$/;"	function	line:362
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>經由電話通知的備取學員，請於7\/03(五) 24:00 前繳交保證金以完成報名程序，此保證金保證學員參予工作營期間內，全日數出席參與活動，並無無故缺席或其他不可避免之因素請假者，可於活動最後一天全額退予保證金。<\/p>$/;"	function	line:364
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>繳交保證金方式<\/h3>$/;"	function	line:366
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>指定銀行與匯款帳戶如下：<\/p>$/;"	function	line:368
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>華南銀行 斗六分行  帳號：540-20-046108-1   戶名：吳怡馨    金額：1000元<\/p>$/;"	function	line:370
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>疑問聯絡<\/h3>$/;"	function	line:374
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>關於報名有任何問題，歡迎寄信給主辦單位：<br>$/;"	function	line:376
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <a href="mailto:human@openhci.com" target="_blank">human@openhci.com <\/a>(人事組)<br>$/;"	function	line:377
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>OpenHCI 2015，感謝您的參與$/;"	function	line:381
+section	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <section id="about" class="section">$/;"	function	line:387
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <div class="container">$/;"	function	line:388
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="row">$/;"	function	line:389
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="col-md-offset-2 col-md-4 col-sm-6 ">$/;"	function	line:390
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <h2 class="darkFont">OPEN HCI 2015 CREW<\/h2>$/;"	function	line:391
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <p class="sub-title">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPUTER INTERACTION<\/p>$/;"	function	line:392
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="group ">$/;"	function	line:394
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <h3>PROGRAM<\/h3>$/;"	function	line:395
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dl>$/;"	function	line:396
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <dt>陳漢<\/dt>$/;"	function	line:397
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <dd>國立臺灣科技大學工商業設計系所碩一<br><span class="teacher">指導教授 陳玲鈴老師<\/span><\/dd><br>$/;"	function	line:398
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <dt>王邦任<\/dt>$/;"	function	line:399
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <dd>國立政治大學資訊科學系大四<\/dd><br>$/;"	function	line:400
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="row">$/;"	function	line:404
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:405
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>HUMAN RESOURCE<\/h3>$/;"	function	line:406
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:407
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>林子虹<\/dt>$/;"	function	line:408
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣科技大學工商業設計系所碩一<br><span class="teacher">指導教授 陳建雄老師<\/span><\/dd><br>$/;"	function	line:409
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>劉康平<\/dt>$/;"	function	line:411
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立政治大學資訊科學系碩士班碩一<br><span class="teacher">指導教授 余能豪老師<\/span><\/dd><br>$/;"	function	line:412
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>蕭如惠<\/dt>$/;"	function	line:414
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣科技大學工商業設計系所碩一<br><span class="teacher">指導教授 陳建雄老師<\/span><\/dd><br>$/;"	function	line:415
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:418
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>TECH<\/h3>$/;"	function	line:419
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:420
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>許元耀<\/dt>$/;"	function	line:421
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣科技大學工商業設計系所碩一<br><span class="teacher">指導教授 梁容輝老師<\/span><\/dd><br>$/;"	function	line:422
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>陳佳妤<\/dt>$/;"	function	line:423
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立政治大學數位內容碩士學程碩零<br><span class="teacher">指導教授 余能豪老師<\/span><\/dd><br>$/;"	function	line:424
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>廖以圻<\/dt>$/;"	function	line:425
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣大學資訊管理學系碩一<br><span class="teacher">指導教授 陳炳宇老師<\/span><\/dd><br>$/;"	function	line:426
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <div class="row">$/;"	function	line:430
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:431
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>WEB SERVICE<\/h3>$/;"	function	line:432
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:433
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>謝朋儒<\/dt>$/;"	function	line:434
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣大學資訊網路與多媒體研究所碩二<br><span class="teacher">指導教授 徐宏民老師<\/span><\/dd><br>$/;"	function	line:435
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>鄭竣丰<\/dt>$/;"	function	line:437
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立政治大學數位內容碩士學程大四<br><span class="teacher">指導教授 余能豪老師<\/span><\/dd><br>$/;"	function	line:438
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:441
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>LECTURE<\/h3>$/;"	function	line:442
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:443
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>利淑惠<\/dt>$/;"	function	line:444
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立政治大學數位內容碩士學程碩一<br><span class="teacher">指導教授 余能豪老師<\/span><\/dd><br>$/;"	function	line:445
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>韓政憲<\/dt>$/;"	function	line:447
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立清華大學資訊工程學系研究所碩一<br><span class="teacher">指導教授 王浩全老師<\/span><\/dd><br>$/;"	function	line:448
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <div class="row">$/;"	function	line:453
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:454
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>EXHIBITION \/ DEMO<\/h3>$/;"	function	line:455
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:456
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>張文韋<\/dt>$/;"	function	line:457
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣科技大學工商業設計系所碩一<br><span class="teacher">指導教授 陳玲鈴老師<\/span><\/dd><br>$/;"	function	line:458
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>張幼文<\/dt>$/;"	function	line:460
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立政治大學資訊管理學系<\/dd><br>$/;"	function	line:461
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:464
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>PUBLICITY<\/h3>$/;"	function	line:465
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>何立芹<\/dt>$/;"	function	line:466
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣科技大學工商業設計系所碩一<br><span class="teacher">指導教授 陳建雄老師<\/span><\/dd><br>$/;"	function	line:467
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>王奕方<\/dt>$/;"	function	line:469
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立政治大學資訊科學系碩士班碩一<br><span class="teacher">指導教授 余能豪老師<\/span><\/dd><br>$/;"	function	line:470
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <div class="row">$/;"	function	line:474
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:476
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>GRAPHICAL DESIGN<\/h3>$/;"	function	line:477
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:478
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>王宇欣<\/dt>$/;"	function	line:479
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣科技大學工商業設計系所碩一<br><span class="teacher">指導教授 梁容輝老師<\/span><\/dd><br>$/;"	function	line:480
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>陳威霖<\/dt>$/;"	function	line:482
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣科技大學工商業設計系所碩二<br><span class="teacher">指導教授 孫春望老師<\/span><\/dd><br>$/;"	function	line:483
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:487
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>SPONSORSHIP<\/h3>$/;"	function	line:488
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:489
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>林暄<\/dt>$/;"	function	line:490
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣藝術大學多媒體動畫藝術學系新媒體研究所碩二<br><span class="teacher">指導教授 林珮淳老師<\/span><\/dd><br>$/;"	function	line:491
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>楊順堯<\/dt>$/;"	function	line:493
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣大學資訊管理系所碩一<br><span class="teacher">指導教授 陳炳宇老師<\/span><\/dd><br>$/;"	function	line:494
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <div class="row">$/;"	function	line:500
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:501
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>GENERAL AFFAIR<\/h3>$/;"	function	line:502
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:503
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>周雅涵<\/dt>$/;"	function	line:504
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣科技大學工商業設計系所碩一<br><span class="teacher">指導教授 董芳武老師<\/span><\/dd><br>$/;"	function	line:505
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>吳怡馨<\/dt>$/;"	function	line:507
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立雲林科技大學數位媒體設計系所碩二<br><span class="teacher">指導教授 張登文老師<\/span><\/dd><br>$/;"	function	line:508
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:511
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>FILM CREW<\/h3>$/;"	function	line:512
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:513
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>楊立銘<\/dt>$/;"	function	line:514
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣大學資訊管理研究所碩一<br><span class="teacher">指導教授 陳炳宇老師<\/span><\/dd><br>$/;"	function	line:515
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>王君毓<\/dt>$/;"	function	line:517
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺北科技大學創新設計碩士班碩一<br><span class="teacher">指導教授 張若菡老師<\/span><\/dd><br>$/;"	function	line:518
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <div class="row">$/;"	function	line:522
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:523
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>STEERING<\/h3>$/;"	function	line:524
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:525
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>蕭喬尹<\/dt>	<dd>國立台灣大學資訊工程研究所碩士班畢業<br><span class="teacher">許永真<\/span><\/dd><br>$/;"	function	line:526
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>陳建方<\/dt>	<dd>國立政治大學數位內容碩士學程碩士班<br><span class="teacher">余能豪<\/span><\/dd><br>$/;"	function	line:527
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:530
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3 class="hidden-xs" style="visibility : hidden">STEERING<\/h3>$/;"	function	line:531
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:532
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>魏振庭<\/dt>	<dd>國立台灣科技大學工商業設計系所碩士班畢業<br><span class="teacher">陳玲鈴<\/span><\/dd><br>$/;"	function	line:533
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>鄭宇婷<\/dt>	<dd>國立台灣科技大學工商業設計系所碩士班畢業<br><span class="teacher">陳玲鈴<\/span><\/dd><br>$/;"	function	line:534
+section	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <section id="sponsor" class="section">$/;"	function	line:540
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:541
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div  class="col-md-8 col-md-offset-2 ">$/;"	function	line:542
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div>$/;"	function	line:543
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h2 class="title">OPEN HCI 2015 ORGANIZER & SPONSORS<\/h2>$/;"	function	line:544
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p class="sub-title">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPUTER INTERACTION<\/p>$/;"	function	line:545
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:548
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-offset-2 col-md-8">$/;"	function	line:549
+img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="\/img\/sponsors.jpg" alt="" class="img visible-md-block visible-lg-block">$/;"	function	line:550
+img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="\/img\/sponsor-sm.jpg" alt="" class="img  visible-sm-block">$/;"	function	line:551
+img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="\/img\/sponsor-xs.jpg" alt="" class="img  visible-xs-block">$/;"	function	line:552
+footer	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <footer class="section" id="footer">$/;"	function	line:557
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:558
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:559
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-12 text-center" >$/;"	function	line:560
+img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="\/img\/tailLogo.png"><br><br><br>$/;"	function	line:561
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>Email : <a href="mailto:program@openhci.com" target="_blank">program@openhci.com<\/a><\/p>$/;"	function	line:563
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>Facebook Page : <a href="https:\/\/www.facebook.com\/openhci" target="_blank">Open HCI <span class="chinese">人機互動工作坊<\/span><\/a><br>$/;"	function	line:564
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2014">2014<\/a> |$/;"	function	line:566
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2013">2013<\/a> |$/;"	function	line:567
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2012">2012<\/a> |$/;"	function	line:568
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2011">2011<\/a> |$/;"	function	line:569
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2009">2009<\/a>$/;"	function	line:570
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p class="copyright">© Copyright 2015 OpenHCI<\/p>$/;"	function	line:572
+exports	/Volumes/HDD/Users/Radian/Websites/HCI/Gruntfile.js	/^module.exports = function(grunt) {$/;"	function	line:1
+module.exports	/Volumes/HDD/Users/Radian/Websites/HCI/Gruntfile.js	/^module.exports = function(grunt) {$/;"	function	line:0
+bootstrap-sass-asset-helper	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$bootstrap-sass-asset-helper: false !default;$/;"	function	line:1
+gray-base	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$gray-base:              #000 !default;$/;"	function	line:11
+gray-darker	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$gray-darker:            lighten($gray-base, 13.5%) !default; \/\/ #222$/;"	function	line:12
+gray-dark	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$gray-dark:              lighten($gray-base, 20%) !default;   \/\/ #333$/;"	function	line:13
+gray	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$gray:                   lighten($gray-base, 33.5%) !default; \/\/ #555$/;"	function	line:14
+gray-light	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$gray-light:             lighten($gray-base, 46.7%) !default; \/\/ #777$/;"	function	line:15
+gray-lighter	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$gray-lighter:           lighten($gray-base, 93.5%) !default; \/\/ #eee$/;"	function	line:16
+brand-primary	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$brand-primary:         darken(#428bca, 6.5%) !default; \/\/ #337ab7$/;"	function	line:18
+brand-success	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$brand-success:         #5cb85c !default;$/;"	function	line:19
+brand-info	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$brand-info:            #5bc0de !default;$/;"	function	line:20
+brand-warning	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$brand-warning:         #f0ad4e !default;$/;"	function	line:21
+brand-danger	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$brand-danger:          #d9534f !default;$/;"	function	line:22
+body-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$body-bg:               #fff !default;$/;"	function	line:30
+text-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$text-color:            $gray-dark !default;$/;"	function	line:32
+link-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$link-color:            $lightGray ;\/\/$brand-primary !default;$/;"	function	line:35
+link-hover-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$link-hover-color:      darken($link-color, 15%) !default;$/;"	function	line:37
+link-hover-decoration	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$link-hover-decoration: underline !default;$/;"	function	line:39
+font-family-sans-serif	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$font-family-sans-serif:  "PMingLiU","新細明體" !default ;\/\/"Helvetica Neue", Helvetica, Arial, sans-serif !default;$/;"	function	line:46
+font-family-serif	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;$/;"	function	line:47
+font-family-monospace	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;$/;"	function	line:49
+font-family-base	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$font-family-base:        $font-family-sans-serif !default;$/;"	function	line:50
+font-size-base	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$font-size-base:          14px !default;$/;"	function	line:52
+font-size-large	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$font-size-large:         ceil(($font-size-base * 1.25)) !default; \/\/ ~18px$/;"	function	line:53
+font-size-small	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$font-size-small:         ceil(($font-size-base * 0.85)) !default; \/\/ ~12px$/;"	function	line:54
+font-size-h1	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$font-size-h1:            floor(($font-size-base * 2.6)) !default; \/\/ ~36px$/;"	function	line:56
+font-size-h2	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$font-size-h2:            floor(($font-size-base * 2.15)) !default; \/\/ ~30px$/;"	function	line:57
+font-size-h3	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$font-size-h3:            ceil(($font-size-base * 1.7)) !default; \/\/ ~24px$/;"	function	line:58
+font-size-h4	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$font-size-h4:            ceil(($font-size-base * 1.25)) !default; \/\/ ~18px$/;"	function	line:59
+font-size-h5	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$font-size-h5:            $font-size-base !default;$/;"	function	line:60
+font-size-h6	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$font-size-h6:            ceil(($font-size-base * 0.85)) !default; \/\/ ~12px$/;"	function	line:61
+line-height-base	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$line-height-base:        1.428571429 !default; \/\/ 20\/14$/;"	function	line:64
+line-height-computed	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; \/\/ ~20px$/;"	function	line:66
+headings-font-family	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$headings-font-family:    inherit !default;$/;"	function	line:69
+headings-font-weight	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$headings-font-weight:    500 !default;$/;"	function	line:70
+headings-line-height	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$headings-line-height:    1.1 !default;$/;"	function	line:71
+headings-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$headings-color:          inherit !default;$/;"	function	line:72
+icon-font-path	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$icon-font-path: if($bootstrap-sass-asset-helper, "bootstrap\/", "..\/fonts\/bootstrap\/") !default;$/;"	function	line:83
+icon-font-name	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$icon-font-name:          "glyphicons-halflings-regular" !default;$/;"	function	line:86
+icon-font-svg-id	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$icon-font-svg-id:        "glyphicons_halflingsregular" !default;$/;"	function	line:88
+padding-base-vertical	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$padding-base-vertical:     6px !default;$/;"	function	line:95
+padding-base-horizontal	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$padding-base-horizontal:   12px !default;$/;"	function	line:96
+padding-large-vertical	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$padding-large-vertical:    10px !default;$/;"	function	line:98
+padding-large-horizontal	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$padding-large-horizontal:  16px !default;$/;"	function	line:99
+padding-small-vertical	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$padding-small-vertical:    5px !default;$/;"	function	line:101
+padding-small-horizontal	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$padding-small-horizontal:  10px !default;$/;"	function	line:102
+padding-xs-vertical	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$padding-xs-vertical:       1px !default;$/;"	function	line:104
+padding-xs-horizontal	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$padding-xs-horizontal:     5px !default;$/;"	function	line:105
+line-height-large	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$line-height-large:         1.3333333 !default; \/\/ extra decimals for Win 8.1 Chrome$/;"	function	line:107
+line-height-small	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$line-height-small:         1.5 !default;$/;"	function	line:108
+border-radius-base	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$border-radius-base:        4px !default;$/;"	function	line:110
+border-radius-large	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$border-radius-large:       6px !default;$/;"	function	line:111
+border-radius-small	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$border-radius-small:       3px !default;$/;"	function	line:112
+component-active-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$component-active-color:    #fff !default;$/;"	function	line:115
+component-active-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$component-active-bg:       $brand-primary !default;$/;"	function	line:117
+caret-width-base	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$caret-width-base:          4px !default;$/;"	function	line:120
+caret-width-large	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$caret-width-large:         5px !default;$/;"	function	line:122
+table-cell-padding	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$table-cell-padding:            8px !default;$/;"	function	line:130
+table-condensed-cell-padding	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$table-condensed-cell-padding:  5px !default;$/;"	function	line:132
+table-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$table-bg:                      transparent !default;$/;"	function	line:135
+table-bg-accent	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$table-bg-accent:               #f9f9f9 !default;$/;"	function	line:137
+table-bg-hover	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$table-bg-hover:                #f5f5f5 !default;$/;"	function	line:139
+table-bg-active	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$table-bg-active:               $table-bg-hover !default;$/;"	function	line:140
+table-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$table-border-color:            #ddd !default;$/;"	function	line:143
+btn-font-weight	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-font-weight:                normal !default;$/;"	function	line:150
+btn-default-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-default-color:              #333 !default;$/;"	function	line:152
+btn-default-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-default-bg:                 #fff !default;$/;"	function	line:153
+btn-default-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-default-border:             #ccc !default;$/;"	function	line:154
+btn-primary-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-primary-color:              #fff !default;$/;"	function	line:156
+btn-primary-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-primary-bg:                 $brand-primary !default;$/;"	function	line:157
+btn-primary-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-primary-border:             darken($btn-primary-bg, 5%) !default;$/;"	function	line:158
+btn-success-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-success-color:              #fff !default;$/;"	function	line:160
+btn-success-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-success-bg:                 $brand-success !default;$/;"	function	line:161
+btn-success-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-success-border:             darken($btn-success-bg, 5%) !default;$/;"	function	line:162
+btn-info-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-info-color:                 #fff !default;$/;"	function	line:164
+btn-info-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-info-bg:                    $brand-info !default;$/;"	function	line:165
+btn-info-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-info-border:                darken($btn-info-bg, 5%) !default;$/;"	function	line:166
+btn-warning-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-warning-color:              #fff !default;$/;"	function	line:168
+btn-warning-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-warning-bg:                 $brand-warning !default;$/;"	function	line:169
+btn-warning-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-warning-border:             darken($btn-warning-bg, 5%) !default;$/;"	function	line:170
+btn-danger-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-danger-color:               #fff !default;$/;"	function	line:172
+btn-danger-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-danger-bg:                  $brand-danger !default;$/;"	function	line:173
+btn-danger-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-danger-border:              darken($btn-danger-bg, 5%) !default;$/;"	function	line:174
+btn-dark-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-dark-color:                 $lightFontColor !default;$/;"	function	line:176
+btn-dark-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-dark-bg:                    $darkGray !default;$/;"	function	line:177
+btn-dark-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-dark-border:                darken($btn-dark-bg, 5%) !default;$/;"	function	line:178
+btn-link-disabled-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$btn-link-disabled-color:        $gray-light !default;$/;"	function	line:181
+input-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$input-bg:                       #fff !default;$/;"	function	line:189
+input-bg-disabled	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$input-bg-disabled:              $gray-lighter !default;$/;"	function	line:191
+input-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$input-color:                    $gray !default;$/;"	function	line:194
+input-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$input-border:                   #ccc !default;$/;"	function	line:196
+input-border-radius	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$input-border-radius:            $border-radius-base !default;$/;"	function	line:201
+input-border-radius-large	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$input-border-radius-large:      $border-radius-large !default;$/;"	function	line:203
+input-border-radius-small	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$input-border-radius-small:      $border-radius-small !default;$/;"	function	line:205
+input-border-focus	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$input-border-focus:             #66afe9 !default;$/;"	function	line:208
+input-color-placeholder	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$input-color-placeholder:        #999 !default;$/;"	function	line:211
+input-height-base	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$input-height-base:              ($line-height-computed + ($padding-base-vertical * 2) + 2) !default;$/;"	function	line:214
+input-height-large	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$input-height-large:             (ceil($font-size-large * $line-height-large) + ($padding-large-vertical * 2) + 2) !default;$/;"	function	line:216
+input-height-small	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$input-height-small:             (floor($font-size-small * $line-height-small) + ($padding-small-vertical * 2) + 2) !default;$/;"	function	line:218
+form-group-margin-bottom	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$form-group-margin-bottom:       15px !default;$/;"	function	line:221
+legend-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$legend-color:                   $gray-dark !default;$/;"	function	line:223
+legend-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$legend-border-color:            #e5e5e5 !default;$/;"	function	line:224
+input-group-addon-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$input-group-addon-bg:           $gray-lighter !default;$/;"	function	line:227
+input-group-addon-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$input-group-addon-border-color: $input-border !default;$/;"	function	line:229
+cursor-disabled	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$cursor-disabled:                not-allowed !default;$/;"	function	line:232
+dropdown-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$dropdown-bg:                    #fff !default;$/;"	function	line:240
+dropdown-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$dropdown-border:                rgba(0,0,0,.15) !default;$/;"	function	line:242
+dropdown-fallback-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$dropdown-fallback-border:       #ccc !default;$/;"	function	line:244
+dropdown-divider-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$dropdown-divider-bg:            #e5e5e5 !default;$/;"	function	line:246
+dropdown-link-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$dropdown-link-color:            $gray-dark !default;$/;"	function	line:249
+dropdown-link-hover-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$dropdown-link-hover-color:      darken($gray-dark, 5%) !default;$/;"	function	line:251
+dropdown-link-hover-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$dropdown-link-hover-bg:         #f5f5f5 !default;$/;"	function	line:253
+dropdown-link-active-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$dropdown-link-active-color:     $component-active-color !default;$/;"	function	line:256
+dropdown-link-active-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$dropdown-link-active-bg:        $component-active-bg !default;$/;"	function	line:258
+dropdown-link-disabled-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$dropdown-link-disabled-color:   $gray-light !default;$/;"	function	line:261
+dropdown-header-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$dropdown-header-color:          $gray-light !default;$/;"	function	line:264
+dropdown-caret-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$dropdown-caret-color:           #000 !default;$/;"	function	line:267
+zindex-navbar	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$zindex-navbar:            1000 !default;$/;"	function	line:277
+zindex-dropdown	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$zindex-dropdown:          1000 !default;$/;"	function	line:278
+zindex-popover	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$zindex-popover:           1060 !default;$/;"	function	line:279
+zindex-tooltip	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$zindex-tooltip:           1070 !default;$/;"	function	line:280
+zindex-navbar-fixed	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$zindex-navbar-fixed:      1030 !default;$/;"	function	line:281
+zindex-modal-background	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$zindex-modal-background:  1040 !default;$/;"	function	line:282
+zindex-modal	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$zindex-modal:             1050 !default;$/;"	function	line:283
+screen-xs	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$screen-xs:                  480px !default;$/;"	function	line:292
+screen-xs-min	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$screen-xs-min:              $screen-xs !default;$/;"	function	line:294
+screen-phone	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$screen-phone:               $screen-xs-min !default;$/;"	function	line:296
+screen-sm	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$screen-sm:                  768px !default;$/;"	function	line:300
+screen-sm-min	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$screen-sm-min:              $screen-sm !default;$/;"	function	line:301
+screen-tablet	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$screen-tablet:              $screen-sm-min !default;$/;"	function	line:303
+screen-md	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$screen-md:                  992px !default;$/;"	function	line:307
+screen-md-min	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$screen-md-min:              $screen-md !default;$/;"	function	line:308
+screen-desktop	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$screen-desktop:             $screen-md-min !default;$/;"	function	line:310
+screen-lg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$screen-lg:                  1200px !default;$/;"	function	line:314
+screen-lg-min	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$screen-lg-min:              $screen-lg !default;$/;"	function	line:315
+screen-lg-desktop	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$screen-lg-desktop:          $screen-lg-min !default;$/;"	function	line:317
+screen-xs-max	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$screen-xs-max:              ($screen-sm-min - 1) !default;$/;"	function	line:320
+screen-sm-max	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$screen-sm-max:              ($screen-md-min - 1) !default;$/;"	function	line:321
+screen-md-max	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$screen-md-max:              ($screen-lg-min - 1) !default;$/;"	function	line:322
+grid-columns	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$grid-columns:              12 !default;$/;"	function	line:330
+grid-gutter-width	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$grid-gutter-width:         30px !default;$/;"	function	line:332
+grid-float-breakpoint	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$grid-float-breakpoint:     $screen-md-min !default;$/;"	function	line:335
+grid-float-breakpoint-max	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$grid-float-breakpoint-max: ($grid-float-breakpoint - 1) !default;$/;"	function	line:337
+container-tablet	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$container-tablet:             (720px + $grid-gutter-width) !default;$/;"	function	line:345
+container-sm	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$container-sm:                 $container-tablet !default;$/;"	function	line:347
+container-desktop	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$container-desktop:            (940px + $grid-gutter-width) !default;$/;"	function	line:350
+container-md	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$container-md:                 $container-desktop !default;$/;"	function	line:352
+container-large-desktop	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$container-large-desktop:      (1140px + $grid-gutter-width) !default;$/;"	function	line:355
+container-lg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$container-lg:                 $container-large-desktop !default;$/;"	function	line:357
+navbar-height	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-height:                    50px !default;$/;"	function	line:365
+navbar-margin-bottom	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-margin-bottom:             $line-height-computed !default;$/;"	function	line:366
+navbar-border-radius	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-border-radius:             $border-radius-base !default;$/;"	function	line:367
+navbar-padding-horizontal	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-padding-horizontal:        floor(($grid-gutter-width \/ 2)) !default;$/;"	function	line:368
+navbar-padding-vertical	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-padding-vertical:          (($navbar-height - $line-height-computed) \/ 2) !default;$/;"	function	line:369
+navbar-collapse-max-height	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-collapse-max-height:       340px !default;$/;"	function	line:370
+navbar-default-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-default-color:             #777 !default;$/;"	function	line:372
+navbar-default-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-default-bg:                #f8f8f8 !default;$/;"	function	line:373
+navbar-default-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;$/;"	function	line:374
+navbar-default-link-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-default-link-color:                #777 !default;$/;"	function	line:377
+navbar-default-link-hover-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-default-link-hover-color:          #333 !default;$/;"	function	line:378
+navbar-default-link-hover-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-default-link-hover-bg:             transparent !default;$/;"	function	line:379
+navbar-default-link-active-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-default-link-active-color:         #555 !default;$/;"	function	line:380
+navbar-default-link-active-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;$/;"	function	line:381
+navbar-default-link-disabled-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-default-link-disabled-color:       #ccc !default;$/;"	function	line:382
+navbar-default-link-disabled-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-default-link-disabled-bg:          transparent !default;$/;"	function	line:383
+navbar-default-brand-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-default-brand-color:               $navbar-default-link-color !default;$/;"	function	line:386
+navbar-default-brand-hover-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-default-brand-hover-color:         darken($navbar-default-brand-color, 10%) !default;$/;"	function	line:387
+navbar-default-brand-hover-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-default-brand-hover-bg:            transparent !default;$/;"	function	line:388
+navbar-default-toggle-hover-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-default-toggle-hover-bg:           #ddd !default;$/;"	function	line:391
+navbar-default-toggle-icon-bar-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-default-toggle-icon-bar-bg:        #888 !default;$/;"	function	line:392
+navbar-default-toggle-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-default-toggle-border-color:       #ddd !default;$/;"	function	line:393
+navbar-inverse-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-inverse-color:                      lighten($gray-light, 15%) !default;$/;"	function	line:398
+navbar-inverse-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-inverse-bg:                         #222 !default;$/;"	function	line:399
+navbar-inverse-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-inverse-border:                     darken($navbar-inverse-bg, 10%) !default;$/;"	function	line:400
+navbar-inverse-link-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-inverse-link-color:                 lighten($gray-light, 15%) !default;$/;"	function	line:403
+navbar-inverse-link-hover-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-inverse-link-hover-color:           #fff !default;$/;"	function	line:404
+navbar-inverse-link-hover-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-inverse-link-hover-bg:              transparent !default;$/;"	function	line:405
+navbar-inverse-link-active-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color !default;$/;"	function	line:406
+navbar-inverse-link-active-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-inverse-link-active-bg:             darken($navbar-inverse-bg, 10%) !default;$/;"	function	line:407
+navbar-inverse-link-disabled-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-inverse-link-disabled-color:        #444 !default;$/;"	function	line:408
+navbar-inverse-link-disabled-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-inverse-link-disabled-bg:           transparent !default;$/;"	function	line:409
+navbar-inverse-brand-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-inverse-brand-color:                $navbar-inverse-link-color !default;$/;"	function	line:412
+navbar-inverse-brand-hover-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-inverse-brand-hover-color:          #fff !default;$/;"	function	line:413
+navbar-inverse-brand-hover-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-inverse-brand-hover-bg:             transparent !default;$/;"	function	line:414
+navbar-inverse-toggle-hover-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-inverse-toggle-hover-bg:            #333 !default;$/;"	function	line:417
+navbar-inverse-toggle-icon-bar-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-inverse-toggle-icon-bar-bg:         #fff !default;$/;"	function	line:418
+navbar-inverse-toggle-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$navbar-inverse-toggle-border-color:        #333 !default;$/;"	function	line:419
+nav-link-padding	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$nav-link-padding:                          10px 15px !default;$/;"	function	line:427
+nav-link-hover-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$nav-link-hover-bg:                         $gray-lighter !default;$/;"	function	line:428
+nav-disabled-link-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$nav-disabled-link-color:                   $gray-light !default;$/;"	function	line:430
+nav-disabled-link-hover-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$nav-disabled-link-hover-color:             $gray-light !default;$/;"	function	line:431
+nav-tabs-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$nav-tabs-border-color:                     #ddd !default;$/;"	function	line:434
+nav-tabs-link-hover-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$nav-tabs-link-hover-border-color:          $gray-lighter !default;$/;"	function	line:436
+nav-tabs-active-link-hover-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$nav-tabs-active-link-hover-bg:             $body-bg !default;$/;"	function	line:438
+nav-tabs-active-link-hover-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$nav-tabs-active-link-hover-color:          $gray !default;$/;"	function	line:439
+nav-tabs-active-link-hover-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$nav-tabs-active-link-hover-border-color:   #ddd !default;$/;"	function	line:440
+nav-tabs-justified-link-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$nav-tabs-justified-link-border-color:            #ddd !default;$/;"	function	line:442
+nav-tabs-justified-active-link-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$nav-tabs-justified-active-link-border-color:     $body-bg !default;$/;"	function	line:443
+nav-pills-border-radius	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$nav-pills-border-radius:                   $border-radius-base !default;$/;"	function	line:446
+nav-pills-active-link-hover-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$nav-pills-active-link-hover-bg:            $component-active-bg !default;$/;"	function	line:447
+nav-pills-active-link-hover-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$nav-pills-active-link-hover-color:         $component-active-color !default;$/;"	function	line:448
+pagination-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pagination-color:                     $link-color !default;$/;"	function	line:455
+pagination-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pagination-bg:                        #fff !default;$/;"	function	line:456
+pagination-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pagination-border:                    #ddd !default;$/;"	function	line:457
+pagination-hover-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pagination-hover-color:               $link-hover-color !default;$/;"	function	line:459
+pagination-hover-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pagination-hover-bg:                  $gray-lighter !default;$/;"	function	line:460
+pagination-hover-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pagination-hover-border:              #ddd !default;$/;"	function	line:461
+pagination-active-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pagination-active-color:              #fff !default;$/;"	function	line:463
+pagination-active-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pagination-active-bg:                 $brand-primary !default;$/;"	function	line:464
+pagination-active-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pagination-active-border:             $brand-primary !default;$/;"	function	line:465
+pagination-disabled-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pagination-disabled-color:            $gray-light !default;$/;"	function	line:467
+pagination-disabled-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pagination-disabled-bg:               #fff !default;$/;"	function	line:468
+pagination-disabled-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pagination-disabled-border:           #ddd !default;$/;"	function	line:469
+pager-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pager-bg:                             $pagination-bg !default;$/;"	function	line:476
+pager-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pager-border:                         $pagination-border !default;$/;"	function	line:477
+pager-border-radius	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pager-border-radius:                  15px !default;$/;"	function	line:478
+pager-hover-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pager-hover-bg:                       $pagination-hover-bg !default;$/;"	function	line:480
+pager-active-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pager-active-bg:                      $pagination-active-bg !default;$/;"	function	line:482
+pager-active-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pager-active-color:                   $pagination-active-color !default;$/;"	function	line:483
+pager-disabled-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pager-disabled-color:                 $pagination-disabled-color !default;$/;"	function	line:485
+jumbotron-padding	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$jumbotron-padding:              30px !default;$/;"	function	line:492
+jumbotron-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$jumbotron-color:                inherit !default;$/;"	function	line:493
+jumbotron-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$jumbotron-bg:                   $gray-lighter !default;$/;"	function	line:494
+jumbotron-heading-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$jumbotron-heading-color:        inherit !default;$/;"	function	line:495
+jumbotron-font-size	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;$/;"	function	line:496
+state-success-text	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$state-success-text:             #3c763d !default;$/;"	function	line:503
+state-success-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$state-success-bg:               #dff0d8 !default;$/;"	function	line:504
+state-success-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$state-success-border:           darken(adjust-hue($state-success-bg, -10), 5%) !default;$/;"	function	line:505
+state-info-text	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$state-info-text:                #31708f !default;$/;"	function	line:507
+state-info-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$state-info-bg:                  #d9edf7 !default;$/;"	function	line:508
+state-info-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$state-info-border:              darken(adjust-hue($state-info-bg, -10), 7%) !default;$/;"	function	line:509
+state-warning-text	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$state-warning-text:             #8a6d3b !default;$/;"	function	line:511
+state-warning-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$state-warning-bg:               #fcf8e3 !default;$/;"	function	line:512
+state-warning-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$state-warning-border:           darken(adjust-hue($state-warning-bg, -10), 5%) !default;$/;"	function	line:513
+state-danger-text	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$state-danger-text:              #a94442 !default;$/;"	function	line:515
+state-danger-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$state-danger-bg:                #f2dede !default;$/;"	function	line:516
+state-danger-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$state-danger-border:            darken(adjust-hue($state-danger-bg, -10), 5%) !default;$/;"	function	line:517
+tooltip-max-width	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$tooltip-max-width:           200px !default;$/;"	function	line:525
+tooltip-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$tooltip-color:               #fff !default;$/;"	function	line:527
+tooltip-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$tooltip-bg:                  #000 !default;$/;"	function	line:529
+tooltip-opacity	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$tooltip-opacity:             .9 !default;$/;"	function	line:530
+tooltip-arrow-width	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$tooltip-arrow-width:         5px !default;$/;"	function	line:533
+tooltip-arrow-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$tooltip-arrow-color:         $tooltip-bg !default;$/;"	function	line:535
+popover-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$popover-bg:                          #fff !default;$/;"	function	line:543
+popover-max-width	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$popover-max-width:                   276px !default;$/;"	function	line:545
+popover-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$popover-border-color:                rgba(0,0,0,.2) !default;$/;"	function	line:547
+popover-fallback-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$popover-fallback-border-color:       #ccc !default;$/;"	function	line:549
+popover-title-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$popover-title-bg:                    darken($popover-bg, 3%) !default;$/;"	function	line:552
+popover-arrow-width	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$popover-arrow-width:                 10px !default;$/;"	function	line:555
+popover-arrow-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$popover-arrow-color:                 $popover-bg !default;$/;"	function	line:557
+popover-arrow-outer-width	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$popover-arrow-outer-width:           ($popover-arrow-width + 1) !default;$/;"	function	line:560
+popover-arrow-outer-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$popover-arrow-outer-color:           fade_in($popover-border-color, 0.05) !default;$/;"	function	line:562
+popover-arrow-outer-fallback-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$popover-arrow-outer-fallback-color:  darken($popover-fallback-border-color, 20%) !default;$/;"	function	line:564
+label-default-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$label-default-bg:            $gray-light !default;$/;"	function	line:572
+label-primary-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$label-primary-bg:            $brand-primary !default;$/;"	function	line:574
+label-success-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$label-success-bg:            $brand-success !default;$/;"	function	line:576
+label-info-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$label-info-bg:               $brand-info !default;$/;"	function	line:578
+label-warning-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$label-warning-bg:            $brand-warning !default;$/;"	function	line:580
+label-danger-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$label-danger-bg:             $brand-danger !default;$/;"	function	line:582
+label-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$label-color:                 #fff !default;$/;"	function	line:585
+label-link-hover-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$label-link-hover-color:      #fff !default;$/;"	function	line:587
+modal-inner-padding	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$modal-inner-padding:         15px !default;$/;"	function	line:595
+modal-title-padding	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$modal-title-padding:         15px !default;$/;"	function	line:598
+modal-title-line-height	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$modal-title-line-height:     $line-height-base !default;$/;"	function	line:600
+modal-content-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$modal-content-bg:                             #fff !default;$/;"	function	line:603
+modal-content-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$modal-content-border-color:                   rgba(0,0,0,.2) !default;$/;"	function	line:605
+modal-content-fallback-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$modal-content-fallback-border-color:          #999 !default;$/;"	function	line:607
+modal-backdrop-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$modal-backdrop-bg:           #000 !default;$/;"	function	line:610
+modal-backdrop-opacity	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$modal-backdrop-opacity:      .5 !default;$/;"	function	line:612
+modal-header-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$modal-header-border-color:   #e5e5e5 !default;$/;"	function	line:614
+modal-footer-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$modal-footer-border-color:   $modal-header-border-color !default;$/;"	function	line:616
+modal-lg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$modal-lg:                    900px !default;$/;"	function	line:618
+modal-md	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$modal-md:                    600px !default;$/;"	function	line:619
+modal-sm	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$modal-sm:                    300px !default;$/;"	function	line:620
+alert-padding	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$alert-padding:               15px !default;$/;"	function	line:627
+alert-border-radius	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$alert-border-radius:         $border-radius-base !default;$/;"	function	line:628
+alert-link-font-weight	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$alert-link-font-weight:      bold !default;$/;"	function	line:629
+alert-success-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$alert-success-bg:            $state-success-bg !default;$/;"	function	line:631
+alert-success-text	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$alert-success-text:          $state-success-text !default;$/;"	function	line:632
+alert-success-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$alert-success-border:        $state-success-border !default;$/;"	function	line:633
+alert-info-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$alert-info-bg:               $state-info-bg !default;$/;"	function	line:635
+alert-info-text	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$alert-info-text:             $state-info-text !default;$/;"	function	line:636
+alert-info-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$alert-info-border:           $state-info-border !default;$/;"	function	line:637
+alert-warning-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$alert-warning-bg:            $state-warning-bg !default;$/;"	function	line:639
+alert-warning-text	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$alert-warning-text:          $state-warning-text !default;$/;"	function	line:640
+alert-warning-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$alert-warning-border:        $state-warning-border !default;$/;"	function	line:641
+alert-danger-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$alert-danger-bg:             $state-danger-bg !default;$/;"	function	line:643
+alert-danger-text	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$alert-danger-text:           $state-danger-text !default;$/;"	function	line:644
+alert-danger-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$alert-danger-border:         $state-danger-border !default;$/;"	function	line:645
+progress-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$progress-bg:                 #f5f5f5 !default;$/;"	function	line:653
+progress-bar-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$progress-bar-color:          #fff !default;$/;"	function	line:655
+progress-border-radius	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$progress-border-radius:      $border-radius-base !default;$/;"	function	line:657
+progress-bar-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$progress-bar-bg:             $brand-primary !default;$/;"	function	line:660
+progress-bar-success-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$progress-bar-success-bg:     $brand-success !default;$/;"	function	line:662
+progress-bar-warning-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$progress-bar-warning-bg:     $brand-warning !default;$/;"	function	line:664
+progress-bar-danger-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$progress-bar-danger-bg:      $brand-danger !default;$/;"	function	line:666
+progress-bar-info-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$progress-bar-info-bg:        $brand-info !default;$/;"	function	line:668
+list-group-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$list-group-bg:                 #fff !default;$/;"	function	line:676
+list-group-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$list-group-border:             #ddd !default;$/;"	function	line:678
+list-group-border-radius	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$list-group-border-radius:      $border-radius-base !default;$/;"	function	line:680
+list-group-hover-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$list-group-hover-bg:           #f5f5f5 !default;$/;"	function	line:683
+list-group-active-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$list-group-active-color:       $component-active-color !default;$/;"	function	line:685
+list-group-active-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$list-group-active-bg:          $component-active-bg !default;$/;"	function	line:687
+list-group-active-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$list-group-active-border:      $list-group-active-bg !default;$/;"	function	line:689
+list-group-active-text-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$list-group-active-text-color:  lighten($list-group-active-bg, 40%) !default;$/;"	function	line:691
+list-group-disabled-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$list-group-disabled-color:      $gray-light !default;$/;"	function	line:694
+list-group-disabled-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$list-group-disabled-bg:         $gray-lighter !default;$/;"	function	line:696
+list-group-disabled-text-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$list-group-disabled-text-color: $list-group-disabled-color !default;$/;"	function	line:698
+list-group-link-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$list-group-link-color:         #555 !default;$/;"	function	line:700
+list-group-link-hover-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$list-group-link-hover-color:   $list-group-link-color !default;$/;"	function	line:701
+list-group-link-heading-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$list-group-link-heading-color: #333 !default;$/;"	function	line:702
+panel-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-bg:                    #fff !default;$/;"	function	line:709
+panel-body-padding	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-body-padding:          15px !default;$/;"	function	line:710
+panel-heading-padding	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-heading-padding:       10px 15px !default;$/;"	function	line:711
+panel-footer-padding	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-footer-padding:        $panel-heading-padding !default;$/;"	function	line:712
+panel-border-radius	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-border-radius:         $border-radius-base !default;$/;"	function	line:713
+panel-inner-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-inner-border:          #ddd !default;$/;"	function	line:716
+panel-footer-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-footer-bg:             #f5f5f5 !default;$/;"	function	line:717
+panel-default-text	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-default-text:          $gray-dark !default;$/;"	function	line:719
+panel-default-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-default-border:        #ddd !default;$/;"	function	line:720
+panel-default-heading-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-default-heading-bg:    #f5f5f5 !default;$/;"	function	line:721
+panel-primary-text	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-primary-text:          #fff !default;$/;"	function	line:723
+panel-primary-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-primary-border:        $brand-primary !default;$/;"	function	line:724
+panel-primary-heading-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-primary-heading-bg:    $brand-primary !default;$/;"	function	line:725
+panel-success-text	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-success-text:          $state-success-text !default;$/;"	function	line:727
+panel-success-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-success-border:        $state-success-border !default;$/;"	function	line:728
+panel-success-heading-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-success-heading-bg:    $state-success-bg !default;$/;"	function	line:729
+panel-info-text	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-info-text:             $state-info-text !default;$/;"	function	line:731
+panel-info-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-info-border:           $state-info-border !default;$/;"	function	line:732
+panel-info-heading-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-info-heading-bg:       $state-info-bg !default;$/;"	function	line:733
+panel-warning-text	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-warning-text:          $state-warning-text !default;$/;"	function	line:735
+panel-warning-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-warning-border:        $state-warning-border !default;$/;"	function	line:736
+panel-warning-heading-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-warning-heading-bg:    $state-warning-bg !default;$/;"	function	line:737
+panel-danger-text	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-danger-text:           $state-danger-text !default;$/;"	function	line:739
+panel-danger-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-danger-border:         $state-danger-border !default;$/;"	function	line:740
+panel-danger-heading-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$panel-danger-heading-bg:     $state-danger-bg !default;$/;"	function	line:741
+thumbnail-padding	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$thumbnail-padding:           4px !default;$/;"	function	line:749
+thumbnail-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$thumbnail-bg:                $body-bg !default;$/;"	function	line:751
+thumbnail-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$thumbnail-border:            #ddd !default;$/;"	function	line:753
+thumbnail-border-radius	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$thumbnail-border-radius:     $border-radius-base !default;$/;"	function	line:755
+thumbnail-caption-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$thumbnail-caption-color:     $text-color !default;$/;"	function	line:758
+thumbnail-caption-padding	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$thumbnail-caption-padding:   9px !default;$/;"	function	line:760
+well-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$well-bg:                     #f5f5f5 !default;$/;"	function	line:767
+well-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$well-border:                 darken($well-bg, 7%) !default;$/;"	function	line:768
+badge-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$badge-color:                 #fff !default;$/;"	function	line:775
+badge-link-hover-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$badge-link-hover-color:      #fff !default;$/;"	function	line:777
+badge-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$badge-bg:                    $gray-light !default;$/;"	function	line:778
+badge-active-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$badge-active-color:          $link-color !default;$/;"	function	line:781
+badge-active-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$badge-active-bg:             #fff !default;$/;"	function	line:783
+badge-font-weight	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$badge-font-weight:           bold !default;$/;"	function	line:785
+badge-line-height	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$badge-line-height:           1 !default;$/;"	function	line:786
+badge-border-radius	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$badge-border-radius:         10px !default;$/;"	function	line:787
+breadcrumb-padding-vertical	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$breadcrumb-padding-vertical:   8px !default;$/;"	function	line:794
+breadcrumb-padding-horizontal	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$breadcrumb-padding-horizontal: 15px !default;$/;"	function	line:795
+breadcrumb-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$breadcrumb-bg:                 #f5f5f5 !default;$/;"	function	line:797
+breadcrumb-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$breadcrumb-color:              #ccc !default;$/;"	function	line:799
+breadcrumb-active-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$breadcrumb-active-color:       $gray-light !default;$/;"	function	line:801
+breadcrumb-separator	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$breadcrumb-separator:          "\/" !default;$/;"	function	line:803
+carousel-text-shadow	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$carousel-text-shadow:                        0 1px 2px rgba(0,0,0,.6) !default;$/;"	function	line:810
+carousel-control-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$carousel-control-color:                      #fff !default;$/;"	function	line:812
+carousel-control-width	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$carousel-control-width:                      15% !default;$/;"	function	line:813
+carousel-control-opacity	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$carousel-control-opacity:                    .5 !default;$/;"	function	line:814
+carousel-control-font-size	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$carousel-control-font-size:                  20px !default;$/;"	function	line:815
+carousel-indicator-active-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$carousel-indicator-active-bg:                #fff !default;$/;"	function	line:817
+carousel-indicator-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$carousel-indicator-border-color:             #fff !default;$/;"	function	line:818
+carousel-caption-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$carousel-caption-color:                      #fff !default;$/;"	function	line:820
+close-font-weight	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$close-font-weight:           bold !default;$/;"	function	line:827
+close-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$close-color:                 #000 !default;$/;"	function	line:828
+close-text-shadow	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$close-text-shadow:           0 1px 0 #fff !default;$/;"	function	line:829
+code-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$code-color:                  #c7254e !default;$/;"	function	line:836
+code-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$code-bg:                     #f9f2f4 !default;$/;"	function	line:837
+kbd-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$kbd-color:                   #fff !default;$/;"	function	line:839
+kbd-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$kbd-bg:                      #333 !default;$/;"	function	line:840
+pre-bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pre-bg:                      #f5f5f5 !default;$/;"	function	line:842
+pre-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pre-color:                   $gray-dark !default;$/;"	function	line:843
+pre-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pre-border-color:            #ccc !default;$/;"	function	line:844
+pre-scrollable-max-height	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$pre-scrollable-max-height:   340px !default;$/;"	function	line:845
+component-offset-horizontal	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$component-offset-horizontal: 180px !default;$/;"	function	line:853
+text-muted	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$text-muted:                  $gray-light !default;$/;"	function	line:855
+abbr-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$abbr-border-color:           $gray-light !default;$/;"	function	line:857
+headings-small-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$headings-small-color:        $gray-light !default;$/;"	function	line:859
+blockquote-small-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$blockquote-small-color:      $gray-light !default;$/;"	function	line:861
+blockquote-font-size	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$blockquote-font-size:        ($font-size-base * 1.25) !default;$/;"	function	line:863
+blockquote-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$blockquote-border-color:     $gray-lighter !default;$/;"	function	line:865
+page-header-border-color	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$page-header-border-color:    $gray-lighter !default;$/;"	function	line:867
+dl-horizontal-offset	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$dl-horizontal-offset:        $component-offset-horizontal !default;$/;"	function	line:869
+hr-border	/Volumes/HDD/Users/Radian/Websites/HCI/sass/vendor/bootstrap/_variables.scss	/^$hr-border:                   $gray-lighter !default;$/;"	function	line:871
+.temp	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.temp{$/;"	function	line:2
+.center-img	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.center-img {$/;"	function	line:5
+.img	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.img {$/;"	function	line:9
+.eleNav , .navbar-nav>li>a , .navbar-nav>li	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.eleNav , .navbar-nav>li>a , .navbar-nav>li {$/;"	function	line:12
+.section	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.section {$/;"	function	line:16
+@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (min-width: 768px) {$/;"	function	line:17
+@media (max-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (max-width: 768px) {$/;"	function	line:20
+h2 , .sub-title	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  h2 , .sub-title {$/;"	function	line:26
+.sub-title	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .sub-title {$/;"	function	line:34
+.sub-title	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .sub-title {$/;"	function	line:37
+.des	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .des {$/;"	function	line:42
+h3 , .block-title	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  h3 , .block-title {$/;"	function	line:47
+.lightFont	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.lightFont {$/;"	function	line:60
+*	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  * {$/;"	function	line:62
+.darkFont	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.darkFont {$/;"	function	line:66
+.navbar-nav a	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.navbar-nav a {$/;"	function	line:72
+@media (min-width: $screen-md-min)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^@media (min-width: $screen-md-min) {$/;"	function	line:76
+.navbar .navbar-nav	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar .navbar-nav {$/;"	function	line:77
+.navbar-default	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar-default {$/;"	function	line:82
+.navbar-nav	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar-nav{$/;"	function	line:87
+.navbar .navbar-collapse	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar .navbar-collapse {$/;"	function	line:90
+.divider-vertical	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .divider-vertical {$/;"	function	line:94
+#banner	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#banner {$/;"	function	line:102
+// &::before	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  \/\/ &::before {$/;"	function	line:107
+.img	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .img {$/;"	function	line:115
+.slogan	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .slogan {$/;"	function	line:118
+.time	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .time {$/;"	function	line:125
+.date	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    .date {$/;"	function	line:131
+.author	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .author{$/;"	function	line:136
+// .feather	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^\/\/ .feather {$/;"	function	line:148
+//   &::before	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^\/\/   &::before {$/;"	function	line:153
+b	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^b {$/;"	function	line:159
+.bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.bg{$/;"	function	line:162
+.copyright	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.copyright {$/;"	function	line:167
+@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (min-width: 768px) {$/;"	function	line:168
+#haunting	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#haunting{$/;"	function	line:173
+@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (min-width: 768px) {$/;"	function	line:179
+@media (max-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (max-width: 768px) {$/;"	function	line:182
+#intro	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#intro {$/;"	function	line:188
+@media (max-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (max-width: 768px) {$/;"	function	line:193
+#about	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#about{$/;"	function	line:200
+*	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  * {$/;"	function	line:202
+.group	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .group {$/;"	function	line:206
+&:first-child	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    &:first-child{$/;"	function	line:209
+h3	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    h3 {$/;"	function	line:213
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    dd {$/;"	function	line:222
+@media (max-width: $screen-xs-min)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^      @media (max-width: $screen-xs-min) {$/;"	function	line:228
+@media (max-width: $screen-sm-min)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^      @media (max-width: $screen-sm-min) {$/;"	function	line:231
+&:after	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^      &:after {$/;"	function	line:236
+// br	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^      \/\/ br {$/;"	function	line:241
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    dt {$/;"	function	line:246
+#program	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#program {$/;"	function	line:256
+*	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  * {$/;"	function	line:258
+.comming_head	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .comming_head {$/;"	function	line:261
+h3	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  h3 {$/;"	function	line:264
+.table	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .table {$/;"	function	line:268
+td	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    td {$/;"	function	line:269
+& *	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    & * {$/;"	function	line:274
+td:first-child	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    td:first-child{$/;"	function	line:277
+span::after	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^      span::after {$/;"	function	line:278
+td:nth-child(2)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    td:nth-child(2){$/;"	function	line:287
+#registration	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#registration {$/;"	function	line:296
+@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (min-width: 768px) {$/;"	function	line:297
+*	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  * {$/;"	function	line:301
+#registrationLink	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  #registrationLink {$/;"	function	line:305
+// .feather	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    \/\/ .feather {$/;"	function	line:308
+// &:hover	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    \/\/ &:hover {$/;"	function	line:315
+//   .feather	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    \/\/   .feather {$/;"	function	line:316
+h3	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  h3 {$/;"	function	line:327
+p	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  p {$/;"	function	line:332
+li	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  li {$/;"	function	line:336
+#sponsor	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#sponsor{$/;"	function	line:341
+*	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  * {$/;"	function	line:343
+footer.section	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^footer.section{$/;"	function	line:348
+*	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  * {$/;"	function	line:350
+.chinese	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .chinese {$/;"	function	line:353
+@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (min-width: 768px) {$/;"	function	line:360

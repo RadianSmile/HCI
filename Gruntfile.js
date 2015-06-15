@@ -139,5 +139,5 @@ module.exports = function(grunt) {
 
 	grunt.registerTask('default',['concurrent:task1']);
 	grunt.registerTask('production',['coffee:app','compass:dev','cssmin','uglify:app']);
-
+	grunt.registerTask('css',['compass:dev','cssmin']);
 }

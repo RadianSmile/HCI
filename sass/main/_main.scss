@@ -100,7 +100,7 @@
 }
 
 #banner {
-  background-image: url("../img/banner.png");
+  background-image: url("../img/banner.jpg");
   background-size: cover;
   padding-top: 9% ;
   padding-bottom: 18% ;
@@ -172,8 +172,8 @@ b {
 
 #haunting{
   background:$darkGray;
-  background-image: url("../img/feathers.png");
-  background-size: 70%;
+  background-image: url("../img/feathers.jpg");
+  background-size: 950px;
   // background-position: 0 100px ; controlled by SM
   background-repeat: no-repeat;
   @media (min-width: 768px) {
@@ -187,12 +187,12 @@ b {
 
 #intro {
   background-color: $lightGray ;
-  background-image: url("../img/bigFeather.png");
+  background-image: url("../img/bigFeather.jpg");
   background-size: cover ;
   background-position: center;
   @media (max-width: 768px) {
 
-    background-image: url("../img/phone/phone_page3.png");
+    background-image: url("../img/phone/phone_page3.jpg");
     background-position:center;
   }
 }
@@ -227,6 +227,9 @@ b {
       max-width: 17em ;
       @media (max-width: $screen-xs-min) {
         max-width: 14em ;
+      }
+      @media (max-width: $screen-sm-min) {
+        max-width: 15em ;
       }
 
       margin-bottom: 1.1em ;
@@ -296,9 +299,30 @@ b {
   }
   background-color:$lightGray ;
   * {
-    color : $darkFontColor ;
+    color : $darkFontColor  ;
     letter-spacing: 1px;
   }
+  #registrationLink {
+    color : $lightFontColor ;
+    position: relative;
+    // .feather {
+    //   position: absolute;
+    //   right: -80px;
+    //
+    //   width: 80px;
+    // }
+    //
+    // &:hover {
+    //   .feather {
+    //     @include transform(rotate(-135deg));
+    //     position: absolute;
+    //     right: -80px;
+    //
+    //     width: 80px;
+    //   }
+    // }
+  }
+
 
   h3 {
     margin-top: 3em ;

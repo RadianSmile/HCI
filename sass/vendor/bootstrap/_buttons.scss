@@ -79,6 +79,9 @@
 .btn-danger {
   @include button-variant($btn-danger-color, $btn-danger-bg, $btn-danger-border);
 }
+.btn-dark {
+  @include button-variant($btn-dark-color, $btn-dark-bg , $btn-dark-border);
+}
 
 
 // Link buttons
