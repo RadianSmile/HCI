@@ -4,80 +4,345 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-.temp	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.temp{$/;"	function	line:2
-.center-img	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.center-img {$/;"	function	line:5
-.img	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.img {$/;"	function	line:9
-.eleNav , .navbar-nav>li>a , .navbar-nav>li	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.eleNav , .navbar-nav>li>a , .navbar-nav>li {$/;"	function	line:12
-.section	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.section {$/;"	function	line:16
-@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (min-width: 768px) {$/;"	function	line:17
-@media (max-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (max-width: 768px) {$/;"	function	line:20
-h2 , .sub-title	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  h2 , .sub-title {$/;"	function	line:26
-.sub-title	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .sub-title {$/;"	function	line:34
-.sub-title	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .sub-title {$/;"	function	line:37
-.des	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .des {$/;"	function	line:42
-h3 , .block-title	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  h3 , .block-title {$/;"	function	line:47
-.lightFont	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.lightFont {$/;"	function	line:60
-*	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  * {$/;"	function	line:62
-.darkFont	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.darkFont {$/;"	function	line:66
-.navbar-nav a	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.navbar-nav a {$/;"	function	line:72
-@media (min-width: $screen-md-min)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^@media (min-width: $screen-md-min) {$/;"	function	line:76
-.navbar .navbar-nav	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar .navbar-nav {$/;"	function	line:77
-.navbar-default	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar-default {$/;"	function	line:82
-.navbar-nav	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar-nav{$/;"	function	line:87
-.navbar .navbar-collapse	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .navbar .navbar-collapse {$/;"	function	line:90
-.divider-vertical	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .divider-vertical {$/;"	function	line:94
-#banner	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#banner {$/;"	function	line:102
-// &::before	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  \/\/ &::before {$/;"	function	line:107
-.img	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .img {$/;"	function	line:115
-.slogan	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .slogan {$/;"	function	line:118
-.time	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .time {$/;"	function	line:125
-.date	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    .date {$/;"	function	line:131
-.author	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .author{$/;"	function	line:136
-// .feather	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^\/\/ .feather {$/;"	function	line:148
-//   &::before	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^\/\/   &::before {$/;"	function	line:153
-b	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^b {$/;"	function	line:159
-.bg	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.bg{$/;"	function	line:162
-.copyright	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^.copyright {$/;"	function	line:167
-@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (min-width: 768px) {$/;"	function	line:168
-#haunting	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#haunting{$/;"	function	line:173
-@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (min-width: 768px) {$/;"	function	line:179
-@media (max-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (max-width: 768px) {$/;"	function	line:182
-#intro	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#intro {$/;"	function	line:188
-@media (max-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (max-width: 768px) {$/;"	function	line:193
-#about	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#about{$/;"	function	line:200
-*	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  * {$/;"	function	line:202
-.group	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .group {$/;"	function	line:206
-&:first-child	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    &:first-child{$/;"	function	line:209
-h3	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    h3 {$/;"	function	line:213
-dd	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    dd {$/;"	function	line:222
-@media (max-width: $screen-xs-min)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^      @media (max-width: $screen-xs-min) {$/;"	function	line:228
-@media (max-width: $screen-sm-min)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^      @media (max-width: $screen-sm-min) {$/;"	function	line:231
-&:after	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^      &:after {$/;"	function	line:236
-// br	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^      \/\/ br {$/;"	function	line:241
-dt	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    dt {$/;"	function	line:246
-#program	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#program {$/;"	function	line:256
-*	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  * {$/;"	function	line:258
-.comming_head	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .comming_head {$/;"	function	line:261
-h3	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  h3 {$/;"	function	line:264
-.table	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .table {$/;"	function	line:268
-td	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    td {$/;"	function	line:269
-& *	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    & * {$/;"	function	line:274
-td:first-child	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    td:first-child{$/;"	function	line:277
-span::after	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^      span::after {$/;"	function	line:278
-td:nth-child(2)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    td:nth-child(2){$/;"	function	line:287
-#registration	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#registration {$/;"	function	line:296
-@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (min-width: 768px) {$/;"	function	line:297
-*	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  * {$/;"	function	line:301
-#registrationLink	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  #registrationLink {$/;"	function	line:305
-// .feather	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    \/\/ .feather {$/;"	function	line:308
-// &:hover	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    \/\/ &:hover {$/;"	function	line:315
-//   .feather	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^    \/\/   .feather {$/;"	function	line:316
-h3	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  h3 {$/;"	function	line:327
-p	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  p {$/;"	function	line:332
-li	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  li {$/;"	function	line:336
-#sponsor	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^#sponsor{$/;"	function	line:341
-*	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  * {$/;"	function	line:343
-footer.section	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^footer.section{$/;"	function	line:348
-*	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  * {$/;"	function	line:350
-.chinese	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  .chinese {$/;"	function	line:353
-@media (min-width: 768px)	/Volumes/HDD/Users/Radian/Websites/HCI/sass/main/_main.scss	/^  @media (min-width: 768px) {$/;"	function	line:360
+html	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^<html xmlns="http:\/\/www.w3.org\/1999\/xhtml" xmlns:fb="http:\/\/ogp.me\/ns\/fb#">$/;"	function	line:2
+head	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^<head>$/;"	function	line:4
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta charset="utf-8" \/>$/;"	function	line:5
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta http-equiv="X-UA-Compatible" content="IE=edge" \/>$/;"	function	line:6
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">$/;"	function	line:7
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta property="og:site_name" content="喚體 | OpenHCI 2015" \/>$/;"	function	line:9
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="og:title" property="og:title" content="喚體 | OpenHCI 2015" \/>$/;"	function	line:10
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="og:description" property="og:description" content="「世間萬物，都將藉由科技產生具有智能的靈魂。」 今年，我們將藉由科技，喚醒物件的靈魂，透過科技的使用與行為，形成新的脈絡，重組人與機器之間的互動。在六天的營期間，來自不同領域的學員會經歷一系列講座與課後實作演練，深入完整 HCI 設計流程，透過合作溝通以實踐構想，將無盡的創意展現給世界！(OpenHCI 是由學生自治籌備的人機互動工作坊，旨在推廣人機互動學門與跨領域合作。)" \/>$/;"	function	line:11
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="og:image" property="og:image" content="http:\/\/www.openhci.com\/2015\/img\/spread.jpg" \/>$/;"	function	line:12
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="og:image:type" property="og:image:type" content="image\/jpeg" \/>$/;"	function	line:13
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="og:image:width" property="og:image:width" content="1200" \/>$/;"	function	line:14
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="og:image:height" property="og:image:height" content="675" \/>$/;"	function	line:15
+meta	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <meta name="og:url" property="og:url" content="http:\/\/www.openhci.com\/" \/>$/;"	function	line:16
+link	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <link rel="icon" href="img\/logo.png" type="image\/jpeg" sizes="16x16">$/;"	function	line:17
+title	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <title>喚體 | OpenHCI 2015<\/title>$/;"	function	line:18
+link	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <link rel="stylesheet" href="\/2015\/css\/app.min.css" \/>$/;"	function	line:20
+link	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <link href='http:\/\/fonts.googleapis.com\/css?family=Lato' rel='stylesheet' type='text\/css' \/>$/;"	function	line:21
+script	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <script src="\/2015\/js\/app.min.js"><\/script>$/;"	function	line:23
+body	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^<body role="document">$/;"	function	line:26
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^  <div class="container">$/;"	function	line:28
+header	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <header class="row">$/;"	function	line:29
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="col-md-12">$/;"	function	line:30
+nav	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <nav class="navbar navbar-default navbar-fixed-top">$/;"	function	line:31
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="container">$/;"	function	line:32
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div class="navbar-header">$/;"	function	line:33
+button	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">$/;"	function	line:34
+span	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <span class="sr-only">Toggle navigation<\/span>$/;"	function	line:35
+span	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <span class="icon-bar"><\/span>$/;"	function	line:36
+span	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <span class="icon-bar"><\/span>$/;"	function	line:37
+span	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <span class="icon-bar"><\/span>$/;"	function	line:38
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div id="navbar" class="navbar-collapse collapse">$/;"	function	line:43
+ul	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <ul class="nav navbar-nav">$/;"	function	line:44
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <li class="dropdown">$/;"	function	line:45
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#banner" data-toggle="collapse" data-target="#navbar.in">HOME<\/a><\/li>$/;"	function	line:47
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:48
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#haunting" data-toggle="collapse" data-target="#navbar.in">OPEN HCI 2015<\/a><\/li>$/;"	function	line:51
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:52
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#intro" data-toggle="collapse" data-target="#navbar.in">INTRO & GOALS<\/a><\/li>$/;"	function	line:53
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:54
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" data-toggle="collapse" data-target="#navbar.in" href="#program"style="">PROGRAM<\/a><\/li>$/;"	function	line:55
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:56
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#registration" data-toggle="collapse" data-target="#navbar.in">REGISTRATION<\/a><\/li>$/;"	function	line:57
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:58
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#about" data-toggle="collapse" data-target="#navbar.in">CREW<\/a><\/li>$/;"	function	line:59
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li class="divider-vertical"><\/li>$/;"	function	line:60
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li><a class="eleNav" href="#footer" data-toggle="collapse" data-target="#navbar.in">CONTACT<\/a><\/li>$/;"	function	line:61
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <div id="banner" class="section">$/;"	function	line:68
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:69
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:70
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-5 col-md-offset-1  col-xs-12 col-sm-6 ">$/;"	function	line:71
+img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img id="spiring" src="\/2015\/img\/haunting_motion.png" alt="喚體" class="img">$/;"	function	line:72
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:75
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-6 col-md-offset-1">$/;"	function	line:76
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3 id="slogan" class="slogan">「世間萬物，都將藉由科技產生具有智能的靈魂。」<\/h3>$/;"	function	line:77
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="row">$/;"	function	line:80
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-6 col-md-offset-1">$/;"	function	line:81
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p id="time" class="time">OPEN HCI<br>2015<br><sapn class="date">7\/14-7\/19<\/span>$/;"	function	line:82
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p id="author" class="author">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPUTER INTERACTION<\/p>$/;"	function	line:83
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:91
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:92
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-5 col-sm-6 col-md-offset-1">$/;"	function	line:93
+img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="img\/PAGE 2 WORD.png" alt="" class="img" >$/;"	function	line:94
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-5 col-sm-6">$/;"	function	line:96
+img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="img\/PAGE 2 WORD 02.png" alt="喚體文字" class="img">$/;"	function	line:98
+section	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <section id="haunting" class="section lightFont">$/;"	function	line:104
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:105
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:106
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div  class="col-md-5 col-sm-6 col-md-offset-1 ">$/;"	function	line:107
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div id="SM_haunting-leftBlock">$/;"	function	line:108
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h2 class="title">OPEN HCI 2015<\/h2>$/;"	function	line:109
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="sub-title">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPUTER INTERACTION<\/p>$/;"	function	line:110
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-5 col-sm-6" id="SM_haunting-rightBlock">$/;"	function	line:113
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3 class="block-title">喚體 Haunting Artifact<\/h3>$/;"	function	line:114
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p class="des">$/;"	function	line:115
+br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:118
+br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:120
+br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:122
+br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:127
+br	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <br>$/;"	function	line:129
+b	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <b>OpenHCI 2015 總召集人 <br>$/;"	function	line:130
+section	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <section id="intro" class="section">$/;"	function	line:138
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:139
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div>$/;"	function	line:141
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div  class="feather col-md-6 " >$/;"	function	line:142
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:146
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-5 col-sm-6 col-md-offset-1">$/;"	function	line:148
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div id="SM_goals-leftBlock">$/;"	function	line:149
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h2 class="darkFont">INTRO & GOALS<\/h2>$/;"	function	line:150
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="sub-title">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPUTER INTERACTION<\/p>$/;"	function	line:151
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class=" col-md-5 col-sm-6">$/;"	function	line:155
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div id="SM_goals-rightBlock">$/;"	function	line:157
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h3 class="block-title">What is HCI<\/h3>$/;"	function	line:158
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="des">HCI —人機互動— 是近年相當活躍的資訊學門之一。HCI 的中心思想是以人為本，透過科技開創人與人之間的互動，可能是解決與提供新的使用經驗，亦可能是探索與創造新的意義，研究的著眼點不但訴求技術創新，更需要擁有跳脫舊框架的創意，以及對使用者行為的瞭解。因此，HCI 整合了資訊、設計、心理、以及其他領域專業知識，透過跨領域合作與溝通創造嶄新的研究成果。<\/p>$/;"	function	line:159
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h3 class="block-title">History of OpenHCI<\/h3>$/;"	function	line:160
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="des">為了推廣 HCI 學門、培養新生人才、以及發掘潛在研究議題，臺大資訊學群、臺科大設計學群、以及政大數位內容學位學程的十餘位碩博士生，共同舉辦了 OpenHCI 工作坊。OpenHCI 的活動理念為「學以致用、從做中學」。在將近一週的營期中，我們邀請到各界知名講師，針對 HCI 的兩大核心概念： User Experience Engineering (UXE) 以及 User-Centered Design (UCD) ，從不同面向與主題傳授經驗，培養學員基礎知識；課後更有一系列相對應的分組思考與實作活動，引導學員經歷完整的 HCI 設計流程，針對當屆主題完成互動原型作品，並培養跨領域合作與溝通能力。各組的構想與互動原型將於工作坊最後一天以互動展覽方式展出，藉此促成學員與各界人士間的意見交流。作品記錄會在活動後收錄進成果書 (Proceedings of OpenHCI ’15) 中，於活動網站公開下載。 OpenHCI 也將作為橋梁，提供管道協助參與者將作品進一步發展為學術論文或是競賽作品，讓創意繼續延伸發展。<\/p>$/;"	function	line:161
+section	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <section id="program" class="section">$/;"	function	line:168
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:169
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:170
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div  class="col-md-10 col-md-offset-1 ">$/;"	function	line:171
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div>$/;"	function	line:172
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h2 class="title">OPEN HCI 2015 PROGRAM<\/h2>$/;"	function	line:173
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="sub-title">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPUTER INTERACTION<\/p>$/;"	function	line:174
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-10 col-md-offset-1">$/;"	function	line:177
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>2015\/7\/14(Tue) 前置工作坊-實作教材<\/h3>$/;"	function	line:178
+table	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <table class="table table-condensed">$/;"	function	line:179
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>08:30 - 09:00<\/span><\/td>   <td>學員報到<\/td><\/tr>$/;"	function	line:180
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>09:00 - 09:20<\/span><\/td>   <td>OpenHCI 2015 前置工作坊開場與說明<\/td><\/tr>$/;"	function	line:181
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>09:20 - 10:20<\/span><\/td>   <td>實作教程 I<\/td><\/tr>$/;"	function	line:182
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>10:40 - 11:40<\/span><\/td>   <td>實作教程 II<\/td><\/tr>$/;"	function	line:183
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>13:10 - 14:00<\/span><\/td>   <td>實作教程 III<\/td><\/tr>$/;"	function	line:184
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>14:10 - 15:10<\/span><\/td>   <td>實作教程 IV<\/td><\/tr>$/;"	function	line:185
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>15:30 - 16:30<\/span><\/td>   <td>小組實作作業<\/td><\/tr>$/;"	function	line:186
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>16:30 - 18:00<\/span><\/td>   <td>成果分享設計<\/td><\/tr>$/;"	function	line:187
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>2015\/7\/15(Wed) 行為與觀察<\/h3>$/;"	function	line:191
+table	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <table class="table table-condensed">$/;"	function	line:192
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>08:30 - 09:00<\/span><\/td>   <td>學員報到<\/td><\/tr>$/;"	function	line:193
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>09:00 - 09:30<\/span><\/td>   <td>開幕式 & 開幕致詞<\/td><\/tr>$/;"	function	line:194
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>09:30 - 10:30<\/span><\/td>   <td>演講 I Miguel Bruns & Mathias Funk(案例分享)<\/td><\/tr>$/;"	function	line:195
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><img src="\/2015\/img\/speech\/001.jpg" class="comming_head" \/><\/td><td>Miguel Bruns<br>$/;"	function	line:197
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><img src="\/2015\/img\/speech\/002_1.jpg" class="comming_head" \/><\/td><td>Mathias Funk<br>$/;"	function	line:200
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>10:50 - 11:50<\/span><\/td>   <td>演講 II 蔡志浩 (場域觀察)<\/td><\/tr>$/;"	function	line:203
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><img src="\/2015\/img\/speech\/003.jpg" class="comming_head" \/><\/td><td>蔡志浩<br>$/;"	function	line:205
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>12:00 - 13:00<\/span><\/td>   <td>午餐時間<\/td><\/tr>$/;"	function	line:208
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>13:00 - 14:00<\/span><\/td>   <td>Brainstoming - 主題發想<\/td><\/tr>$/;"	function	line:209
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>14:20 - 14:30<\/span><\/td>   <td>實地觀察，自行解散<\/td><\/tr>$/;"	function	line:210
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>2015\/7\/16(Thr) 發想與定義<\/h3>$/;"	function	line:212
+table	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <table class="table table-condensed">$/;"	function	line:213
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>08:30 - 09:00<\/span><\/td>   <td>學員報到<\/td><\/tr>$/;"	function	line:215
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>09:10 - 09:30<\/span><\/td>   <td>故事前情提要<\/td><\/tr>$/;"	function	line:216
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>09:30 - 10:30<\/span><\/td>   <td>演講 III 陳文剛 (UX)<\/td><\/tr>$/;"	function	line:217
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><img src="\/2015\/img\/speech\/004.jpg" class="comming_head" \/><\/td><td>陳文剛<br>$/;"	function	line:219
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>10:50 - 11:50<\/span><\/td> <td>演講 VI 陳彥仰 (Mobile HCI)<\/td><\/tr>$/;"	function	line:222
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><img src="\/2015\/img\/speech\/005.jpg" class="comming_head" \/><\/td><td>陳彥仰<br>$/;"	function	line:224
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>12:00 - 13:00<\/span><\/td>   <td>午餐時間<\/td><\/tr>$/;"	function	line:227
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>13:00 - 13:30<\/span><\/td>   <td>前情提要:各組2分鐘簡報<\/td><\/tr>$/;"	function	line:228
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>13:30 - 14:00<\/span><\/td>   <td>數位工具之應用教學<\/td><\/tr>$/;"	function	line:229
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>16:10 - 17:40<\/span><\/td>   <td>各組實作時間<\/td><\/tr>$/;"	function	line:230
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>2015\/7\/17(Fri) 實作與媒材<\/h3>$/;"	function	line:235
+table	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <table class="table table-condensed">$/;"	function	line:236
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>08:30 - 09:00<\/span><\/td>   <td>學員報到<\/tr>$/;"	function	line:238
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>09:00 - 09:10<\/span><\/td>   <td>今日流程說明<\/tr>$/;"	function	line:239
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>10:00 - 11:00<\/span><\/td>   <td>演講 V 梁容輝 (設計與虛構)<\/tr>$/;"	function	line:240
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span><img src="\/2015\/img\/speech\/006.jpg" class="comming_head" \/><\/td><td>梁容輝<br>$/;"	function	line:242
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><span>11:10 - 12:10<\/span><\/td>   <td>演講 VI 金啟平 (實體互動裝置設計)<\/tr>$/;"	function	line:245
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><img src="\/2015\/img\/speech\/008_1.jpg" class="comming_head" \/><\/td><td>金啟平<br>$/;"	function	line:247
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>13:00 - 14:00<\/td>   <td>各組準備中間提案<\/tr>$/;"	function	line:250
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>14:20 - 17:30<\/td>   <td>各組8分鐘中間提案<\/tr>$/;"	function	line:251
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>17:40 - 18:00<\/td>   <td>評審總評<\/tr>$/;"	function	line:252
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>2015\/7\/18(Sat) 實作與媒材<\/h3>$/;"	function	line:256
+table	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <table class="table table-condensed">$/;"	function	line:257
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>08:30 - 09:00<\/td> <td>學員報到<\/td><\/tr>$/;"	function	line:258
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>09:00 - 09:10<\/td> <td>今日流程說明<\/td><\/tr>$/;"	function	line:259
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>09:30 - 10:30<\/td> <td>演講 VII 陳玲鈴 (Design+Technology)<\/td><\/tr>$/;"	function	line:260
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><img src="\/2015\/img\/speech\/007_1.jpg" class="comming_head" \/><\/td><td>陳玲鈴<br>$/;"	function	line:262
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>10:50 - 11:50<\/td> <td>演講 VIII 宋恆 (互動廣告創意)<\/td><\/tr>$/;"	function	line:265
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td><img src="\/2015\/img\/speech\/009.png" class="comming_head" \/><\/td><td>宋恆<br>$/;"	function	line:267
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>11:50 - 12:00<\/td> <td>故事事件<\/td><\/tr>$/;"	function	line:270
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>12:00 - 13:00<\/td> <td>午餐時間<\/td><\/tr>$/;"	function	line:271
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>13:00 - 17:20<\/td> <td>各組實作時間 \/ 同時開放數位製造器材使用<\/td><\/tr>$/;"	function	line:272
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>17:20 - 17:30<\/td> <td>公告作業、預告隔天行程<\/td><\/tr>$/;"	function	line:273
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>2015\/7\/19(Sun) 發表與展覽<\/h3>$/;"	function	line:275
+table	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <table class="table table-condensed">$/;"	function	line:276
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>08:30 - 09:00<\/td>   <td>學員報到<\/td><\/tr>$/;"	function	line:278
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>09:00 - 09:30<\/td>   <td>各組實作時間<\/td><\/tr>$/;"	function	line:279
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>10:00 - 11:30<\/td>   <td>各組至展覽會場佈置<\/td><\/tr>$/;"	function	line:280
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>12:30 - 12:40<\/td>   <td>成果展示開場<\/td><\/tr>$/;"	function	line:281
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>12:40 - 15:50<\/td>   <td>各組10分鐘成果發表<\/td><\/tr>$/;"	function	line:282
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>15:50 - 17:30<\/td>   <td>互動成果展示<\/td><\/tr>$/;"	function	line:283
+tr	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <tr><td>17:30 - 18:00<\/td>   <td>頒獎典禮&閉幕式<\/td><\/tr>$/;"	function	line:284
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <div id="registration" class="section">$/;"	function	line:291
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:292
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:293
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div  class="col-md-10 col-md-offset-1 ">$/;"	function	line:294
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <div>$/;"	function	line:295
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <h2 class="title">OPEN HCI 2015 REGISTRATION<\/h2>$/;"	function	line:296
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <p class="sub-title">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPUTER INTERACTION<\/p>$/;"	function	line:297
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-10 col-md-offset-1">$/;"	function	line:300
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^			<a id="registrationLink" class="btn btn-dark btn-lg" href="https:\/\/goo.gl\/r5aq50" target="_blank">按此開始報名！<\/a>$/;"	function	line:304
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>招生時程<\/h3>$/;"	function	line:306
+ul	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <ul>$/;"	function	line:307
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <li>線上報名時間：6\/14(日) 00:00 至 6\/27(六) 23:59 前<\/li>$/;"	function	line:308
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <li>正\/備取名單公佈：6\/29(一) 網路公佈與信件通知，請自行上網查看<\/li>$/;"	function	line:309
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <li>遞補備取通知：7\/01(三) 個別電話通知<\/li>$/;"	function	line:310
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>報名方式<\/h3>$/;"	function	line:312
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>在報名期限內，備妥報名相關資料後，經報名連結線上報名。<\/p>$/;"	function	line:314
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>公佈與通知正\/備取之學員，請於指定時間內繳交1000元保證金，並回覆系統匯款資訊以確認成功匯款，經由查證後完成報名程序。<\/p>$/;"	function	line:315
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>未依照指定報名期限內完成報名程序者，視為放棄報名資格，會依據備取順序遞補，備取名單會於7\/01(三) 個別電話通知，備取者請於7\/03(五) 23:59 前繳交保證金以完成報名程序。<\/p>$/;"	function	line:316
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>（本活動透過報名資料作為錄取參考依據，挑選正\/備取學員並於網站公佈與通知，與報名順序時間無關。）<\/p>$/;"	function	line:317
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>報名準備內容<\/h3>$/;"	function	line:319
+ul	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <ul>$/;"	function	line:322
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^             <li>「線上問卷」為線上填寫作業，包含個人基本資料、教育背景兩部分。<\/li>$/;"	function	line:323
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^             <li>「iDCard」為一份兩頁之投影片，包含“個人簡歷”與“觀察發想”，<br>$/;"	function	line:324
+b	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                 <b>若有其他輔助說明之素材，請將檔案放至上傳空間(ex. dropbox)後將上傳連結附於報名系統內。<\/b><br>$/;"	function	line:328
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>iDCard內容說明<\/h3>$/;"	function	line:333
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>iDCard為線上報名之第二份需預先準備之作業檔案，並於線上報名時上傳。<\/p>$/;"	function	line:335
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>觀察生活周遭並試著想像，如果非生物的物件也具有靈性或是能由人類為其加入靈魂，可能會產生什麼不同的互動體驗？試著回答以下問題，並以圖片或其它素材輔助說明<\/p>$/;"	function	line:336
+ol	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <ol>$/;"	function	line:338
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <li>$/;"	function	line:339
+ol	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                <ol>$/;"	function	line:340
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li>如果你能賦予某個物體靈魂，你會選什麼? 說明你的想法<\/li>$/;"	function	line:341
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li>它活過來後跟你說的第一句話是?<\/li>$/;"	function	line:342
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^                  <li>你覺得和它之間會產生什麼新的互動?<\/li>$/;"	function	line:343
+li	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <li>如果你的靈魂可以進入某個物體，你會選什麼? 說明你的想法<\/li>$/;"	function	line:347
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>請收集與上述經驗有關之素材，製作成iDCard。<\/p>$/;"	function	line:350
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>第一頁請放個人簡歷，表達格式不限。<br>$/;"	function	line:353
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>iDCard範例一：	<a href="https:\/\/goo.gl\/pmebsD" target="_blank">https:\/\/goo.gl\/pmebsD<\/a><br>$/;"	function	line:356
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>報名保證金須知<\/h3>$/;"	function	line:360
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>正取學員會於6\/29(一) 網路公佈與信件通知，請自行上網查看，$/;"	function	line:362
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>經由電話通知的備取學員，請於7\/03(五) 24:00 前繳交保證金以完成報名程序，此保證金保證學員參予工作營期間內，全日數出席參與活動，並無無故缺席或其他不可避免之因素請假者，可於活動最後一天全額退予保證金。<\/p>$/;"	function	line:364
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>繳交保證金方式<\/h3>$/;"	function	line:366
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>指定銀行與匯款帳戶如下：<\/p>$/;"	function	line:368
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>華南銀行 斗六分行  帳號：540-20-046108-1   戶名：吳怡馨    金額：1000元<\/p>$/;"	function	line:370
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h3>疑問聯絡<\/h3>$/;"	function	line:374
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>關於報名有任何問題，歡迎寄信給主辦單位：<br>$/;"	function	line:376
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^              <a href="mailto:human@openhci.com" target="_blank">human@openhci.com <\/a>(人事組)<br>$/;"	function	line:377
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>OpenHCI 2015，感謝您的參與$/;"	function	line:381
+section	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <section id="about" class="section">$/;"	function	line:387
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <div class="container">$/;"	function	line:388
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="row">$/;"	function	line:389
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="col-md-offset-1 col-md-5 col-sm-6 ">$/;"	function	line:390
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <h2 class="darkFont">OPEN HCI 2015 CREW<\/h2>$/;"	function	line:391
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <p class="sub-title">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPUTER INTERACTION<\/p>$/;"	function	line:392
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="group ">$/;"	function	line:394
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <h3>PROGRAM<\/h3>$/;"	function	line:395
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dl>$/;"	function	line:396
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <dt>陳漢<\/dt>$/;"	function	line:397
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <dd>國立臺灣科技大學工商業設計系所碩一<br><span class="teacher">指導教授 陳玲鈴老師<\/span><\/dd><br>$/;"	function	line:398
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <dt>王邦任<\/dt>$/;"	function	line:399
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <dd>國立政治大學資訊科學系大四<\/dd><br>$/;"	function	line:400
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="row">$/;"	function	line:404
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:405
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>HUMAN RESOURCE<\/h3>$/;"	function	line:406
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:407
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>林子虹<\/dt>$/;"	function	line:408
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣科技大學工商業設計系所碩一<br><span class="teacher">指導教授 陳建雄老師<\/span><\/dd><br>$/;"	function	line:409
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>劉康平<\/dt>$/;"	function	line:411
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立政治大學資訊科學系碩士班碩一<br><span class="teacher">指導教授 余能豪老師<\/span><\/dd><br>$/;"	function	line:412
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>蕭如惠<\/dt>$/;"	function	line:414
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣科技大學工商業設計系所碩一<br><span class="teacher">指導教授 陳建雄老師<\/span><\/dd><br>$/;"	function	line:415
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:418
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>TECH<\/h3>$/;"	function	line:419
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:420
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>許元耀<\/dt>$/;"	function	line:421
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣科技大學工商業設計系所碩一<br><span class="teacher">指導教授 梁容輝老師<\/span><\/dd><br>$/;"	function	line:422
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>陳佳妤<\/dt>$/;"	function	line:423
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立政治大學數位內容碩士學程碩零<br><span class="teacher">指導教授 余能豪老師<\/span><\/dd><br>$/;"	function	line:424
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>廖以圻<\/dt>$/;"	function	line:425
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣大學資訊管理學系碩一<br><span class="teacher">指導教授 陳炳宇老師<\/span><\/dd><br>$/;"	function	line:426
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <div class="row">$/;"	function	line:430
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:431
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>WEB SERVICE<\/h3>$/;"	function	line:432
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:433
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>謝朋儒<\/dt>$/;"	function	line:434
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣大學資訊網路與多媒體研究所碩二<br><span class="teacher">指導教授 徐宏民老師<\/span><\/dd><br>$/;"	function	line:435
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>鄭竣丰<\/dt>$/;"	function	line:437
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立政治大學數位內容碩士學程大四<br><span class="teacher">指導教授 余能豪老師<\/span><\/dd><br>$/;"	function	line:438
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:441
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>LECTURE<\/h3>$/;"	function	line:442
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:443
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>利淑惠<\/dt>$/;"	function	line:444
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立政治大學數位內容碩士學程碩一<br><span class="teacher">指導教授 余能豪老師<\/span><\/dd><br>$/;"	function	line:445
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>韓政憲<\/dt>$/;"	function	line:447
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立清華大學資訊工程學系研究所碩一<br><span class="teacher">指導教授 王浩全老師<\/span><\/dd><br>$/;"	function	line:448
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <div class="row">$/;"	function	line:453
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:454
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>EXHIBITION \/ DEMO<\/h3>$/;"	function	line:455
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:456
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>張文韋<\/dt>$/;"	function	line:457
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣科技大學工商業設計系所碩一<br><span class="teacher">指導教授 陳玲鈴老師<\/span><\/dd><br>$/;"	function	line:458
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>張幼文<\/dt>$/;"	function	line:460
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立政治大學資訊管理學系<\/dd><br>$/;"	function	line:461
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:464
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>PUBLICITY<\/h3>$/;"	function	line:465
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>何立芹<\/dt>$/;"	function	line:466
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣科技大學工商業設計系所碩一<br><span class="teacher">指導教授 陳建雄老師<\/span><\/dd><br>$/;"	function	line:467
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>王奕方<\/dt>$/;"	function	line:469
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立政治大學資訊科學系碩士班碩一<br><span class="teacher">指導教授 余能豪老師<\/span><\/dd><br>$/;"	function	line:470
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <div class="row">$/;"	function	line:474
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:476
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>GRAPHICAL DESIGN<\/h3>$/;"	function	line:477
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:478
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>王宇欣<\/dt>$/;"	function	line:479
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣科技大學工商業設計系所碩一<br><span class="teacher">指導教授 梁容輝老師<\/span><\/dd><br>$/;"	function	line:480
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>陳威霖<\/dt>$/;"	function	line:482
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣科技大學工商業設計系所碩二<br><span class="teacher">指導教授 孫春望老師<\/span><\/dd><br>$/;"	function	line:483
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:487
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>SPONSORSHIP<\/h3>$/;"	function	line:488
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:489
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>林暄<\/dt>$/;"	function	line:490
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣藝術大學多媒體動畫藝術學系新媒體研究所碩二<br><span class="teacher">指導教授 林珮淳老師<\/span><\/dd><br>$/;"	function	line:491
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>楊順堯<\/dt>$/;"	function	line:493
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣大學資訊管理系所碩一<br><span class="teacher">指導教授 陳炳宇老師<\/span><\/dd><br>$/;"	function	line:494
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <div class="row">$/;"	function	line:500
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:501
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>GENERAL AFFAIR<\/h3>$/;"	function	line:502
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:503
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>周雅涵<\/dt>$/;"	function	line:504
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣科技大學工商業設計系所碩一<br><span class="teacher">指導教授 董芳武老師<\/span><\/dd><br>$/;"	function	line:505
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>吳怡馨<\/dt>$/;"	function	line:507
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立雲林科技大學數位媒體設計系所碩二<br><span class="teacher">指導教授 張登文老師<\/span><\/dd><br>$/;"	function	line:508
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:511
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>FILM CREW<\/h3>$/;"	function	line:512
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:513
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>楊立銘<\/dt>$/;"	function	line:514
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺灣大學資訊管理研究所碩一<br><span class="teacher">指導教授 陳炳宇老師<\/span><\/dd><br>$/;"	function	line:515
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>王君毓<\/dt>$/;"	function	line:517
+dd	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dd>國立臺北科技大學創新設計碩士班碩一<br><span class="teacher">指導教授 張若菡老師<\/span><\/dd><br>$/;"	function	line:518
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <div class="row">$/;"	function	line:522
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:523
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3>STEERING<\/h3>$/;"	function	line:524
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:525
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>蕭喬尹<\/dt>	<dd>國立台灣大學資訊工程研究所碩士班畢業<br><span class="teacher">指導教授 許永真<\/span><\/dd><br>$/;"	function	line:526
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>陳建方<\/dt>	<dd>國立政治大學數位內容碩士學程碩士班<br><span class="teacher">指導教授 余能豪<\/span><\/dd><br>$/;"	function	line:527
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="group">$/;"	function	line:530
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <h3 class="hidden-xs" style="visibility : hidden">STEERING<\/h3>$/;"	function	line:531
+dl	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <dl>$/;"	function	line:532
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>魏振庭<\/dt>	<dd>國立台灣科技大學工商業設計系所碩士班畢業<br><span class="teacher">指導教授 陳玲鈴<\/span><\/dd><br>$/;"	function	line:533
+dt	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <dt>鄭宇婷<\/dt>	<dd>國立台灣科技大學工商業設計系所碩士班畢業<br><span class="teacher">指導教授 陳玲鈴<\/span><\/dd><br>$/;"	function	line:534
+section	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <section id="sponsor" class="section">$/;"	function	line:540
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:541
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div  class="col-md-8 col-md-offset-1 ">$/;"	function	line:542
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div>$/;"	function	line:543
+h	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <h2 class="title">OPEN HCI 2015 ORGANIZER & SPONSORS<\/h2>$/;"	function	line:544
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p class="sub-title">6th STUDENT-ORGANIZED WORKSHOP<br>ON HUMAN-COMPUTER INTERACTION<\/p>$/;"	function	line:545
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:548
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-offset-1 col-md-10">$/;"	function	line:549
+img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="\/2015\/img\/sponsors.jpg" alt="" class="img visible-md-block visible-lg-block">$/;"	function	line:550
+img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="\/2015\/img\/sponsor-sm.jpg" alt="" class="img  visible-sm-block">$/;"	function	line:551
+img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="\/2015\/img\/sponsor-xs.jpg" alt="" class="img  visible-xs-block">$/;"	function	line:552
+footer	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^    <footer class="section" id="footer">$/;"	function	line:557
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^      <div class="container">$/;"	function	line:558
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^        <div class="row">$/;"	function	line:559
+div	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^          <div class="col-md-12 text-center" >$/;"	function	line:560
+img	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <img src="\/2015\/img\/tailLogo.png"><br><br><br>$/;"	function	line:561
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>Email : <a href="mailto:program@openhci.com" target="_blank">program@openhci.com<\/a><\/p>$/;"	function	line:563
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p>Facebook Page : <a href="https:\/\/www.facebook.com\/openhci" target="_blank">Open HCI <span class="chinese">人機互動工作坊<\/span><\/a><br>$/;"	function	line:564
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2014">2014<\/a> |$/;"	function	line:566
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2013">2013<\/a> |$/;"	function	line:567
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2012">2012<\/a> |$/;"	function	line:568
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2011">2011<\/a> |$/;"	function	line:569
+a	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <a target="_blank" href="http:\/\/www.openhci.com\/2009">2009<\/a>$/;"	function	line:570
+p	/Volumes/HDD/Users/Radian/Websites/HCI/index.html	/^            <p class="copyright">© Copyright 2015 OpenHCI<\/p>$/;"	function	line:572

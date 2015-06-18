@@ -183,6 +183,9 @@ b {
     background-image:none ;
     background-position:left top;
   }
+  .slogan {
+    letter-spacing: 1px;
+  }
 }
 
 #intro {
@@ -204,10 +207,12 @@ b {
 
   }
   .group {
-    @extend .col-md-4 ;
+    @extend .col-lg-4 ;
+    @extend .col-md-5 ;
     @extend .col-sm-6 ;
     &:first-child{
-      @extend .col-md-offset-2 ;
+      @extend .col-md-offset-1 ;
+      @extend .col-lg-offset-2 ;
     }
 
     h3 {
@@ -224,14 +229,11 @@ b {
       display: inline-block;
       line-height: 150%;
       min-height: 2em ;
-      max-width: 17em ;
-      @media (max-width: $screen-xs-min) {
+      max-width: 19em ;
+
+      @media (max-width: $screen-xs-max) {
         max-width: 14em ;
       }
-      @media (max-width: $screen-sm-min) {
-        max-width: 15em ;
-      }
-
       margin-bottom: 1.1em ;
       &:after {
       content:"\a";
