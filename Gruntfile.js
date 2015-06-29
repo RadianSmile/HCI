@@ -68,6 +68,26 @@ module.exports = function(grunt) {
 						'js/app.js']
 				}
 			},
+			dev:{
+				options: {
+					compress: {
+						drop_console: false
+					}
+				},
+				files:{
+					'js/app.min.js':[
+						"js/vendor/jquery-1.11.3.min.js",
+						"js/vendor/jquery-visible.js",
+						"js/vendor/bootstrap.min.js",
+						"js/TweenMax.min.js",
+						"js/vendor/ScrollMagic/scrollmagic/uncompressed/ScrollMagic.js",
+						"js/vendor/ScrollMagic/scrollmagic/minified/plugins/jquery.ScrollMagic.min.js",
+						"js/vendor/ScrollMagic/scrollmagic/uncompressed/plugins/animation.gsap.js",
+						"js/vendor/ScrollMagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js",
+						"js/app.js"
+					]
+				}
+			},
 			app:{
 				options: {
 					compress: {
@@ -77,6 +97,7 @@ module.exports = function(grunt) {
 				files:{
 					'js/app.min.js':[
 						"js/vendor/jquery-1.11.3.min.js",
+						"js/vendor/jquery-visible.js",
 						"js/vendor/bootstrap.min.js",
 						"js/TweenMax.min.js",
 						"js/vendor/ScrollMagic/scrollmagic/uncompressed/ScrollMagic.js",
@@ -139,5 +160,6 @@ module.exports = function(grunt) {
 
 	grunt.registerTask('default',['concurrent:task1']);
 	grunt.registerTask('production',['coffee:app','compass:dev','cssmin','uglify:app']);
+	grunt.registerTask('dev',['coffee:app','uglify:dev']);
 	grunt.registerTask('css',['compass:dev','cssmin']);
 }
