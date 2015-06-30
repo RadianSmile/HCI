@@ -7400,33 +7400,21 @@ b {
     color: #645b47; }
   /* line 375, ../sass/main/_main.scss */
   #sponsor .sponsor-title {
-<<<<<<< HEAD
     text-transform: uppercase;
     margin-top: 0;
     font-size: 20px;
     padding-top: 20px;
     font-family: "Lato", sans-serif, "新細明體";
     font-weight: bold; }
-  /* line 385, ../sass/main/_main.scss */
+  /* line 386, ../sass/main/_main.scss */
   #sponsor .sponsor-container {
     text-align: center; }
-    /* line 390, ../sass/main/_main.scss */
-=======
-    text-align: center; }
-  /* line 379, ../sass/main/_main.scss */
-  #sponsor .sponsor-container {
-    text-align: center; }
-    /* line 384, ../sass/main/_main.scss */
->>>>>>> origin/gh-pages
+    /* line 391, ../sass/main/_main.scss */
     #sponsor .sponsor-container .sponsor-img {
       display: inline-block;
       width: 100%; }
 
-<<<<<<< HEAD
-/* line 397, ../sass/main/_main.scss */
-=======
-/* line 391, ../sass/main/_main.scss */
->>>>>>> origin/gh-pages
+/* line 398, ../sass/main/_main.scss */
 footer.section {
   background-color: #595959;
   letter-spacing: 1px;
@@ -7435,26 +7423,15 @@ footer.section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
-<<<<<<< HEAD
-  /* line 399, ../sass/main/_main.scss */
+  /* line 400, ../sass/main/_main.scss */
   footer.section * {
     color: #cbcbcb; }
-  /* line 402, ../sass/main/_main.scss */
-=======
-  /* line 393, ../sass/main/_main.scss */
-  footer.section * {
-    color: #cbcbcb; }
-  /* line 396, ../sass/main/_main.scss */
->>>>>>> origin/gh-pages
+  /* line 403, ../sass/main/_main.scss */
   footer.section .chinese {
     font-family: "PMingLiU", "新細明體" !important;
     letter-spacing: 1px; }
   @media (min-width: 768px) {
-<<<<<<< HEAD
-    /* line 397, ../sass/main/_main.scss */
-=======
-    /* line 391, ../sass/main/_main.scss */
->>>>>>> origin/gh-pages
+    /* line 398, ../sass/main/_main.scss */
     footer.section {
       padding-top: 200px; } }
 
