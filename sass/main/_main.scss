@@ -372,6 +372,26 @@ b {
   * {
     color : $darkFontColor ;
   }
+  .sponsor-title {
+    @extend .col-md-12;
+    text-transform: uppercase;
+    margin-top:  0 ;
+    font-size: 20px;
+
+    padding-top: $line-height-computed ;
+    font-family: $lato;
+    font-weight: bold;
+  }
+  .sponsor-container {
+    @extend .col-sm-4;
+    @extend .col-xs-6;
+    text-align: center;
+
+    .sponsor-img {
+      display: inline-block;
+        width: 100%;
+    }
+  }
 }
 
 footer.section{
