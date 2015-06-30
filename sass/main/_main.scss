@@ -374,6 +374,7 @@ b {
   }
   .sponsor-title {
     @extend .col-md-12;
+<<<<<<< HEAD
     text-transform: uppercase;
     margin-top:  0 ;
     font-size: 20px;
@@ -381,6 +382,9 @@ b {
     padding-top: $line-height-computed ;
     font-family: $lato;
     font-weight: bold;
+=======
+    text-align: center;
+>>>>>>> origin/gh-pages
   }
   .sponsor-container {
     @extend .col-sm-4;
