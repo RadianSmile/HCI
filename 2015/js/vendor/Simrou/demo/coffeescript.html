@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Simrou Demo - CoffeeScript</title>
+        
+        <script type="text/javascript" src="../lib/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="../lib/coffee-script.js"></script>
+        <script type="text/javascript" src="../build/simrou.min.js"></script>
+        
+        <!--[if lte IE 7]>
+        <script type="text/javascript" src="../lib/jquery.ba-hashchange.min.js"></script>
+        <![endif]-->
+        
+        <script type="text/coffeescript">
+        class MyRouter extends Simrou
+            initialize: ->
+                # Add some routes
+                @addRoute('/articles/:id').get(@getArticle).put(@putArticle)
+                @addRoute('/homepage').any(@theHomepage)
+                
+                # Auto-start this router
+                @start '/homepage'
+            
+            getArticle: (event, params) ->
+                alert 'Article ID: ' + params.id
+            
+            putArticle: (event, params) ->
+                alert 'Article route (ID: ' + params.id + ') matched via HTTP method = PUT'
+            
+            theHomepage: (event, params, method) ->
+                alert 'Homepage route matched via HTTP method = ' + method
+        
+        $ ->
+            # Create a new router instance
+            router = new MyRouter()
+            
+            # And register a click event handler that uses navigate() to go to a URL
+            $('#test').click ->
+                # Navigate to article with ID 48
+                router.navigate '/articles/48'
+        </script>
+    </head>
+    
+    <body>
+        
+        <ul>
+            <li><a href="#/articles/172">Article 172</a></li>
+            <li><a href="#/homepage">Back to the homepage</a></li>
+        </ul>
+        
+        <button type="button" id="test">Article 48 via navigate()</button>
+        
+        <form action="/articles/921" method="put">
+            <button type="submit">Send PUT request to Article 921</button>
+        </form>
+                
+    </body>
+</html>

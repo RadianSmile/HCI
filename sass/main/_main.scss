@@ -372,6 +372,19 @@ b {
   * {
     color : $darkFontColor ;
   }
+  .sponsor-title {
+    @extend .col-md-12;
+  }
+  .sponsor-container {
+    @extend .col-md-4;
+    @extend .col-xs-6;
+    text-align: center;
+
+    .sponsor-img {
+      display: inline-block;
+        width: 100%;
+    }
+  }
 }
 
 footer.section{
