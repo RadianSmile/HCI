@@ -1971,7 +1971,7 @@ pre {
     clear: both; }
 
 /* line 11, ../sass/vendor/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, #sponsor .sponsor-container, .col-lg-4, #about .group, .col-xs-5, .col-sm-5, .col-md-5, #about .group, .col-lg-5, .col-xs-6, #sponsor .sponsor-container, .col-sm-6, #about .group, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, #sponsor .sponsor-container, .col-md-4, .col-lg-4, #about .group, .col-xs-5, .col-sm-5, .col-md-5, #about .group, .col-lg-5, .col-xs-6, #sponsor .sponsor-container, .col-sm-6, #about .group, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, #sponsor .sponsor-title, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -2187,7 +2187,7 @@ pre {
 
 @media (min-width: 768px) {
   /* line 27, ../sass/vendor/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, #about .group, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, #sponsor .sponsor-container, .col-sm-5, .col-sm-6, #about .group, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left; }
 
   /* line 35, ../sass/vendor/bootstrap/mixins/_grid-framework.scss */
@@ -2203,7 +2203,7 @@ pre {
     width: 25%; }
 
   /* line 35, ../sass/vendor/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-4 {
+  .col-sm-4, #sponsor .sponsor-container {
     width: 33.33333%; }
 
   /* line 35, ../sass/vendor/bootstrap/mixins/_grid-framework.scss */
@@ -2395,7 +2395,7 @@ pre {
     margin-left: 100%; } }
 @media (min-width: 992px) {
   /* line 27, ../sass/vendor/bootstrap/mixins/_grid-framework.scss */
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, #sponsor .sponsor-container, .col-md-5, #about .group, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, #about .group, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, #sponsor .sponsor-title {
     float: left; }
 
   /* line 35, ../sass/vendor/bootstrap/mixins/_grid-framework.scss */
@@ -2411,7 +2411,7 @@ pre {
     width: 25%; }
 
   /* line 35, ../sass/vendor/bootstrap/mixins/_grid-framework.scss */
-  .col-md-4, #sponsor .sponsor-container {
+  .col-md-4 {
     width: 33.33333%; }
 
   /* line 35, ../sass/vendor/bootstrap/mixins/_grid-framework.scss */
@@ -2443,7 +2443,7 @@ pre {
     width: 91.66667%; }
 
   /* line 35, ../sass/vendor/bootstrap/mixins/_grid-framework.scss */
-  .col-md-12 {
+  .col-md-12, #sponsor .sponsor-title {
     width: 100%; }
 
   /* line 55, ../sass/vendor/bootstrap/mixins/_grid-framework.scss */
@@ -7398,15 +7398,15 @@ b {
   /* line 372, ../sass/main/_main.scss */
   #sponsor * {
     color: #645b47; }
-  /* line 376, ../sass/main/_main.scss */
+  /* line 378, ../sass/main/_main.scss */
   #sponsor .sponsor-container {
     text-align: center; }
-    /* line 381, ../sass/main/_main.scss */
+    /* line 383, ../sass/main/_main.scss */
     #sponsor .sponsor-container .sponsor-img {
       display: inline-block;
       width: 100%; }
 
-/* line 388, ../sass/main/_main.scss */
+/* line 390, ../sass/main/_main.scss */
 footer.section {
   background-color: #595959;
   letter-spacing: 1px;
@@ -7415,15 +7415,15 @@ footer.section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
-  /* line 390, ../sass/main/_main.scss */
+  /* line 392, ../sass/main/_main.scss */
   footer.section * {
     color: #cbcbcb; }
-  /* line 393, ../sass/main/_main.scss */
+  /* line 395, ../sass/main/_main.scss */
   footer.section .chinese {
     font-family: "PMingLiU", "新細明體" !important;
     letter-spacing: 1px; }
   @media (min-width: 768px) {
-    /* line 388, ../sass/main/_main.scss */
+    /* line 390, ../sass/main/_main.scss */
     footer.section {
       padding-top: 200px; } }
 
